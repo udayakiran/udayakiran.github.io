@@ -11,4 +11,5 @@ image:
   creditlink:
 comments:
 share:
+bg_color: {{ bg_color }}
 ---
