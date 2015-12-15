@@ -1,6 +1,6 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: hpstrtheme
+title:            Developer stream
+description:      "Product development, programming and more.."
+disqus_shortname: udayk
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -9,22 +9,23 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Udaya Kiran
+  avatar:         uday.jpg
+  bio:            "Programmer, software development manager & agile scrum master."
+  email:          udaykiran.vit@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         udayakiran
   stackexchange:  
-  linkedin:       
+  linkedin:       in/udaykirank
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    
 
+# http://tobiasahlin.com/blog/resources/
 # Background image to be tiled on all pages
 background: 
 
