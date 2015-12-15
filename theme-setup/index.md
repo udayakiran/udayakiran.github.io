@@ -6,7 +6,9 @@ image:
   feature: abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  color: "e67e22"
 share: true
+bg_color:
 ---
 
 General notes and suggestions for customizing **HPSTR**.
@@ -212,7 +214,7 @@ On by default. To turn off remove `reading_time` from `_config.yml. Default word
 
 A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at the [Jekyll Picture Tag](https://github.com/scottjehl/picturefill)[^2] plugin.
 
-The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so.
 
 {% highlight yaml %}
 image:

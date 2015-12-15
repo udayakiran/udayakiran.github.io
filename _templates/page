@@ -8,6 +8,7 @@ image:
   feature:
   credit:
   creditlink:
+  color:
 share:
 bg_color: {{ bg_color }}
 ---

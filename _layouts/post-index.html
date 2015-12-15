@@ -13,11 +13,9 @@
 {% include navigation.html %}
 
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  {% if page.image.feature %}
-    <div class="entry-image" style="background-color: #3498db">
+  {% if page.image %}
+    <div class="entry-image" style="background-color: #{{ page.image.color }}">
       <!-- <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}"> -->
-      <h1>{{ page.bg_color }}</h1>
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">

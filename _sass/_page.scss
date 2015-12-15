@@ -393,8 +393,10 @@ header .entry-meta {
 		margin-right: -80px;
 		margin-bottom: 20px;
 	}
-	img {
-		@include border-radius(3px,0,0,3px); // round image corners
+	span {
+		@include border-radius(3px,0,0,3px); // round corners
+		width: inherit;
+		height: 120px;
 	}
 }
 
