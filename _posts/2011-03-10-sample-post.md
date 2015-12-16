@@ -8,8 +8,8 @@ image:
   feature: abstract-3.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-  color: "3498db"
-bg_color: "#3498db"
+  color: "55acee"
+bg_color: "#55acee"
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.

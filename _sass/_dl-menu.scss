@@ -124,7 +124,7 @@
 		margin: 0;
 		position: absolute;
 		width: 100%;
-		max-width: 220px;
+		max-width: 320px;
 		overflow-y: auto;
 		max-height: 600px;
 		opacity: 0;
@@ -367,4 +367,17 @@ All this is done for any sub-level being entered.
 }
 .dl-menuopen li {
 	display: block
+}
+
+.dl-menu .author-photo {
+	border-radius: 50%
+}
+
+.dl-menu li.author-info {
+	text-align: center;
+	padding: 5px;
+}
+
+.dl-menu a.simple_link {
+	padding: 5px;
 }
