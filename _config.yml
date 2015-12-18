@@ -1,6 +1,7 @@
 title:            Developer stream
 description:      "Product development, programming and more.."
-disqus_shortname: udayk
+disqus_shortname: ''
+comments: false
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
