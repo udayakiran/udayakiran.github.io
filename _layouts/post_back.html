@@ -29,14 +29,16 @@
         {% else %}
           <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
         {% endif %}
+        <span>
+        <span class="entry-date date published" style="float: left; color:#fff">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        </span>
         {% if site.reading_time %}
-        <h2 class="entry-reading-time" style="text-align: center">
+        <span class="entry-reading-time" style="float: left; color:#fff; border-left: 1px solid #fff;margin-left: 10px; padding-left: 10px;">
           <i class="fa fa-clock-o"></i>
           {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-          <i style="font-style:normal;"> {{" | "}} </i>
-          {{ page.date | date: "%B %d, %Y" }}
-        </h2><!-- /.entry-reading-time -->
+        </span><!-- /.entry-reading-time -->
         {% endif %}
       </span>
       </div><!-- /.header-title-wrap -->

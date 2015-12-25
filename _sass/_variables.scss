@@ -1,8 +1,25 @@
 // Typography
 // --------------------------------------------------
 
-$base-font: 'Lato', Calibri, Arial, sans-serif;
+//$base-font: 'Lato', Calibri, Arial, sans-serif;
+@font-face {
+  font-family: OpensansLight;
+  src: url("../fonts/open_sans/open-sans.light.ttf");
+  font-style: normal;
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: OpensansRegular;
+  src: url("../fonts/open_sans/open-sans.regular.ttf");
+  font-style: normal;
+  font-weight: regular;
+}
+
+$base-font: 'OpensansRegular', Helvetica, Arial, sans-serif;
+$light-font: 'OpensansLight', Helvetica, Arial, sans-serif;
 $heading-font: $base-font;
+$text-font: $light-font;
 $caption-font: $base-font;
 $code-font: monospace;
 $alt-font: serif;

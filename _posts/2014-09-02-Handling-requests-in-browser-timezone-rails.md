@@ -7,7 +7,7 @@ image:
   feature: abstract-6.jpg
   color: "1BC8A6"
   icon: "clock-o"
-bg_color: "#1BC8A6"
+bg_color: "54ee97"
 ---
 
 When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user's time zone so users don't have to do the timezone conversions.
@@ -44,9 +44,11 @@ Hence, this solution does not work for all the cases as well. Also, it is observ
 
 My approach to solve this problem is purely based on the offsets. Because -
 
-Offsets are the standard across the time zones unlike name, so we only pass the offset values to server let Rails / any server software decide the time zone name.
- By tracking summer and winter offsets we can handle the daly light savings issues.
-Another point to handle is the changes to the time zones and their adoption by the software -
+* Offsets are the standard across the time zones unlike name, so we only pass the offset values to server let Rails / any server software decide the time zone name.
+
+ * By tracking summer and winter offsets we can handle the daly light savings issues.
+
+ * Another point to handle is the changes to the time zones and their adoption by the software -
 Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs). (Ref - http://www.timetemperature.com/pacific/samoa_time_zone.shtml).  These changes might / might not have been picked up by user's browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.
 
 
