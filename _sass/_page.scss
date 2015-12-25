@@ -33,24 +33,102 @@ body {
 	overflow: hidden;
 	position: relative;
 }
+
+.post-index {
+	.header-title {
+		text-align: center;
+		margin: 30px 0 0;
+		h1 {
+			margin: 10px 20px;
+			font-weight: normal;
+			@include font-rem(32);
+			color: lighten($base-color,20);
+			@media #{$medium} {
+				@include font-rem(36);
+			}
+			@media #{$large} {
+				@include font-rem(48);
+			}
+		}
+		h2 {
+			margin: 0;
+			@include font-rem(12);
+			font-family: $text-font;
+			text-transform: none;
+			font-style: italic;
+			font-weight: normal;
+			text-align: right;
+			color: lighten($base-color,40);
+			@media #{$medium} {
+				@include font-rem(18);
+			}
+		}
+		p {
+			color: lighten($base-color,20);
+			font-family: $text-font;
+		}
+	}
+	.feature .header-title {
+		position: absolute;
+		top: 0;
+		display: table;
+		margin-top: 0;
+		width: 100%;
+		height: 320px;
+		overflow: hidden;
+		.header-title-wrap {
+			display: table-cell;
+			vertical-align: middle;
+			margin: 0 auto;
+			text-align: center;
+		}
+		h1 {
+			margin: 10px;
+			font-weight: normal;
+			margin: 10px 60px;
+			color: $white;
+			a {
+				color: $white;
+			}
+			@media #{$large} {
+			}
+		}
+		h2 {
+			margin: 0;
+			color: $white;
+			font-weight: normal;
+			text-transform: none;
+			@media #{$medium} {
+				a {
+					color: $white;
+				}
+			}
+		}
+		p {
+			color: $white;
+		}
+	}
+
+}
+
 .header-title {
 	text-align: center;
 	margin: 30px 0 0;
 	h1 {
 		margin: 10px 20px;
 		font-weight: normal;
-		@include font-rem(32);
+		@include font-rem(24);
 		color: lighten($base-color,20);
 		@media #{$medium} {
-			@include font-rem(36);
+			@include font-rem(24);
 		}
 		@media #{$large} {
-			@include font-rem(48);
+			@include font-rem(36);
 		}
 	}
 	h2 {
 		margin: 0;
-		@include font-rem(12);
+		@include font-rem(11);
 		font-family: $text-font;
 		text-transform: none;
 		font-style: italic;
@@ -58,7 +136,7 @@ body {
 		text-align: right;
 		color: lighten($base-color,40);
 		@media #{$medium} {
-			@include font-rem(18);
+			@include font-rem(16);
 		}
 	}
 	p {
@@ -121,7 +199,7 @@ body {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba($base-color,0.3);
+		//background-color: rgba($base-color,0.3);
 	}
 	img {
 		position: absolute;
@@ -368,10 +446,14 @@ header .entry-meta {
 		}
 	}
 	article {
+
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 		@include rounded(3px);
 		margin-bottom: 20px;
+
+	}
+	header,.entry-content, .spacious {
 		padding: 25px 15px;
 		@media #{$medium} {
 			padding: 30px;
@@ -380,6 +462,12 @@ header .entry-meta {
 			margin-bottom: 30px;
 			padding: 50px 80px;
 		}
+	}
+
+	header {
+		color: #fff;
+		margin-bottom: 0px;
+		background-color: #5f5f5f;
 	}
 }
 .entry-image-index {

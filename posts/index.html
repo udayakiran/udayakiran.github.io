@@ -1,10 +1,15 @@
 ---
 layout: post-index
-title: All Posts
-description: "An archive of posts."
+title: All Posts..
+description: "An archive of posts.."
 comments: false
 image:
-  color: "54ee97"
+  feature: abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  color: "55acee"
+share: true
+bg_color:
 ---
 
 {% for post in site.posts %}
@@ -12,7 +17,7 @@ image:
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-    <article>
+    <article class="spacious">
       <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
       <ul>
     {% endif %}
@@ -26,7 +31,7 @@ image:
         {% if this_year != next_year %}
           </ul>
         </article>
-        <article>
+        <article class="spacious">
           <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
           <ul>
         {% endif %}
