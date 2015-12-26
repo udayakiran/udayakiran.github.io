@@ -9,7 +9,6 @@ image:
   icon: "clock-o"
 bg_color: "54ee97"
 ---
-
 When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user's time zone so users don't have to do the timezone conversions.
 
 In this post, i'll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.
@@ -18,10 +17,9 @@ The most seamless way of showing time information in the user's time zone is to 
 
 ## Common solutions -
 
-
 Let's look at some common methods we can use with ROR -
 
-As Eli has nicely written these up here - https://viget.com/extend/using-time-zones-with-rails , METHOD -1 has the short coming of not being able to detect the Day light savings METHOD -2 of JSTZ is preferred. This works 90% of the times but there is no guarantee that this solution works with any server side framework all the time.
+As Eli has nicely written these up here - <https://viget.com/extend/using-time-zones-with-rails> , METHOD -1 has the short coming of not being able to detect the Day light savings METHOD -2 of JSTZ is preferred. This works 90% of the times but there is no guarantee that this solution works with any server side framework all the time.
 
 The main reason is jstz determines the time zone and returns it as a *String*. There is no standard in the strings used by the software to represent the time zones unfortunately and due to this some of the cases fail even with Rails.
 
@@ -49,7 +47,8 @@ My approach to solve this problem is purely based on the offsets. Because -
  * By tracking summer and winter offsets we can handle the daly light savings issues.
 
  * Another point to handle is the changes to the time zones and their adoption by the software -
-Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs). (Ref - http://www.timetemperature.com/pacific/samoa_time_zone.shtml).  These changes might / might not have been picked up by user's browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.
+Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs).
+(Ref - <http://www.timetemperature.com/pacific/samoa_time_zone.shtml>).  These changes might / might not have been picked up by user's browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.
 
 
 ## Final solution -
@@ -83,4 +82,4 @@ The approach i used worked for us in majority of the cases by choosing the corre
 
 Please feel free to be touch about any issues faced / bugs reported through the github page of the gem.
 
-I would say "Time zones are some times complex as they change and there is a difference in the adoption across the browsers. But, majority of the time zones we have traffic from, are simple !"
+> I would say "Time zones are some times complex as they change and there is a difference in the adoption across the browsers. But, majority of the time zones we have traffic from, are simple !"

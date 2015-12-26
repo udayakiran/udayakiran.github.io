@@ -1,4 +1,6 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: All Posts
+  url: /posts/
+- title: All Tags
+  url: /tags/
