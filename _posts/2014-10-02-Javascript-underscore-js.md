@@ -31,14 +31,25 @@ Underscorejs's home page has the list of functions it offers and they are faily 
 | -------- | ------- |
 | Collection (Array/Object)   | *each, map, reduce, reduceRight, find, where, findWhere, reject, some, contains, invoke, pluck, max, sortBy, groupBy, countBy* |
 | Array   | *first, last, rest, compact, flatten, without, union, intersection, uniq, zip, unzip, lastIndexOf, findIndex, range* |
-|----
+|Objects| *keys, allKeys, values, pairs, functions, findKey, extend, pick, omit, clone, has, isEqual, isMatch, isEmpty, isElement, isArray, isObject, isArguments, isFunction, isString, isNumber, isFinite, isBoolean, isDate, isRegExp, isNaN, isNull, isUndefined* |
 | Functions   | *bind, partial, memoize, delay, throttle, once, after, before, compose*   |
 | Chaining   | *chain*  |
 
 ## Example -
 
+In case of underscorejs, you ll call all the functions on "_" and pass your Objects/variables as arguments.
+Note that you need to have underscore.js required in your environment to execute the example below.
 
+{% highlight javascript %}
 
-## Open issue / Caution -
+// 'pluck' method is a form of 'map' which is used to extract a set of values based on a property.
+var stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}];
+_.pluck(stooges, "name");
+=> ["moe", "larry", "curly"]
 
-> I would say "There are out of count ways to create classes in JS but ring.js is one cool way if you want to write classical style of OO code and take the advantage of multiple inheritance."
+// 'compact' method returns array with falsy value removed (Ex - false, null, 0, "", undefined and NaN are all falsy in JS.)
+_.compact([0, 1, false, 2, '', 3]);
+=> [1, 2, 3]
+{% endhighlight %}
+
+> I would say "Underscore is no big deal and not needed to be a part of your code base if you don't want. I had written a lot of JS code before finding this and was always comfortable. But once you find this little thing, you ll only realize that it takes a great deal out of your way and makes you happy. Especially, if you know what it means modifying the native objects."
