@@ -14,4 +14,4 @@ bg_color: "5f5f5f"
 
 ## Info -
 
-* Home page / Source code - <https://github.com/udayakiran/jQuery.confirmAction.js>
+* Source code - <https://github.com/udayakiran/jQuery.confirmAction.js>

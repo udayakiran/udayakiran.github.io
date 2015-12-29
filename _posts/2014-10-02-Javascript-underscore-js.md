@@ -42,14 +42,26 @@ Note that you need to have underscore.js required in your environment to execute
 
 {% highlight javascript %}
 
-// 'pluck' method is a form of 'map' which is used to extract a set of values based on a property.
-var stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}];
-_.pluck(stooges, "name");
-=> ["moe", "larry", "curly"]
+describe("A spec using beforeAll and afterAll", function() {
+  var foo;
 
-// 'compact' method returns array with falsy value removed (Ex - false, null, 0, "", undefined and NaN are all falsy in JS.)
-_.compact([0, 1, false, 2, '', 3]);
-=> [1, 2, 3]
+  beforeAll(function() {
+    foo = 1;
+  });
+
+  afterAll(function() {
+    foo = 0;
+  });
+
+  it("sets the initial value of foo before specs run", function() {
+    expect(foo).toEqual(1);
+    foo += 1;
+  });
+
+  it("does not reset foo between specs", function() {
+    expect(foo).toEqual(2);
+  });
+});
 {% endhighlight %}
 
 > I would say "Underscore is no big deal and not needed to be a part of your code base if you don't want. I had written a lot of JS code before finding this and was always comfortable. But once you find this little thing, you ll only realize that it takes a great deal out of your way and makes you happy. Especially, if you know what it means modifying the native objects."
