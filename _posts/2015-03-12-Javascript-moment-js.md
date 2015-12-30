@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Javascript - moment.js (Best way to deal with dates in js)"
-description: "Javascript library - moment.js: Play with date objects comfortably including in different locales and time zones."
+title: "JavaScript - moment.js (Best way to deal with dates in js)"
+description: "JavaScript library - moment.js: Play with date objects comfortably including in different locales and time zones."
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg

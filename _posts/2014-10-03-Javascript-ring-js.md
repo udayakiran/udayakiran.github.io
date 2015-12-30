@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Javascript - ring.js (Multiple inheritance in js)"
-description: "Javascript library - Ring.js: Create Js classes which support multiple inheritance."
+title: "JavaScript - ring.js (Multiple inheritance in js)"
+description: "JavaScript library - Ring.js: Create Js classes which support multiple inheritance."
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg

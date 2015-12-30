@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Javascript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)"
-description: "Javascript library - jQuery.confirmAction.js: Confirm users actions in a pretty way without having to use browser confirm box / alert box."
+title: "JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)"
+description: "JavaScript library - jQuery.confirmAction.js: Confirm users actions in a pretty way without having to use browser confirm box / alert box."
 tags: [javascript, programming, web, js library, jquery plugin]
 image:
   feature: abstract-6.jpg

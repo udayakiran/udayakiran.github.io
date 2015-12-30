@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Javascript - uderscore.js (Functional power to js, without side effects)"
-description: "Javascript library - Underscore.js: Get wholesome of functional methods without extending any built-in objects."
+title: "JavaScript - uderscore.js (Functional power to js, without side effects)"
+description: "JavaScript library - Underscore.js: Get wholesome of functional methods without extending any built-in objects."
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg
