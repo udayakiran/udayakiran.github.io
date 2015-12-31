@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handling requests in browser time zone in a rails app"
-description: ""
+description: "Handling requests in browser time zone in a rails app"
 tags: [javascript, programming, rails, ror, ruby, web]
 image:
   feature: abstract-6.jpg
