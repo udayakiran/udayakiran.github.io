@@ -72,7 +72,6 @@ body {
 			text-transform: none;
 			font-style: italic;
 			font-weight: normal;
-			text-align: right;
 			color: lighten($base-color,40);
 			@media #{$medium} {
 				@include font-rem(18);
@@ -148,7 +147,6 @@ body {
 		text-transform: none;
 		font-style: italic;
 		font-weight: normal;
-		text-align: right;
 		color: lighten($base-color,40);
 		@media #{$medium} {
 			@include font-rem(16);
