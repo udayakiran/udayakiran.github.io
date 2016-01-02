@@ -5,9 +5,9 @@ description: "JavaScript library - moment.js: Play with date objects comfortably
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg
-  color: "8749D8"
+  color: "7928E2"
   icon: "clock-o"
-bg_color: "8749D8"
+bg_color: "7928E2"
 ---
 
 ## Why ?

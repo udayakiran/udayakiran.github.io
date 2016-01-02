@@ -35,6 +35,7 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
+    jekyll-seo (0.0.2)
     jekyll-sitemap (0.9.0)
     jekyll-watch (1.3.0)
       listen (~> 3.0)
@@ -82,5 +83,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 2.5.3)
+  jekyll-seo
   jekyll-sitemap
   octopress (~> 3.0)
+
+BUNDLED WITH
+   1.10.6
