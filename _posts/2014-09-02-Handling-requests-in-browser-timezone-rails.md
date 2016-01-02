@@ -5,7 +5,7 @@ description: "Handling requests in browser time zone in a rails app"
 tags: [javascript, programming, rails, ror, ruby, web]
 image:
   feature: abstract-6.jpg
-  color: "1BC8A6"
+  color: "5cb85c"
   icon: "clock-o"
 bg_color: "54ee97"
 ---

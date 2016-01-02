@@ -6,7 +6,7 @@ image:
   feature: abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-  color: "1CC566"
+  color: "5cb85c"
 share: true
 bg_color: "54ee97"
 ---
