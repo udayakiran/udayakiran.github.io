@@ -5,7 +5,7 @@ description: "Custom written post descriptions are the way to go... if you're no
 tags: [sample post, video]
 image:
   feature: "00"
-  color: "7928E2"
+  color: "1abc9c"
 bg_color: "2b2f3c"
 ---
 
