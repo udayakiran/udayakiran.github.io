@@ -5,9 +5,9 @@ description: "Optimizing the GC performance of ruby to have faster and consisten
 tags: [ruby, rails, programming, performance, optimization]
 image:
   feature: abstract-6.jpg
-  color: "ee545f"
+  color: "616161"
   icon: "clock-o"
-bg_color: "ee545f"
+bg_color: "616161"
 ---
 
 ## Problem -
