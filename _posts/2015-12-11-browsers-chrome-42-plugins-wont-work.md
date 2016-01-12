@@ -20,13 +20,13 @@ Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins.
 
 * As said, Chrome 42 (released in April, 2015) disabled these plugins by default with a hack to enable this support as an experimental feature.
 
-* Google started to move their Gtalk architecture completely to hangouts and made themselves ready for the big move. The time announced was sufficient enough for many apps to prepare themselves for the change.
+* Google started to move their Gtalk's architecture completely to hangouts and made themselves ready for the big move. The time announced was sufficient enough for many apps to prepare themselves for the change.
 
 * Finally, Chrome 45 (released in September, 2015) stopped the support for NPAPI plugins.
 
 ## Why was the support dropped ?
 
-Chrome quotes on it's web sites that
+Chrome quotes on it's web site that -
 
 > To make browsing with Chrome safer, faster, and more stable, we stopped allowing NPAPI plugins on September 1, 2015.
 
@@ -66,6 +66,7 @@ Java Web start technology is shipped with your JDK and all that the user need to
 
 * **Simple tutorials -**
 [Web start and JNLP Tutotial 1](http://www.mkyong.com/java/java-web-start-jnlp-tutorial-unofficial-guide)
+
 [Web start and JNLP Tutotial 2](http://media.techtarget.com/searchDomino/downloads/CH14_0672326280.pdf)
 
 * **JNLP app demos -**
