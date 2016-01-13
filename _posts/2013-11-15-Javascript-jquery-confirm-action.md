@@ -5,9 +5,9 @@ description: "JavaScript library - jQuery.confirmAction.js: Confirm users action
 tags: [javascript, programming, web, js library, jquery plugin]
 image:
   feature: abstract-6.jpg
-  color: "5f5f5f"
+  color: "616161"
   icon: "clock-o"
-bg_color: "5f5f5f"
+bg_color: "616161"
 ---
 
 ## Why ?

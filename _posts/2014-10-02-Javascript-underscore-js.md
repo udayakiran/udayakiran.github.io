@@ -5,9 +5,9 @@ description: "JavaScript library - Underscore.js: Get wholesome of functional me
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg
-  color: "EF893D"
+  color: "616161"
   icon: "clock-o"
-bg_color: "EF893D"
+bg_color: "616161"
 ---
 
 ## Why ?

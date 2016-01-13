@@ -5,8 +5,8 @@ description: "Custom written post descriptions are the way to go... if you're no
 tags: [sample post, video]
 image:
   feature: "00"
-  color: "1abc9c"
-bg_color: "2b2f3c"
+  color: "009688"
+bg_color: "009688"
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
