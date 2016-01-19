@@ -5,9 +5,9 @@ description: "Ruby gem to connect to op-source's REST API and perform actions wi
 tags: [cloud, ror, ruby, web, automation]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "616161"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "616161"
 ---
 ## Problem -
 

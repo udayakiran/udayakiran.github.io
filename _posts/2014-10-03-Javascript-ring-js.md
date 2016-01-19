@@ -5,9 +5,9 @@ description: "JavaScript library - Ring.js: Create Js classes which support mult
 tags: [javascript, programming, web, js library]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "616161"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "616161"
 ---
 
 ## Why ?
