@@ -1,9 +1,9 @@
-giggle.js
-opsource_client
-JSJAC , Strophe
+- giggle.js
+- opsource_client
+- JSJAC , Strophe
 XMPP chat, ejabberd
-ajaxification
-deployment
+- ajaxification
+- deployment
 BOOK reviews
 Inspirational videos
 Agile
@@ -15,10 +15,13 @@ Less meetings
 Mentoring
 Different performance appraisal methods
 Startups
-Opinionted vs non opinionated frameworks.
-https://github.com/udayakiran/rails_client_timezones
+- Opinionted vs non opinionated frameworks.
+- https://github.com/udayakiran/rails_client_timezones
 mruby
 Lotus
 ruby rogues
 https://github.com/udayakiran/opsource_client
-https://github.com/udayakiran/videojs-tracker
+- https://github.com/udayakiran/videojs-tracker
+- Ruby without rails
+- https://github.com/udayakiran/tincan_manifest
+- wepay gem
