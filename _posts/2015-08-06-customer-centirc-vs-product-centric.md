@@ -10,14 +10,14 @@ image:
 bg_color: "009688"
 ---
 
-It is common for the product development world to categorize organizations as either ‘Product centric’ or ‘Customer centric’ and stress on the point that you need to be ‘Customer centric’ to remain successful. In my opinion, there are no separate entities called ‘Product centric’ and ‘Customer centric’ . Every product development company needs to be ‘product centric’ and every product being built needs to be ‘Customer centric’. This results in compounding the customer satisfaction. Especially when you are building public facing enterprise products targeting a million or a billion users, it is critical to understand both the customers and the product, and to maintain harmony between them. Its important not to be too focused on individual customers so that we keep the product generic and are solving the problems we intend to solve.
+It is common for the product development world to categorize organizations as either ‘Product centric’ or ‘Customer centric’ and stress on the point that you need to be ‘Customer centric’ to sremain successful. In my opinion, there are no separate entities called ‘Product centric’ and ‘Customer centric’ . Every product development company needs to be ‘product centric’ and every product being built needs to be ‘Customer centric’. This results in compounding the customer satisfaction. Especially when you are building public facing enterprise products targeting a million or a billion users, it is critical to understand both the customers and the product, and to maintain harmony between them. Its important not to be too focused on individual customers so that we keep the product generic and are solving the problems we intend to solve.
 
 It is not only important to have a vision and process, but also execute them through the product.
 More than our sales representatives and advertisements, it’s the product that the customers spend more time with.
 
  - Build the products that speak to the customers.
  - Build the products that listen to the customers.
- - Build the product that educate the customers.
+ - Build the products that educate the customers.
 
 Listed below are some things we follow which, i think are the efforts towards building such products.
 
@@ -43,7 +43,13 @@ Product goes through a number of reviews before and after the release. Before th
 ## SUPPORT:
 
 This is a critical factor in keeping the customers happy. We do not hold a huge support team for any of the products but product itself is built in a way to help the support process more efficient. We support our customers in two ways:
-1. Proactive support: We do not wait for the customers to report the issues back but product itself keeps monitoring various customer interactions to identify problems. Exception notifiers, real time monitoring and google analytics play an important role in identifying issues proactively and fix them without customers having to report. This is an example of product listening to the customers
-2. Reactive support: This happens when customer requests for help about the product. Reaching out to the support team has been made very simple and we typically respond as soon as possible. Developers are closely involved in this part as well and so far there are not many customer questions that are left unanswered.
+
+#### 1. Proactive support:
+
+We do not wait for the customers to report the issues back but product itself keeps monitoring various customer interactions to identify problems. Exception notifiers, real time monitoring and google analytics play an important role in identifying issues proactively and fix them without customers having to report. This is an example of product listening to the customers
+
+#### 2. Reactive support:
+
+This happens when customer requests for help about the product. Reaching out to the support team has been made very simple and we typically respond as soon as possible. Developers are closely involved in this part as well and so far there are not many customer questions that are left unanswered.
 
 >> In conclusion, all the processes are product centric with the customers in mind. This helps us in pushing the limits of the old 80-20 rule (if 80% of your customers are happy, you are successful) by keeping the happy customers percentage as close to 100 as possible.
