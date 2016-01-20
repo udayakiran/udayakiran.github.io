@@ -52,6 +52,40 @@ Please follow the README which helps to get started.
 
 ### Explanation for modes -
 
+This gem supports 3 modes which can optionally be configured by the developers. Default mode is `:smart` .  Blow is the explanation for modes.
+
+**:ip -** Time zone will be detected based on the request's ip address(using geoip gem's logic)
+
+**:browser -** Time zone will be detected based on browser utc offsets.
+
+**:smart -** Time zone will be detected by browser if offsets are set or it falls back to ip(:browser mode first, which falls back to :ip mode).
 
 
-### Keeping the data upto date -
+Create a file in your initializers and set the 'mode' to your choice.
+
+{% highlight ruby %}
+
+# Say in config/initializers/rails_client_tz_init.rb
+
+RailsClientTimezone::Setting.mode = :ip
+#default value is :smart. Accepted values - :browser, :ip, :smart
+
+{% endhighlight %}
+
+### Keeping the geoip data upto date -
+
+This is one minor limitation / update i think we will have to deal with while using this gem. This is needed only for `:ip` and `:smart` modes.
+
+Geoip gem depends on geo data which consists of the information about the ips mapped to the geo locations. This database is consistent and up to date as of now, but in future to improve it's accuracy and bring in the changes, we can update this any time. There are a number of websites which provide this data.
+
+By default Geoip City db file is available in the data directory, to override that db file you can download it from Download geoip city database and place anywhere in your app. Create a file in your initializers and set the geo ip city db file path. This step is optional if you are good with the data provided by the gem.
+
+{% highlight ruby %}
+
+# Say in config/initializers/rails_client_tz_init.rb
+
+RailsClientTimezone::Setting.geoip_data_path = <file_path>  #Default path is <gem_source>/data/geoip/GeoLiteCity.dat
+
+{% endhighlight %}
+
+>> Hope that this gem provides needed help for the rails developers in handling the issues with time zones.
