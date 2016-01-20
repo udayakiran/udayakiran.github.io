@@ -29,7 +29,7 @@ This fix is currently made on 3.4.0 on a fresh branch and i am not planning to m
 
 Same as installing a gem form any git branch.
 
-1. Add the below line to your Gemfile if you are using one.
+A) Add the below line to your Gemfile if you are using one.
 
 {% highlight ruby %}
 
@@ -39,4 +39,4 @@ gem 'rails', :git => "git://github.com/udayakiran/capistrano.git", :branch => "3
 
 OR
 
-2. Follow the steps in [this stackoverflow answer](http://stackoverflow.com/questions/2823492/install-gem-from-github-branch) to build the gem.
+B) Follow the steps in [this stackoverflow answer](http://stackoverflow.com/questions/2823492/install-gem-from-github-branch) to build the gem.
