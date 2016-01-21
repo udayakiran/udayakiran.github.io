@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby/Rails - Capistrano 3 - SVN support"
 description: "Support SVN as SCM for capistrano 3 deployments"
-tags: [javascript, programming, web, js library]
+tags: [javascript, web, js library, ror]
 image:
   feature: abstract-6.jpg
   color: "616161"

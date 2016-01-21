@@ -2,7 +2,7 @@
 layout: post
 title: "TimeZone - Handling requests in client's time zone in a rails app"
 description: "Handling requests in the client's time zone in a rails app, based on the request."
-tags: [javascript, programming, rails, ror, ruby, web]
+tags: [javascript, programming, ror, ruby, web]
 image:
   feature: abstract-6.jpg
   color: "009688"

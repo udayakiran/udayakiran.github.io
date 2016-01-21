@@ -270,19 +270,19 @@ body {
 	.tag {
 		display: inline-block;
 		margin: 4px;
-		color: $white;
-		@include rounded(3px);
-		background-color: lighten($base-color,50);
+		color: lighten($base-color,30);
+		@include rounded(14px);
+		border: 1px solid lighten($base-color,50);
 		span {
 			float: left;
 			padding: 2px 6px;
 		}
 		.count {
-			background-color: lighten($base-color,40);
-			@include border-radius(3px,3px,0,0);
+			color: $white;
+			background-color: lighten($base-color,50);
+			@include border-radius(7px,7px,0,0);
 		}
 		&:hover {
-			background-color: lighten($base-color,40);
 		}
 	}
 	.entry-reading-time {
