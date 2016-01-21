@@ -28,17 +28,19 @@ There are 4 different types of token grant are available. We use two of them whi
 
 ### 1. Grant type - password
 
-   +--------+                                  +---------------+
-   |        |--(A)- Authorization Request ->   |  Authorization|
-   |        |       (with username, password)  |   Server      |
-   |        |<-(D)----- Access Token -------   |               |
-   |        |                                  +---------------+
-   | Client |
-   |        |                                  +---------------+
-   |        |--(E)----- API request ------>    |   Resource    |
-   |        |           (With access token)    |    Server     |
-   |        |<-(F)------ API response -------  |               |
-   +--------+                                  +---------------+
+
+                     +--------+                                  +---------------+
+                     |        |--(A)- Authorization Request ->   |  Authorization|
+                     |        |       (with username, password)  |   Server      |
+                     |        |<-(D)----- Access Token -------   |               |
+                     |        |                                  +---------------+
+                     | Client |
+                     |        |                                  +---------------+
+                     |        |--(E)----- API request ------>    |   Resource    |
+                     |        |           (With access token)    |    Server     |
+                     |        |<-(F)------ API response -------  |               |
+                     +--------+                                  +---------------+
+
 
 The following are the important points from our oauth implementation.
 
@@ -61,75 +63,74 @@ The following are the important points from our oauth implementation.
 
 **1. XML -**
 
-  <oauth2-token>
-  <access-token>6uJ0xn1mynyh9UZZ3gC46L8UPImLv6r9fsEWmz9T</access-token>
-  <token-type>bearer</token-type>
-  <expires-in>5183999</expires-in>
-  </oauth2-token>
+    <oauth2-token>
+      <access-token>6uJ0xn1mynyh9UZZ3gC46L8UPImLv6r9fsEWmz9T</access-token>
+      <token-type>bearer</token-type>
+      <expires-in>5183999</expires-in>
+    </oauth2-token>
 
 **2. JSON -**
 
-{"oauth2_token":
-  {"token_type":"bearer",
-   "expires_in":5183999,
-   "access_token":"WFfKQaElw1dvNggDK4eBuiyNbrcS2xajCDs2LI2p"
-  }
-}
+    {"oauth2_token":
+      {"token_type":"bearer",
+       "expires_in":5183999,
+       "access_token":"WFfKQaElw1dvNggDK4eBuiyNbrcS2xajCDs2LI2p"
+      }
+    }
 
 ##### Failed authentication Response -
 
 **1. XML -**
 
-<api>
-  <response>
-    <error>
-      <description>invalid_user</description>
-      <error-code>ERRR00005</error-code>
-    </error>
-  </response>
-</api>
+    <api>
+      <response>
+        <error>
+          <description>invalid_user</description>
+          <error-code>ERRR00005</error-code>
+        </error>
+      </response>
+    </api>
 
 **2. JSON -**
 
-  {"api":
-   "response":
-     {"error":  
-       {"description":"invalid_user","error_code":"ERRR00005"}
-     }
-  }
+    {"api":
+       "response":
+         {"error":  
+           {"description":"invalid_user","error_code":"ERRR00005"}
+         }
+    }
 
 ### 2. Grant type - auth_code
 
 
-     +--------+                               +---------------+
-     |        |--(A)- Authorization Request ->|   Resource    |
-     |        |                               |     Owner     |
-     |        |<-(B)-- Authorization Grant ---|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(C)-- Authorization Grant -->| Authorization |
-     | Client |                               |     Server    |
-     |        |<-(D)----- Access Token -------|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(E)----- Access Token ------>|    Resource   |
-     |        |                               |     Server    |
-     |        |<-(F)--- Protected Resource ---|               |
-     +--------+                               +---------------+
+                     +--------+                               +---------------+
+                     |        |--(A)- Authorization Request ->|   Resource    |
+                     |        |                               |     Owner     |
+                     |        |<-(B)-- Authorization Grant ---|               |
+                     |        |                               +---------------+
+                     |        |
+                     |        |                               +---------------+
+                     |        |--(C)-- Authorization Grant -->| Authorization |
+                     | Client |                               |     Server    |
+                     |        |<-(D)----- Access Token -------|               |
+                     |        |                               +---------------+
+                     |        |
+                     |        |                               +---------------+
+                     |        |--(E)----- Access Token ------>|    Resource   |
+                     |        |                               |     Server    |
+                     |        |<-(F)--- Protected Resource ---|               |
+                     +--------+                               +---------------+
 
 
 #### Sample oAuth Requests and Response
 
-STEP 1: Client app sends a request to authorize url of crossbow -
+**STEP 1:** Client app sends a request to authorize url of myauthserver -
 
-The Client application sends a request to the authorize url of crossbow.
+- The Client application sends a request to the authorize url of myauthserver.
 
 **Request URI -**
- ```
- https://api.crossbow.com/api/authentication/oauth/authorize?response_type=code&client_id=<client_app_id>&redirect_uri=<client_app_redirect_uri>
-```
+
+     https://api.myauthserver.com/api/authentication/oauth/authorize?response_type=code&client_id=<client_app_id>&redirect_uri=<client_app_redirect_uri>
 
 This redirects user to a login page.
 
@@ -137,27 +138,27 @@ This redirects user to a login page.
 
 - The user will be redirected to `<client_app_redirect_uri>?code=W25JoW2cktPurc7vpBaI`
 
-The client sends a request to the token url mentioned above and receives token.
+- The client sends a request to the token url mentioned above and receives token.
 
-The only difference is that the grant_type param value should be authorization_code when requesting for token.
+- The only difference is that the grant_type param value should be authorization_code when requesting for token.
 
 **2. On unsuccessful login and authorize -**
 
-The client will be redirected to `<client_app_redirect_uri>?error=<error_description>`
+- The client will be redirected to `<client_app_redirect_uri>?error=<error_description>`
 
-The most common error_desription will be access_denied
+- The most common error_desription will be access_denied
 
-STEP 2: 1. Client app sends a request for access token-
+**STEP 2:** 1. Client app sends a request for access token-
 
-The Client application sends a request to the token url of crossbow.
+The Client application sends a request to the token url of myauthserver.
 
 **Request URI -** https://api.myauthserver.com/api/authentication/token
 
 **Parameters -** client_id, client_secret, grant_type, username, password,
 
-The value of grant_type should be - authorization_code
+- The value of grant_type should be - authorization_code
 
-The response for this call is same as the one we have above for password grant_type.
+- The response for this call is same as the one we have above for password grant_type.
 
 ## Implementation -
 
