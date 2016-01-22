@@ -199,6 +199,52 @@ body {
 		color: $white;
 	}
 }
+
+#underlay {
+	background-color: #000;
+	z-index: -5;
+	width: 100%;
+	height: 560px;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+
+.blue_main_entry {
+	background-color: #27d;
+	background: -webkit-linear-gradient(303deg, rgba(34,130,235,0.9), rgba(134,250,255,0.7));
+	background: linear-gradient(147deg, rgba(34,130,235,0.9), rgba(134,250,255,0.7));
+	background-size: cover;
+}
+
+.entry-image-main {
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	min-height: 320px;
+	overflow: hidden;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		//background-color: rgba($base-color,0.3);
+  }
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		min-width: 50%;
+		min-height: 320px; // match .entry-image min-height
+	}
+}
+
 .entry-image {
 	position: relative;
 	top: -50%;

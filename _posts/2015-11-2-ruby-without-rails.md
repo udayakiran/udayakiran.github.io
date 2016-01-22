@@ -5,9 +5,9 @@ description: "An overview of some of the libraries and frameworks of ruby beside
 tags: [programming, ruby]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "39b470"
 ---
 
 Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby's flexibility and ruby became famous due to rails's simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.

@@ -5,9 +5,9 @@ description: "File upload progress bar with apache's progress upload module."
 tags: [web, programming]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "39b470"
 ---
 
 ## Problem -

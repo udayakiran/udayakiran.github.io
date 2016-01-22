@@ -5,9 +5,9 @@ description: "JavaScript library - jQuery.confirmAction.js: Confirm users action
 tags: [javascript, programming, web, js library, jquery plugin]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "39b470"
 ---
 
 ## Why ?
@@ -57,5 +57,5 @@ Say there is a link/button with id "confirm_link", if you want to display a conf
       });    
 
  </script>
- 
+
 {% endhighlight %}

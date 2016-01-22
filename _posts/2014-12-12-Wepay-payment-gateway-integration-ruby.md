@@ -5,9 +5,9 @@ description: "Integrating a rails app with wepay's APIs"
 tags: [ror, ruby, web]
 image:
   feature: abstract-6.jpg
-  color: "009688"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "009688"
+bg_color: "39b470"
 ---
 
 Since it's launch, wepay has been a great payment gateway which provides best user experience along with developer friendly integration. I use this for a number of web and mobile apps and feel that this is one of the best way to handle one time purchases, recurring payments and etc. without having to store any details of the customer's credit card.
