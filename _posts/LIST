@@ -1,14 +1,12 @@
 - giggle.js
-- opsource_client
 - JSJAC , Strophe
 XMPP chat, ejabberd
-- ajaxification
-- deployment
 BOOK reviews
 Inspirational videos
 Agile
 Ruby association - prep
-Pair programming
+Pair proghttp://www.slideshare.net/azilian/performance-comparison
+ramming
 Code reviews
 Rework
 Less meetings
@@ -16,17 +14,24 @@ Mentoring
 Different performance appraisal methods
 Startups
 - Opinionted vs non opinionated frameworks.
-- https://github.com/udayakiran/rails_client_timezones
 mruby
 Lotus
 ruby rogues
-https://github.com/udayakiran/opsource_client
-- https://github.com/udayakiran/videojs-tracker
-- Ruby without rails
 - https://github.com/udayakiran/tincan_manifest
-- wepay gem
 Clustrix
 responsive themes with zurb
+APIS guides and throttle
+
+- https://wiki.exphosted.com/doku.php/master_slave_db_support
+- http://code.google.com/p/embeddedjavascript/
+
+
+
+- https://wiki.exphosted.com/doku.php/hdfs_write_speeds_testing
+- http://www.slideshare.net/azilian/performance-comparison
+- https://wiki.exphosted.com/doku.php/scaling_up_chat
+- https://wiki.exphosted.com/doku.php/transload_it
+
 
 
 Make a linked in presentation about customer Centricity.
@@ -42,3 +47,13 @@ Analysis of Streaming providers, transcoding solutions and etc.
 
 #39b470
 39b470
+
+
+DONE ----------
+https://github.com/udayakiran/opsource_client
+- https://github.com/udayakiran/videojs-tracker
+- Ruby without rails
+- wepay gem
+- https://github.com/udayakiran/rails_client_timezones
+- ajaxification
+- deployment

@@ -437,13 +437,16 @@ header .entry-meta {
 }
 .read-more-header {
 	position: absolute;
-	top: -20px;
+	top: -15px;
 	left: 0;
 	right: 0;
 	height: 35px;
 	a {
 		@extend .btn;
 	}
+}
+.btn-read-more {
+	background-color: $white;
 }
 .read-more-content {
 	@include font-size(16);
