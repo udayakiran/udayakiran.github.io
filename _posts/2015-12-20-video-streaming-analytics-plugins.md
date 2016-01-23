@@ -5,9 +5,9 @@ description: "Post on how to track video streaming analytics using a couple of p
 tags: [video, javascript, web, mobile]
 image:
   feature: abstract-6.jpg
-  color: "616161"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "616161"
+bg_color: "39b470"
 ---
 
 As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.
