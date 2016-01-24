@@ -5,9 +5,9 @@ description: "Handling requests in browser time zone in a rails app"
 tags: [javascript, programming, ror, ruby, web]
 image:
   feature: abstract-6.jpg
-  color: "39b470"
+  color: "616161"
   icon: "clock-o"
-bg_color: "39b470"
+bg_color: "616161"
 ---
 When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user's time zone so users don't have to do the timezone conversions.
 
