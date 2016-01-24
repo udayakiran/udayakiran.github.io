@@ -70,7 +70,7 @@ var callback = new EJS({url: 'templates/calendar.ejs'}).update('more_message_con
 
 We can clearly see that this code, after cleanup looks like HTML - more readable and maintainable.
 
-## Other benifits of Ejs -
+## Other benefits of Ejs -
 
  - Supports number of view helpers.
 
