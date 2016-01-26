@@ -1,38 +1,39 @@
-- giggle.js
+5 - giggle.js
 - JSJAC , Strophe
-XMPP chat, ejabberd
+6 - XMPP chat, ejabberd
 BOOK reviews
 Inspirational videos
 Agile
-Ruby association - prep
-Pair proghttp://www.slideshare.net/azilian/performance-comparison
-ramming
+- Ruby association - prep
+programming
 Code reviews
 Rework
 Less meetings
 Mentoring
 Different performance appraisal methods
 Startups
-- Opinionted vs non opinionated frameworks.
+4 - Opinionted vs non opinionated frameworks.
+- minimal viable product
+- Are you too ahead of the market ?
 mruby
 Lotus
 ruby rogues
-- https://github.com/udayakiran/tincan_manifest
-Clustrix
-responsive themes with zurb
-APIS guides and throttle
+- Add tests to all the gems.
+- Chrome extension for BBB
+- Rails5 realtime app with rethinkdb
+1 - https://github.com/udayakiran/tincan_manifest
+- responsive themes with zurb
 
-- https://wiki.exphosted.com/doku.php/master_slave_db_support
-- http://code.google.com/p/embeddedjavascript/
+3 - APIS guides and throttle
 
-
-
-- https://wiki.exphosted.com/doku.php/hdfs_write_speeds_testing
-- http://www.slideshare.net/azilian/performance-comparison
-- https://wiki.exphosted.com/doku.php/scaling_up_chat
 - https://wiki.exphosted.com/doku.php/transload_it
 
+2 - NewSQL
 
+
+- Analysis of Streaming providers, transcoding solutions and etc.
+
+Product development -
 
 Make a linked in presentation about customer Centricity.
 
@@ -41,19 +42,3 @@ Are you ahead of the market ?
 minimum viable product
 
 Make standups less boring
-
-Analysis of Streaming providers, transcoding solutions and etc.
-
-
-#39b470
-39b470
-
-
-DONE ----------
-https://github.com/udayakiran/opsource_client
-- https://github.com/udayakiran/videojs-tracker
-- Ruby without rails
-- wepay gem
-- https://github.com/udayakiran/rails_client_timezones
-- ajaxification
-- deployment
