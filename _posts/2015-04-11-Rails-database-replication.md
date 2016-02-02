@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby/Rails - Database replication with rails4"
 description: "Ruby/Rails - Support master-salve DB setup (replication) for active record 4 (rails 4)"
-tags: [ruby, rails, performance, scalability]
+tags: [ruby, rails, performance, scalability, database]
 image:
   feature: abstract-6.jpg
   color: "39b470"

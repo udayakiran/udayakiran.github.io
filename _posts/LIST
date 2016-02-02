@@ -1,17 +1,11 @@
 5 - giggle.js
-- JSJAC , Strophe
+7- JSJAC VS Strophe
 6 - XMPP chat, ejabberd
 BOOK reviews
 Inspirational videos
 Agile
 - Ruby association - prep
 programming
-Code reviews
-Rework
-Less meetings
-Mentoring
-Different performance appraisal methods
-Startups
 4 - Opinionted vs non opinionated frameworks.
 - minimal viable product
 - Are you too ahead of the market ?
@@ -24,16 +18,21 @@ ruby rogues
 1 - https://github.com/udayakiran/tincan_manifest
 - responsive themes with zurb
 
-3 - APIS guides and throttle
+3 - APIS guides and throttle, RABL
 
 - https://wiki.exphosted.com/doku.php/transload_it
 
 2 - NewSQL
 
+- http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html
 
 - Analysis of Streaming providers, transcoding solutions and etc.
 
-Product development -
+- h5p
+
+-
+
+Product development :-
 
 Make a linked in presentation about customer Centricity.
 
@@ -42,3 +41,24 @@ Are you ahead of the market ?
 minimum viable product
 
 Make standups less boring
+
+Code reviews
+Rework
+Less meetings
+Mentoring
+Different performance appraisal methods
+Startups
+
+Design :-
+
+https://bootstrapstudio.io/
+
+
+Book reviews :-
+
+TDD
+Code refactoring
+
+scrum master's checlist on starting a new team - coding conentions, pairing, tdd, ci, deploy , tech talks and designs.
+
+how did we build apps? (tools, process, inspiration, guidance)

@@ -67,4 +67,4 @@ We can clearly see that a 2.4 GB file is taking about 20 secs of time compared t
 
 ## Conclusion -
 
->> There are a number of DFS solutions out there and the one that suits you is the one to start off easily and lets you optimized later. Gluster helped us to get started fast and run smoothly for a year's time. Once we hit more than a few hundred gbs of data and started seeing the problems, we just switched to HDFS.
+>> There are a number of DFS solutions out there and the one that suits you is the one to start off easily and lets you optimize later. Gluster helped us to get started fast and run smoothly for a year or so. Once we hit more than a few hundred gbs of data and started seeing the problems, we just switched to HDFS.
