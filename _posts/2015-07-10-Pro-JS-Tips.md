@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "JavaScript - Ajaxifying a rails app with ajaxify-rails gem"
-description: "Ajaxifying a rails app with ajaxify-rails
-gem and a few other tweaks."
+title: "JavaScript - Pro JavaScript Tips"
+description: "JavaScript - Pro JavaScript Tips: Concepts & tools"
 tags: [javascript, web]
 image:
   feature: abstract-6.jpg
