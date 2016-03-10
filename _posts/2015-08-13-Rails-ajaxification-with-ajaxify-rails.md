@@ -6,9 +6,9 @@ gem and a few other tweaks."
 tags: [ror, ruby, web]
 image:
   feature: abstract-6.jpg
-  color: "616161"
+  color: "39b470"
   icon: "clock-o"
-bg_color: "616161"
+bg_color: "39b470"
 ---
 
 Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.
