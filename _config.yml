@@ -1,5 +1,5 @@
-title:            Developer stream
-description:      "Product development, programming and more.."
+title:            Tech stream
+description:      "Technology, Leadership, Product, Coding and more.."
 disqus_shortname: ''
 comments: false
 reading_time:     true
@@ -13,7 +13,7 @@ url:
 owner:
   name:           Udaya Kiran
   avatar:         uday.jpg
-  bio:            "Programmer, Software development manager & Agile scrum master."
+  bio:            "Programmer, Engineering & Product Leader."
   email:          udaykiran.vit@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
