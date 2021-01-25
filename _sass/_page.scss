@@ -355,7 +355,7 @@ header .entry-meta {
 			padding: 20px 30px;
 		}
 		@media #{$large} {
-			max-width: 800px;
+			max-width: 1200px;
 			margin: 50px auto 30px auto;
 			padding: 50px 80px;
 			> p:first-child {
@@ -374,7 +374,7 @@ header .entry-meta {
 			padding: 20px 30px;
 		}
 		@media #{$large} {
-			max-width: 800px;
+			max-width: 1200px;
 			padding: 50px 80px;
 			margin: 0 auto 30px auto;
 		}
@@ -502,7 +502,7 @@ header .entry-meta {
 			margin-right: 20px;
 		}
 		@media #{$large} {
-			max-width: 800px;
+			max-width: 1200px;
 			margin-top: 50px;
 			margin-left: auto;
 			margin-right: auto;
@@ -513,7 +513,7 @@ header .entry-meta {
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 1px 3px rgba($base-color,0.1);
 		@include rounded(3px);
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 
 	}
 	header,.entry-content, .spacious {
