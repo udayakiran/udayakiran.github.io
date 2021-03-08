@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues"
+title: "Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues"
 description: "Research summary of a search engine results page design and recommendations for better Ad yields."
 tags: [Ads, UX, Design, web]
 image:
@@ -20,8 +20,6 @@ In this post, I am propsing a few suggesstions to the deskop search engine resul
 
 #### Below are a few Initiatives proposed across these buckets:
 
-<div class="datatable-begin"></div>
-
 
 | Get Fitter | Get Better | Get Big |
 |:--------|:-------:|--------:|
@@ -29,8 +27,6 @@ In this post, I am propsing a few suggesstions to the deskop search engine resul
 | Brand Favicons + Ad labels.  | Efficient use of real-estate.   | Anticipatory/Predictive ads   |
 | Selective Attention experiments.   | More Product Listing ads on search results   | Async delivery for search results.   |
 {: rules="groups"}
-
-<div class="datatable-end"></div>
 
 ----
 

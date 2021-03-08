@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T03:05:48-05:00</updated>
+<updated>2021-03-08T10:09:12-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -46,7 +46,7 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Collaborative web browsing. Present and Future]]></title>
+  <title type="html"><![CDATA[Collaborative Web Browsing. Present and Future]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" />
   <id>http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future</id>
   <published>2020-03-12T00:00:00-04:00</published>
@@ -256,13 +256,13 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/&quot;&gt;Collaborative web browsing. Present and Future&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 12, 2020.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/&quot;&gt;Collaborative Web Browsing. Present and Future&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 12, 2020.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
-  <title type="html"><![CDATA[Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues]]></title>
+  <title type="html"><![CDATA[Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" />
   <id>http://localhost:4000/SERP-Reimagined-for-better-ad-yields</id>
   <published>2020-03-05T00:00:00-05:00</published>
@@ -288,8 +288,6 @@
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;below-are-a-few-initiatives-proposed-across-these-buckets&quot;&gt;Below are a few Initiatives proposed across these buckets:&lt;/h4&gt;
-
-&lt;div class=&quot;datatable-begin&quot;&gt;&lt;/div&gt;
 
 &lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
@@ -317,8 +315,6 @@
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;div class=&quot;datatable-end&quot;&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -565,7 +561,139 @@
 
 &lt;p&gt;Find methods to deliver search data to user and use it as channel for ads. Similar to Google feed, keep pushing search/news/trending results stream as per user’s interest. This can act as a potential ad channel.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/SERP-Reimagined-for-better-ad-yields/&quot;&gt;Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 05, 2020.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/SERP-Reimagined-for-better-ad-yields/&quot;&gt;Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 05, 2020.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Learnings Managing An Enterprise Scale Architecture Migration]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/learnings-from-large-scale-enterprise-migrations/" />
+  <id>http://localhost:4000/learnings-from-large-scale-enterprise-migrations</id>
+  <published>2019-09-12T00:00:00-04:00</published>
+  <updated>2019-09-12T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Architecture Migrations are not easy, especially when done for legacy systems that are tier-1, promising four 9 availability.&lt;/p&gt;
+
+&lt;p&gt;I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime. There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact.
+As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this.&lt;/p&gt;
+
+&lt;p&gt;This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here. Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;lesson-1--ask-why-do-you-really-need-to-re-architecture-focus-on-impact&quot;&gt;&lt;strong&gt;Lesson 1 – Ask why do you really need to re-architecture?&lt;/strong&gt; Focus on impact.&lt;/h3&gt;
+
+&lt;p&gt;Be very clear about why do you want to really re-architecture your systems. Ask as many people / stakeholders as possible for the pain points and probe the engineers enough to ensure the proposed architecture redesign solves for the &lt;strong&gt;right&lt;/strong&gt; pain points. Some of the common reasons for rearchitecture include -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Stability:&lt;/strong&gt; Breakdown unstable/high resource consuming monoliths into smaller systems.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scale and Better performance:&lt;/strong&gt; Improve latencies or resource usage of system to ensure it scales up right.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cost savings:&lt;/strong&gt; Replace costly software components with cheaper ones or save resources.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Operational improvements:&lt;/strong&gt; Speed up operations, automate, reduce time, make systems self service for users.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Technical Debt:&lt;/strong&gt; Too much of a tech debt causing problems in longer term.&lt;/li&gt;
+  &lt;li&gt;Compliance / Security requirements.&lt;/li&gt;
+  &lt;li&gt;and etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-2--avoid-if-possible-&quot;&gt;&lt;strong&gt;Lesson 2 – Avoid if possible&lt;/strong&gt; !&lt;/h3&gt;
+
+&lt;p&gt;Long running migrations almost always cause business hurdles, people issues/attrition and lack of motivation. There is huge cost involved. So, try avoiding them. Modren apps are all microservices. It’s easier to really identify, isolate problems. Identify what are the reasons to re-architecture. Can this excercise be avoided with smaller tweaks to current system? Also, identify what parts of system to be modified / redesigned without having to rewrite entire system. You might be smart and lucky if you can solve for the problems without having to write a lot of code. Some tips / common scenarios where large migrations can be avoided -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Speed increase can be achived by adding new caching layers, run time data structures without having to change underlying write time infra.&lt;/li&gt;
+  &lt;li&gt;Identify the bottlenecks in system and only solve for them incrementally as long as they work.&lt;/li&gt;
+  &lt;li&gt;See if any process changes or support tooling can avoid these large scale migrations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-3--plan-plan-better-review-review-again&quot;&gt;Lesson 3 – Plan, Plan better. Review, Review again!&lt;/h3&gt;
+
+&lt;p&gt;Like for any large projects, redesign needs to be planned well. If yours is a legacy system, involve engineers as early as possible to prepare a plan of execution. Be sure to consider side effects across the ecosystem. Do a through analysis of your legacy storage structures and data to ensure proposed new architecture fits well. Do multiple design reviews and wet your execution plan to cover missing cases. Review the plan with senior most team members.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assume that you will miss timelines, always almost. Plan contingencies as early as you can.&lt;/li&gt;
+  &lt;li&gt;Be prepared for unforeseen hurdles.&lt;/li&gt;
+  &lt;li&gt;Plan clear cadance for stakeholders.&lt;/li&gt;
+  &lt;li&gt;Identify the dependencies, critical path early and ensure program has focus on it always.&lt;/li&gt;
+  &lt;li&gt;Always have iterative and out come focused steps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-4--prioritze---think-timelines-people-and-business-impact&quot;&gt;Lesson 4 – Prioritze - Think timelines, People and Business impact.&lt;/h3&gt;
+
+&lt;p&gt;You do not need to execute all planned migration tasks to achive the most significant impact. Going by 80-20 rule, just priotize the tasks considering the maximum business impact and reuducing timelines. Some of the tasks during migrations like data movement, testing all use cases and etc, are mundane and have potential impact on people. Ensure this is taken into a/c.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prioritize well. Put price on each task and ask “why” you need each of them.&lt;/li&gt;
+  &lt;li&gt;Timelines will slip. Almost always. So, be prepared to have your review process that mitigates and buffers missed timelines.&lt;/li&gt;
+  &lt;li&gt;Rotate tasks as required and keep people owners to specific and challenging tasks.&lt;/li&gt;
+  &lt;li&gt;Create swim lanes where individuals or small groups can run in parallel. A long running migration program is not good for entire org’s sentiment.&lt;/li&gt;
+  &lt;li&gt;Consider operational efforts and try automating them in a timely manner to avoid any business impact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-5--be-open---consider-your-business-customers-and-their-changing-plans&quot;&gt;Lesson 5 – Be Open - Consider your business, customers and their changing plans&lt;/h3&gt;
+
+&lt;p&gt;Plans change always and it’s important to stay agile and be accomodative. Your stakeholders, customers always need to be kept in touch and be checked against changing requirements and use cases to avoid blocking them on things.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Timelines slip and can block other items of your clients they had in plan like marketing efforts, downstream system changes and etc. Keep in loop always to ensure this is mitigated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scale, traffic demands and etc. always change. Be open to buffer in new system.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For longer term migrations, it;s hard to keep the systems frozen for entire duration. Have plans to unblock your dependents.&lt;/p&gt;
+
+    &lt;h3 id=&quot;lesson-6--have-success-metrics-at-each-iteration&quot;&gt;Lesson 6 – Have success metrics at each iteration&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have identifed your iterations and prioritized them, you must ensure each of the iteration has a SMART goal associated with it. Each iteration’s success is important to be identified sooner than later. Besides the success metrics, have a process to integrate different component soon and measure the end to end impact early in the process.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have regular cadance to review the metrics upon migration.&lt;/li&gt;
+  &lt;li&gt;Baseline performance and behavioural metrics soon at component level.&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-7--build-your-gaurd-rails-and-tooling-well&quot;&gt;Lesson 7 – Build Your Gaurd Rails and Tooling Well&lt;/h3&gt;
+
+&lt;p&gt;You must focus on building required tooling and safe gaurd mechanisms for your project. Some of them include.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project management and collaboration tools.&lt;/li&gt;
+  &lt;li&gt;Migration scripts, testing frameworks.&lt;/li&gt;
+  &lt;li&gt;Integration and deployment tooling.&lt;/li&gt;
+  &lt;li&gt;Monitoring dashboards with system performane and task progress.&lt;/li&gt;
+  &lt;li&gt;Tools to ensure correctness of the outcomes in new system compared to older system.&lt;/li&gt;
+  &lt;li&gt;Regular review tools.&lt;/li&gt;
+  &lt;li&gt;and etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-8--have-a-dial-up--go-live-strategy&quot;&gt;Lesson 8 – Have a Dial up / Go live Strategy&lt;/h3&gt;
+
+&lt;p&gt;Some systems are hard to validate before going live. A good amount of preparation ensures that there is a zero downtime and smooth launch for new systems. Items to keep in mind.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Embrace some sort of shadow environments where new system runs as a shadow with live traffic but real responses would be given by earlier system. Use this live traffic to ensure correctness of new system under live traffic conditions.&lt;/li&gt;
+  &lt;li&gt;Go live early. Test it with less percentage of non critical traffic.&lt;/li&gt;
+  &lt;li&gt;Prepare tooling to be able to take smaller level entiries live. You can pick up parts of the system, data and use cases and be able to incrementally take it live.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-9--have-a-longer-term-rollback-plan&quot;&gt;Lesson 9 – Have a Longer term Rollback Plan&lt;/h3&gt;
+
+&lt;p&gt;You must always have a longer term rollback plan. Give enough of time for new system to run under production conditions but do not shutdown the earlier system in a hurry. Some of the problems surface slow and late, even a few months down the line. Have a phased cooling down period for older system and have a way to revert back to older system at some point.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learnings-from-large-scale-enterprise-migrations/&quot;&gt;Learnings Managing An Enterprise Scale Architecture Migration&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 12, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -2187,73 +2315,6 @@ Cities and governments can always choose to change a time zone or apply changes 
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-browser-timezone-rails/&quot;&gt;Handling requests in browser time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-jquery-confirm-action/" />
-  <id>http://localhost:4000/Javascript-jquery-confirm-action</id>
-  <published>2013-11-15T00:00:00-05:00</published>
-  <updated>2013-11-15T00:00:00-05:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
-
-&lt;p&gt;This is a jQuery plugin that confirms an action on click of an element and executes separate js code based on the confirmation.&lt;/p&gt;
-
-&lt;p&gt;Can be used to confirm users actions in a pretty way without having to use browser confirm box / alert box.&lt;/p&gt;
-
-&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Source code - &lt;a href=&quot;https://github.com/udayakiran/jQuery.confirmAction.js&quot;&gt;https://github.com/udayakiran/jQuery.confirmAction.js&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;setup--usage--&quot;&gt;Setup &amp;amp; Usage -&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Download jquery.confirmAction.js OR jquery.confirmAction.min.js&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Include jQuery file (1.7+) and the plugin file (or .min file) in your HTML page.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://code.jquery.com/jquery-1.7.1.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jquery.confirmAction.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;example-usage--&quot;&gt;Example usage -&lt;/h4&gt;
-
-&lt;p&gt;Say there is a link/button with id “confirm_link”, if you want to display a confirmation message to the user on clicking this link and decide weather to proceed or not -&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-
-     &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#confirm_link&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;confirmAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#&amp;lt;container_id&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Text that describes the confirmation related info&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;confirmButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Confirm button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;cancelButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Cancel button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;avoid_confirm_double_click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;cancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking cancel button.&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking confirm button.&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;    
-
- &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-jquery-confirm-action/&quot;&gt;JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 15, 2013.&lt;/p&gt;
   </content>
 </entry>
 
