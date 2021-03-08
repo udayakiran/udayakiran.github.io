@@ -12,6 +12,12 @@ bg_color: "39b470"
 
 We are at a pivotal moment as far as collaborative internet experiences are concerned. Due to current shelter in place situations across the world, there are many products releasing 'long pending and debated' collaboration features. It indicates a clear raise of use in collaborative features for specific experiences such as video watching, gaming, work and etc. 
 
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/collab.jpeg" width="600px" alt="">
+</figure>
+</div>
+
 Below are a few examples of present collaboration feature landscape:
 
 1. Collaborative video watching: 

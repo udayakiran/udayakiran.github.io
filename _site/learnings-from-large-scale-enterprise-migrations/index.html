@@ -123,7 +123,7 @@
         <h2 class="entry-reading-time" style="text-align: center">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~6 minutes
+          Reading time ~7 minutes
           <i style="font-style:normal;">  |  </i>
           September 12, 2019
         </h2><!-- /.entry-reading-time -->
@@ -134,16 +134,17 @@
     <div class="entry-content">
       <p>Architecture Migrations are not easy, especially when done for legacy systems that are tier-1, promising four 9 availability.</p>
 
-<p>I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime. There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact.
-As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this.</p>
-
-<p>This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here. Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.</p>
+<p>I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime.</p>
 
 <div style="text-align: center">
 <figure class="full">
-	<img src="/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png" width="600px" alt="" />
+	<img src="/images/sm.png" width="600px" alt="" />
 </figure>
 </div>
+
+<p>There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact. As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this. This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here.</p>
+
+<p>Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.</p>
 
 <h3 id="lesson-1--ask-why-do-you-really-need-to-re-architecture-focus-on-impact"><strong>Lesson 1 – Ask why do you really need to re-architecture?</strong> Focus on impact.</h3>
 
@@ -216,7 +217,6 @@ As this was a platform there were atleast 2000 engineers from various client tea
 <ul>
   <li>Have regular cadance to review the metrics upon migration.</li>
   <li>Baseline performance and behavioural metrics soon at component level.</li>
-  <li></li>
 </ul>
 
 <h3 id="lesson-7--build-your-gaurd-rails-and-tooling-well">Lesson 7 – Build Your Gaurd Rails and Tooling Well</h3>
@@ -234,6 +234,12 @@ As this was a platform there were atleast 2000 engineers from various client tea
 </ul>
 
 <h3 id="lesson-8--have-a-dial-up--go-live-strategy">Lesson 8 – Have a Dial up / Go live Strategy</h3>
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png" width="600px" alt="" />
+</figure>
+</div>
 
 <p>Some systems are hard to validate before going live. A good amount of preparation ensures that there is a zero downtime and smooth launch for new systems. Items to keep in mind.</p>
 

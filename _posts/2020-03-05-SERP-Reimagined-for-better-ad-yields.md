@@ -2,7 +2,7 @@
 layout: post
 title: "Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues"
 description: "Research summary of a search engine results page design and recommendations for better Ad yields."
-tags: [Ads, UX, Design, web]
+tags: [Ads, UX, Design, web, product]
 image:
   feature: abstract-6.jpg
   color: "616161"
@@ -10,12 +10,18 @@ image:
 bg_color: "616161"
 ---
 
-In this post, I am propsing a few suggesstions to the deskop search engine results page to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic.
+Search is our gateway to internet and advertisements/sponsered content are the backbone of search engines. In this post, I am propsing a few UX design suggesstions to the deskop search engine results pages to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. .
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/SERP-Features.jpg" width="600px" alt="">
+</figure>
+</div>
+
+I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic
 
 - **A) Get Fitter: UX changes to improve CTR with existing ad placements [Low investment]**
-
 - **B) Get Better: Modify/Introduce new ad placements + improved UX from (A) [Medium investment]**
-
 - **C) Get Big: Reinvent and go big [High investment]**
 
 #### Below are a few Initiatives proposed across these buckets:
@@ -38,17 +44,18 @@ In this post, I am propsing a few suggesstions to the deskop search engine resul
 
 <div style="text-align: center; display:inline;">
 <figure class="">
-	<img src="https://lh5.googleusercontent.com/5w-9swEi1HlsQaexYqFyWSFlKat1MHjfb_ISaHTkSJ3_Lwe198YKdT79UTuwkHiXFEX0bCGTE6AH5uJq9Xotxh9eHMk_KozDDXa2nOQTVSH_Ni2oapMkeqihm6g_7bzompLiXlE0" width="400px" alt="">
+	<img src="/images/lin-scan.png" width="400px" alt="">
   	<figcaption style="text-align: center"> Linear Scan through page</figcaption>
   </figure>
 </div>
 
 <div style="text-align: center">
 <figure class="">
-	<img src="https://lh6.googleusercontent.com/3y4c7ategdcAPzvGZZTZdg5Cg9nBOXFB0aFrgz1rHUL6bV8lIBmoPt67J2FAJFEXiWKo2tx-LZOgi11Jr0AfYOTeWwZ4vsORyb4drpRuV5xYRrqAnULFinlRXnnNmZ2AEMjHb_Va" width="400px" alt="">
+	<img src="/images/pinball.png" width="400px" alt="">
   	<figcaption style="text-align: center"> Random/Pin ball style Scan through page</figcaption>
   </figure>
 </div>
+
 2. It'a rare that users go to page 2 (< X%).
 
 3. Users are automatically trained to ignore the information they do not want to look at (Ex - URL links of search results, default ad placements and ad labels).
@@ -81,7 +88,7 @@ Show favicons of each of the websites beside the link text of each search result
 
 <div style="text-align: center; display:inline;">
 <figure class="">
-	<img src="https://lh4.googleusercontent.com/bMxZJvN8F0bkoWpsfveR8OowtU94OvX3M4aCVnNEgrlAp192TO4de4XbUKChtvMN6SoOoLL1szN17RTFKMJfTozMchzh8hnMoFYhp18n6-NxQDPcuVrBgISxLBPdMG6_xtTONZ7V" width="800px" alt="">
+	<img src="/images/with_without_favicons.png" width="800px" alt="">
   	<figcaption style="text-align: center"> Fig: Comparison - with vs without favicons
 </figcaption>
   </figure>
@@ -122,7 +129,7 @@ Run experiments with various options to ensure users are countered from “banne
 
 <div style="text-align: center; display:inline;">
 <figure class="">
-	<img src="https://lh3.googleusercontent.com/8cUWHTg62pHyabyjqL4lh5i7_eQ6QkYU33pNqor94RRz8oooyGopt4FJQsiArXmEYb2HGfZIykrodGMGQY0z7lZO-nlviTITBDy5eWMULhNLLUAKI7HV8X8NmOFkezAOaiKfp3nN" width="800px" alt="">
+	<img src="/images/ad_labels_favicons.png" width="800px" alt="">
   	<figcaption style="text-align: center"> Fig: Change in favicons lable styles.
 </figcaption>
   </figure>

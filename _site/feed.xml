@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T10:09:12-05:00</updated>
+<updated>2021-03-08T11:33:33-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -58,6 +58,12 @@
   </author>
   <content type="html">
     &lt;p&gt;We are at a pivotal moment as far as collaborative internet experiences are concerned. Due to current shelter in place situations across the world, there are many products releasing ‘long pending and debated’ collaboration features. It indicates a clear raise of use in collaborative features for specific experiences such as video watching, gaming, work and etc.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/collab.jpeg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Below are a few examples of present collaboration feature landscape:&lt;/p&gt;
 
@@ -273,18 +279,20 @@
     <email>udaykiran.vit@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;In this post, I am propsing a few suggesstions to the deskop search engine results page to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic.&lt;/p&gt;
+    &lt;p&gt;Search is our gateway to internet and advertisements/sponsered content are the backbone of search engines. In this post, I am propsing a few UX design suggesstions to the deskop search engine results pages to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. .&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/SERP-Features.jpg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;A) Get Fitter: UX changes to improve CTR with existing ad placements [Low investment]&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;B) Get Better: Modify/Introduce new ad placements + improved UX from (A) [Medium investment]&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;C) Get Big: Reinvent and go big [High investment]&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A) Get Fitter: UX changes to improve CTR with existing ad placements [Low investment]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;B) Get Better: Modify/Introduce new ad placements + improved UX from (A) [Medium investment]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;C) Get Big: Reinvent and go big [High investment]&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;below-are-a-few-initiatives-proposed-across-these-buckets&quot;&gt;Below are a few Initiatives proposed across these buckets:&lt;/h4&gt;
@@ -326,17 +334,18 @@
 
 &lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
 &lt;figure class=&quot;&quot;&gt;
-	&lt;img src=&quot;https://lh5.googleusercontent.com/5w-9swEi1HlsQaexYqFyWSFlKat1MHjfb_ISaHTkSJ3_Lwe198YKdT79UTuwkHiXFEX0bCGTE6AH5uJq9Xotxh9eHMk_KozDDXa2nOQTVSH_Ni2oapMkeqihm6g_7bzompLiXlE0&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;/images/lin-scan.png&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
   	&lt;figcaption style=&quot;text-align: center&quot;&gt; Linear Scan through page&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
 &lt;div style=&quot;text-align: center&quot;&gt;
 &lt;figure class=&quot;&quot;&gt;
-	&lt;img src=&quot;https://lh6.googleusercontent.com/3y4c7ategdcAPzvGZZTZdg5Cg9nBOXFB0aFrgz1rHUL6bV8lIBmoPt67J2FAJFEXiWKo2tx-LZOgi11Jr0AfYOTeWwZ4vsORyb4drpRuV5xYRrqAnULFinlRXnnNmZ2AEMjHb_Va&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;/images/pinball.png&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
   	&lt;figcaption style=&quot;text-align: center&quot;&gt; Random/Pin ball style Scan through page&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
+
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;It’a rare that users go to page 2 (&amp;lt; X%).&lt;/p&gt;
@@ -377,7 +386,7 @@
 
 &lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
 &lt;figure class=&quot;&quot;&gt;
-	&lt;img src=&quot;https://lh4.googleusercontent.com/bMxZJvN8F0bkoWpsfveR8OowtU94OvX3M4aCVnNEgrlAp192TO4de4XbUKChtvMN6SoOoLL1szN17RTFKMJfTozMchzh8hnMoFYhp18n6-NxQDPcuVrBgISxLBPdMG6_xtTONZ7V&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;/images/with_without_favicons.png&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
   	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Comparison - with vs without favicons
 &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -424,7 +433,7 @@
 
 &lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
 &lt;figure class=&quot;&quot;&gt;
-	&lt;img src=&quot;https://lh3.googleusercontent.com/8cUWHTg62pHyabyjqL4lh5i7_eQ6QkYU33pNqor94RRz8oooyGopt4FJQsiArXmEYb2HGfZIykrodGMGQY0z7lZO-nlviTITBDy5eWMULhNLLUAKI7HV8X8NmOFkezAOaiKfp3nN&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;/images/ad_labels_favicons.png&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
   	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Change in favicons lable styles.
 &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -580,16 +589,17 @@
   <content type="html">
     &lt;p&gt;Architecture Migrations are not easy, especially when done for legacy systems that are tier-1, promising four 9 availability.&lt;/p&gt;
 
-&lt;p&gt;I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime. There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact.
-As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this.&lt;/p&gt;
-
-&lt;p&gt;This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here. Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.&lt;/p&gt;
+&lt;p&gt;I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime.&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center&quot;&gt;
 &lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;/images/sm.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
+
+&lt;p&gt;There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact. As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this. This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here.&lt;/p&gt;
+
+&lt;p&gt;Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.&lt;/p&gt;
 
 &lt;h3 id=&quot;lesson-1--ask-why-do-you-really-need-to-re-architecture-focus-on-impact&quot;&gt;&lt;strong&gt;Lesson 1 – Ask why do you really need to re-architecture?&lt;/strong&gt; Focus on impact.&lt;/h3&gt;
 
@@ -662,7 +672,6 @@ As this was a platform there were atleast 2000 engineers from various client tea
 &lt;ul&gt;
   &lt;li&gt;Have regular cadance to review the metrics upon migration.&lt;/li&gt;
   &lt;li&gt;Baseline performance and behavioural metrics soon at component level.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;lesson-7--build-your-gaurd-rails-and-tooling-well&quot;&gt;Lesson 7 – Build Your Gaurd Rails and Tooling Well&lt;/h3&gt;
@@ -680,6 +689,12 @@ As this was a platform there were atleast 2000 engineers from various client tea
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;lesson-8--have-a-dial-up--go-live-strategy&quot;&gt;Lesson 8 – Have a Dial up / Go live Strategy&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Some systems are hard to validate before going live. A good amount of preparation ensures that there is a zero downtime and smooth launch for new systems. Items to keep in mind.&lt;/p&gt;
 

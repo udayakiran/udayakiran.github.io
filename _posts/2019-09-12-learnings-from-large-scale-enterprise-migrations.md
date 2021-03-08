@@ -13,16 +13,17 @@ bg_color: "39b470"
 
 Architecture Migrations are not easy, especially when done for legacy systems that are tier-1, promising four 9 availability.
 
-I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime. There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact.
-As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this.
-
-This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here. Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness. 
+I consider myself lucky to be part of a large architecture revamp happened at one of my previous employers. To explain the scale of this - it was executed for 2+ years by a team of 200+ engineers fulltime. 
 
 <div style="text-align: center">
 <figure class="full">
-	<img src="/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png" width="600px" alt="">
+	<img src="/images/sm.png" width="600px" alt="">
 </figure>
 </div>
+
+There were 30+ micoservices almost re written and launched while dealing live traffic of 100k+ requests per sec and a huge transactional impact. As this was a platform there were atleast 2000 engineers from various client teams who were indirectly part of this as they were upstream/downstream services to this. This program had a long lasting impact on my engineering and leadership approach. Sharing some of the lessons learnt here. 
+
+Large scale migrations leave lasting impact on your systems, people, culture and customers. They need to be avoided if possible :) Else, be executed with real thoughtgulness.
 
 ### **Lesson 1 – Ask why do you really need to re-architecture?** Focus on impact.
 
@@ -82,7 +83,6 @@ Once you have identifed your iterations and prioritized them, you must ensure ea
 
 - Have regular cadance to review the metrics upon migration. 
 - Baseline performance and behavioural metrics soon at component level.
-- 
 
 ### Lesson 7 – Build Your Gaurd Rails and Tooling Well
 
@@ -97,6 +97,12 @@ You must focus on building required tooling and safe gaurd mechanisms for your p
 - and etc.
 
 ### Lesson 8 – Have a Dial up / Go live Strategy
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/migrating-kubernetes-app-to-saas-managed-service-with-portworx.png" width="600px" alt="">
+</figure>
+</div>
 
 Some systems are hard to validate before going live. A good amount of preparation ensures that there is a zero downtime and smooth launch for new systems. Items to keep in mind.
 
