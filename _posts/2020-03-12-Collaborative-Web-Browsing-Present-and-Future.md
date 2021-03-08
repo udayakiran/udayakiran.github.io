@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Collaborative Web Browsing. Present and Future"
+title: "Collaborative Web Browsing - Present and Future"
 description: "Collaborative web browsing is at a pitoval moment. Good to see it getting rolled into utilities such as web browsers, mobile operating systems and etc."
 tags: [Web, Enterprise, Collaboration, Browsers, Product]
 image:
