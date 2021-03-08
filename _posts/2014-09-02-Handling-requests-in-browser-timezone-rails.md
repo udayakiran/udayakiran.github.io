@@ -11,6 +11,12 @@ bg_color: "616161"
 ---
 When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user's time zone so users don't have to do the timezone conversions.
 
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/tz0.png" width="600px" alt="">
+</figure>
+</div>
+
 In this post, i'll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.
 
 The most seamless way of showing time information in the user's time zone is to track the time zone from the browser and run the time related operations on your server considering this time zone and return the time in this time zone. As simple as that.

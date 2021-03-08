@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T15:06:05-05:00</updated>
+<updated>2021-03-08T16:12:21-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -934,7 +934,15 @@
     <email>udaykiran.vit@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome. Well, this is not a surprise unless you are not following chrome’s regular updates on this topic.&lt;/p&gt;
+    &lt;p&gt;Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/HH9RXD2.jpg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Well, this is not a surprise unless you are not following chrome’s regular updates on this topic.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1050,6 +1058,12 @@
 &lt;p&gt;&lt;a href=&quot;/Handling-requests-in-browser-timezone-rails/&quot;&gt;TimeZone - Handling requests in client’s time zone in a rails app&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;It is recommended to visit that post before proceeding furthur on current post.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/tz.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;This post describes an enhanced solution of rails_browser_timezone gem.&lt;/p&gt;
 
@@ -2323,6 +2337,12 @@ Note that you need to have underscore.js required in your environment to execute
   </author>
   <content type="html">
     &lt;p&gt;When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user’s time zone so users don’t have to do the timezone conversions.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/tz0.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;In this post, i’ll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.&lt;/p&gt;
 

@@ -10,7 +10,15 @@ image:
 bg_color: "39b470"
 ---
 
-Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome. Well, this is not a surprise unless you are not following chrome's regular updates on this topic.
+Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome. 
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/HH9RXD2.jpg" width="600px" alt="">
+</figure>
+</div>
+
+Well, this is not a surprise unless you are not following chrome's regular updates on this topic.
 
 * Chrome expressed their wish to block this way back in September, 2013. (Ref - <http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html>)
 

@@ -16,6 +16,12 @@ This post is a continuation of one of my previous posts -
 
 It is recommended to visit that post before proceeding furthur on current post.
 
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/tz.png" width="600px" alt="">
+</figure>
+</div>
+
 This post describes an enhanced solution of rails_browser_timezone gem.
 
 ## Open issues with rails_browser_timezone -
