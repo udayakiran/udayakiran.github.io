@@ -34,7 +34,7 @@ Alternate source: `wget --no-check-certificate`
 
 2) Compile the source code and install the module in apache
 
-```
+```shell
     cd apache-upload-progress-module
 ```
 
@@ -55,12 +55,12 @@ a) In apache conf, load the file upload module
 b) In the VirtualHost configuration of the application add
 
     {% highlight c %}
-
+    
         <Location />
           # enable tracking uploads in /
           TrackUploads On
         </Location>
-
+    
         <Location /progress>
           # enable upload progress reports in /progress
           ReportUploads On

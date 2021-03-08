@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '2.5.3'
-gem 'jekyll-sitemap'
-gem 'octopress', '~> 3.0'
-gem 'jekyll-seo'
+gem "tzinfo-data"
+gem "jekyll", "~> 3.7"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+
+gem "kramdown-parser-gfm"

@@ -1,0 +1,350 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Scalability - Time to relook at you distributed file system. &#8211; Tech stream</title>
+<meta name="description" content="Look at the performance of your DFS and see which is the option that suits">
+<meta name="keywords" content="web, performance, scalability">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scalability - Time to relook at you distributed file system.">
+<meta property="og:description" content="Look at the performance of your DFS and see which is the option that suits">
+<meta property="og:url" content="http://localhost:4000/Time-to-relook-at-dfs/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Time-to-relook-at-dfs/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #616161db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Scalability - Time to relook at you distributed file system.">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Time-to-relook-at-dfs/" rel="bookmark" title="Scalability - Time to relook at you distributed file system.">Scalability - Time to relook at you distributed file system.</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~4 minutes
+          <i style="font-style:normal;">  |  </i>
+          May 03, 2015
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>This is a post explaining how we realized our scalability bottle necks and considered the alternatives for our distributed file system.</p>
+
+<p>We strongly follow the distributed architecture and try to scale out each of our components as much as possible. At the same time, care is taken that things are not scaled up prematurely but they are done as we go in an incremental fashion. One such components of us was the distributed file system.</p>
+
+<h2 id="problem--">Problem -</h2>
+
+<p>We wanted to save some static assets and videos from our app servers on to a content server through a mounted drive which is mounted using <a href="https://www.gluster.org/">GlusterFS</a>. Our files can be small text files, images and etc. plus videos that can be of size upto 3-4 GBs. We wanted to use glusterfs for a number of reasons and easy to mount and manage is one of those. Things went very well for more than a year and we had collected close to 100GB data on production. Suddenly we were seeing issues like slow response times, especially with large video uploads. It reached a state where a video of size 3 GB was taking 2-3 mins time to get written to the disk.</p>
+
+<h2 id="analysis--options--">Analysis &amp; Options -</h2>
+
+<p>Looking more at the details we found that our dfs was the real bottleneck. A simple file copy was taking close to 2 mins to write the file to the hard disk. A few things we did and wanted to do were -</p>
+
+<ul>
+  <li>
+    <p>Move to faster SSD hard disks.</p>
+  </li>
+  <li>
+    <p>Switch from our 1 gbps network to a faster one.</p>
+  </li>
+  <li>
+    <p>Either optimize or consider alternatives for the dfs.</p>
+  </li>
+</ul>
+
+<p>First two changes are infrastructure related but the third one needed some real research into. A few performance optimizations did not help us much and we considered some alternatives. Below presentation titled <a href="http://www.slideshare.net/azilian/performance-comparison">‘Performance comparison of Distributed File Systems on 1Gbit networks’</a> gives some insights.</p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bqytUCI2lOC2QY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/azilian/performance-comparison" title="Performance comparison of Distributed File Systems on 1Gbit networks" target="_blank">Performance comparison of Distributed File Systems on 1Gbit networks</a> </strong> from <strong><a href="//www.slideshare.net/azilian" target="_blank">Marian Marinov</a></strong> </div>
+
+<h3 id="decision--">Decision -</h3>
+
+<ul>
+  <li>
+    <p>After a bit of research we wanted to move to Hadoop DFS as we needed good speeds for both small and large files and we wanted to have a truly distributed system.</p>
+  </li>
+  <li>
+    <p>We wanted this solution to be like a mounted file system. So, went ahead with mapr’s implementation.</p>
+  </li>
+</ul>
+
+<p>The next thing is to see if this really does the needed job, and i m writing down a few speed tests that show this.</p>
+
+<h2 id="performance-testing-with-hdfs--">Performance testing with HDFS -</h2>
+
+<p>Showing the file copy speeds from local machine to HDFS drive and vice versa that indicate the improvements.</p>
+
+<p><strong>Using cp command from Local to HDFS -</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>File size</td>
+      <td>Machine</td>
+      <td>Start time</td>
+      <td>End time</td>
+      <td>Remarks</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Small file (mention size 50 MB)</td>
+      <td>10.229.94.18</td>
+      <td> </td>
+      <td> </td>
+      <td>&lt; 1Sec</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Medium file (mention size 615 Mb)</td>
+      <td>10.229.94.18</td>
+      <td>07:52:20</td>
+      <td>07:52:23</td>
+      <td>3 secs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Large file (mention size 1.1GB)</td>
+      <td>10.229.94.18</td>
+      <td>07:55:18</td>
+      <td>07:55:24</td>
+      <td>6 secs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Very large file (mention size 2.4 GB)</td>
+      <td>10.229.94.18</td>
+      <td>07:46:52</td>
+      <td>07:47:14</td>
+      <td>22 secs</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Using cp command from HDFS to Local -</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>File size</td>
+      <td>Machine</td>
+      <td>Start time</td>
+      <td>End time</td>
+      <td>Remarks</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Small file (mention size 50 MB)</td>
+      <td>10.229.94.18</td>
+      <td> </td>
+      <td> </td>
+      <td>&lt; 1Sec</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Medium file (mention size 615 Mb)</td>
+      <td>10.229.94.18</td>
+      <td>08:05:39</td>
+      <td>08:05:41</td>
+      <td>2 secs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Large file (mention size 1.1GB )</td>
+      <td>10.229.94.18</td>
+      <td>08:02:52</td>
+      <td>08:02:56</td>
+      <td>4 secs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Very large file (mention size 2.4 GB)</td>
+      <td>10.229.94.18</td>
+      <td>07:58:20</td>
+      <td>07:58:37</td>
+      <td>17 secs</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We can clearly see that a 2.4 GB file is taking about 20 secs of time compared to 2 mins with glusterfs. So, it is clear and we went ahead with HDFS.</p>
+
+<h2 id="conclusion--">Conclusion -</h2>
+
+<blockquote>
+  <blockquote>
+    <p>There are a number of DFS solutions out there and the one that suits you is the one to start off easily and lets you optimize later. Gluster helped us to get started fast and run smoothly for a year or so. Once we hit more than a few hundred gbs of data and started seeing the problems, we just switched to HDFS.</p>
+  </blockquote>
+</blockquote>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a><a href="http://localhost:4000/tags/#performance" title="Pages tagged performance" class="tag"><span class="term">performance</span></a><a href="http://localhost:4000/tags/#scalability" title="Pages tagged scalability" class="tag"><span class="term">scalability</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Time-to-relook-at-dfs/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Time-to-relook-at-dfs/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Time-to-relook-at-dfs/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Rails-database-replication/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

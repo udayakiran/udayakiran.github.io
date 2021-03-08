@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Tech stream</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2021-03-08T02:55:56-05:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Udaya Kiran</name>
+  <uri>http://localhost:4000/</uri>
+  <email>udaykiran.vit@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Welcome to Jekyll!]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" />
+  <id>http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll</id>
+  <published>2021-03-06T10:30:34-05:00</published>
+  <updated>2021-03-06T10:30:34-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/&quot;&gt;Welcome to Jekyll!&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 06, 2021.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Collaborative web browsing. Present and Future]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" />
+  <id>http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future</id>
+  <published>2020-03-12T00:00:00-04:00</published>
+  <updated>2020-03-12T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;We are at a pivotal moment as far as collaborative internet experiences are concerned. Due to current shelter in place situations across the world, there are many products releasing ‘long pending and debated’ collaboration features. It indicates a clear raise of use in collaborative features for specific experiences such as video watching, gaming, work and etc.&lt;/p&gt;
+
+&lt;p&gt;Below are a few examples of present collaboration feature landscape:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaborative video watching:&lt;/p&gt;
+
+    &lt;p&gt;Instagram’s &lt;a href=&quot;https://techcrunch.com/2019/03/07/instagram-watch-party/&quot;&gt;watch Party&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.watch2gether.com/?lang=en&quot;&gt;Watch videos together&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Hotstar’s live streaming chat &amp;amp; quizzes&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaborative Games: https://www.twitch.tv&lt;/p&gt;
+
+    &lt;p&gt;Individual, small scale games like - https://www.drawasaurus.org/&lt;/p&gt;
+
+    &lt;p&gt;House party joining epic games to make games collaborative - &lt;a href=&quot;https://houseparty.com/blog/houseparty-epic/&quot;&gt;Reference&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaborative Work&lt;/p&gt;
+
+    &lt;p&gt;Zoom, Microsoft Teams, Google Meet, Zeplin and etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Below is an idea I propose internet browsers to offer. A co-browsing mode where each webpage or app can be used on the internet with context specific collaboration features enabled. Let’s call such framework / product suite as “co-browse”. Such experiences can be monitized well interms of advertisements In short -&lt;/p&gt;
+
+&lt;p&gt;Co-Browse - Surf, watch, play &amp;amp; work collaboratively on the internet.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;​					&lt;em&gt;Browse the web together&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;​					&lt;em&gt;Watch your favourite videos with friends [C-watch/Watch party]&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;​					&lt;em&gt;Play games with your friends [Co-play]&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Read the news, posts, books, discuss with your interest groups, react..everything instantly from your phone or desktop browser. The Internet is more fun and productive!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Let me assume there is an imaginary browser BrowserZ. Below is how a press note descibes it’s collaborative product suite. I will also touch upon some monetization oppurtunities for such experiences by involving app developers, OEMs and advertising ecosystem as well. This is really important to drive adoption from developer community.&lt;/p&gt;
+
+&lt;h1 id=&quot;press-release-note-consumer-facing&quot;&gt;Press Release Note (Consumer facing)&lt;/h1&gt;
+
+&lt;p&gt;BrowserZ announced their new product suite “Co-browse” which enables collaborative usage of the internet. This lets internet users browse web pages together with friends, watch photos and videos collaboratively, read and comment on books with other readers and play games in a multiplayer mode. This is available as a chrome and firefox plugin, Android/iphone app for all general purpose usage. Also, selectively available as an in-app/in-page offering for premium publisher’s websites and mobile apps.&lt;/p&gt;
+
+&lt;p&gt;Users can create public/private rooms, invite others for a co-watchig/co-reading or multi-player gaming sessions. Or, leave their comments or reactions on selected pages.&lt;/p&gt;
+
+&lt;p&gt;Below are a few anecdotes -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Seema, a housewife from New York says “I missed watching movies with my college friends from India. Now, we watch videos on youtube and prime video collaboratively through co-browse’s watch party mode. This is more fun and we feel connected back again. I also watch favorite chef videos and funny tiktok videos with my family group and don’t count on hours. Also, I receive useful tips and offers through notifications.” “My husband is an avid reader of books and he has his co-readers club with whom he reads all his science fiction stories and keeps sharing with me some thoughts of others”, she adds.&lt;/p&gt;
+
+  &lt;p&gt;Ryan, a BD manager from Dublin says “I manage a geographically spread sales team of size 20 across 4 countries. We use co-browse to run our weekly review meetings. It’s very productive and easy to use.”&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tom, a fresh grad intern from CA says “I love playing small games on my phone and while travelling to work. Co-play helps me to play my favorite short duration games with others who are interested. We challenge each other and keep getting better at it. I receive useful tips through notifications.”&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;press-release-note-publisher-app-developer--oem-facing&quot;&gt;Press Release Note (Publisher, App developer &amp;amp; OEM facing)&lt;/h1&gt;
+
+&lt;p&gt;BrowserZ announced their product suite “co-browse” for publishers, app developers and OEMs to make their users collaborate while going through their content. This is available as a set of easy to integrate APIs/SDKs for publishers who want to make their content more collaborative for the users and drive high engagement and repeat users. In the free version of the product suite, developers can choose various widgets/features that can be integrated in their web and mobile app. They can customize the ad placeholders and frequency. publishers can also use the free notifications features to promote new content among readers. The paid version of the suite lets publishers disable ads, run promos, gamify usage with rewards and etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;John, GM of XYX says “We integrated BrowserZ’s co-browse reactions and notifications into our app on mobile and we see that we have 10X new traffic with 4X higher repeat users. Also, our ad revenues went up by 2X in the last 3 months.” , “overall, i received multiple positive notes from my partners and customers for awesome browse and video watching experience”, he adds.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;sample-usage-flowfeatures&quot;&gt;Sample Usage Flow/features:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Chrome/Firefox extension:&lt;/strong&gt;     A user can click on the “co-browse” icon from any page he is on to be able     to enter co-browsing mode. This creates a private room with a shareable     link. Users can share this with pre-existing groups or with individuals by     copying this link or inviting. Alternatively, users can always join some     existing public rooms to co-watch/play any topic.&lt;/li&gt;
+  &lt;li&gt;An invitee who received a link to watch/play can join by clicking     on the link and providing a name.&lt;/li&gt;
+  &lt;li&gt;Mobile app: Users see either co-browse app or click on the     “co-browse” icon on all app screens to enter the same mode.&lt;/li&gt;
+  &lt;li&gt;Users can watch videos/photos, read an article or play any game.     They are given some default features if the owner of the site/app is not     from premium co-browse publishers. The options depend on the nature of the     activity (game/video/webpage) and can be customised by the room owner.&lt;/li&gt;
+  &lt;li&gt;Below are a few features (not limited to):&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Group chat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Comments &amp;amp; Reactions/emojis&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Bookmarks&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Notes (private &amp;amp; shared)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Video/audio calling (enabled limitedly)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Invite more users&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Usage history/timeline&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;In-app / browser based notifications (Relevant &amp;amp; Sponsored)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Customizable reactions widget and Social widget.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;By default comments, messages have some minimal, in-context native advertising. Additionally there is some real estate for Ads reserved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Premium Publishers&lt;/strong&gt;: Premium publishers can enable their web pages and mobile apps for co-browsing and customize features to suit the nature of content. They are provided with ad-revenue share. Also, ads can be disabled upon a few terms.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are some gamification based features available for premium publishers which help drive better engagement and rewards to users who initiate co-browsing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;indicative-cx&quot;&gt;Indicative CX:&lt;/h2&gt;
+
+&lt;h3 id=&quot;co-browse-icon&quot;&gt;&lt;strong&gt;Co-Browse Icon:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Similar to google cast icon, this icon shows up on every page or mobile app if a co-browse app/extension is installed. For publishers who are co-browse enabled, no installation is required. Example - Co-browse icon on a video.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/clip_image001.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Mobile - Enter Collaboration mode&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;mobile-sample&quot;&gt;&lt;strong&gt;Mobile sample:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/clip_image004.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Mobile - Co-watching a video/image/webpage&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;desktop-sample&quot;&gt;&lt;strong&gt;Desktop sample:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/clip_image006.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Desktop - Co-watching a youtube video&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;advertisingmonetization-opportunity&quot;&gt;Advertising/Monetization Opportunity:&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Strategically,     this let’s media.net place ads on almost any web site or mobile apps that     people use. As we know the webpage/app content, this lets us be able to     target better with contextual advertising.&lt;/li&gt;
+  &lt;li&gt;Native ads can be placed in reactions, comments, chat messages.     There can be many such placeholders identified.&lt;/li&gt;
+  &lt;li&gt;Co-watch and co-play happen for longer durations and ads can be     rotated every X seconds or based on some events, giving us more     opportunities.&lt;/li&gt;
+  &lt;li&gt;Notifications are used for organic reasons such as inviting     people to join a room, remind of something, share content. This is another     gateway for promotions, product offerings etc.&lt;/li&gt;
+  &lt;li&gt;Publishers/App developers want this to drive better engagement     for their apps and increase time spent on apps. Also, the reactions     widgets can be placed within the app/webpage for comments, likes and etc..&lt;/li&gt;
+  &lt;li&gt;Premium publishers get a few additional, premium features which     are paid.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;marketingdistribution&quot;&gt;Marketing/Distribution:&lt;/h1&gt;
+
+&lt;p&gt;Co-browse suite can be distributed as either a unified product or multiple micro products, depending on the user activities and publisher needs. a few of them listed below.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Default free offering, common across web with all features (Chrome extension, FF extension, mobile app)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Co-watch for all video streaming sites and apps. (Looks similar to- hotstar’s live streaming experience, instagram’s watch party)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Co-play for gaming (Similar to drawsarus or simplified twitch)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Co-read/Co-surf (Collaborative browsing, note sharing, comments, bookmarking for articles and books)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Co-work (Zoom+Flock style co-working, meetings app, productivity tool)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reactions widget, social widget for premium publishers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Co-browse website/app with popular rooms, trending etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/&quot;&gt;Collaborative web browsing. Present and Future&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 12, 2020.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" />
+  <id>http://localhost:4000/SERP-Reimagined-for-better-ad-yields</id>
+  <published>2020-03-05T00:00:00-05:00</published>
+  <updated>2020-03-05T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;In this post, I am propsing a few suggesstions to the deskop search engine results page to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A) Get Fitter: UX changes to improve CTR with existing ad placements [Low investment]&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;B) Get Better: Modify/Introduce new ad placements + improved UX from (A) [Medium investment]&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;C) Get Big: Reinvent and go big [High investment]&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;below-are-a-few-initiatives-proposed-across-these-buckets&quot;&gt;Below are a few Initiatives proposed across these buckets:&lt;/h4&gt;
+
+&lt;div class=&quot;datatable-begin&quot;&gt;&lt;/div&gt;
+
+&lt;table rules=&quot;groups&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Get Fitter&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Get Better&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Get Big&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Search listing UX.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Better in-page ad placements&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Feed based UI for search results&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Brand Favicons + Ad labels.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Efficient use of real-estate.&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Anticipatory/Predictive ads&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Selective Attention experiments.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;More Product Listing ads on search results&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Async delivery for search results.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;datatable-end&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;user-behavior-background&quot;&gt;&lt;strong&gt;User Behavior Background:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Users scan through search results. It’s either a linear top to bottom scan (for simple search pages) or random hotspot check (for pages with images and other interactive blocks).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh5.googleusercontent.com/5w-9swEi1HlsQaexYqFyWSFlKat1MHjfb_ISaHTkSJ3_Lwe198YKdT79UTuwkHiXFEX0bCGTE6AH5uJq9Xotxh9eHMk_KozDDXa2nOQTVSH_Ni2oapMkeqihm6g_7bzompLiXlE0&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Linear Scan through page&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh6.googleusercontent.com/3y4c7ategdcAPzvGZZTZdg5Cg9nBOXFB0aFrgz1rHUL6bV8lIBmoPt67J2FAJFEXiWKo2tx-LZOgi11Jr0AfYOTeWwZ4vsORyb4drpRuV5xYRrqAnULFinlRXnnNmZ2AEMjHb_Va&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Random/Pin ball style Scan through page&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;It’a rare that users go to page 2 (&amp;lt; X%).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Users are automatically trained to ignore the information they do not want to look at (Ex - URL links of search results, default ad placements and ad labels).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;With mobile generation, a scroll is considered a casual effort and a click/touch is a costly effort during browsing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;a-get-fitter-improve-ctr-with-existing-ad-placements&quot;&gt;&lt;strong&gt;(A) Get Fitter: Improve CTR with existing ad placements&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;brand-favicons--ad-labels&quot;&gt;&lt;strong&gt;Brand Favicons + Ad labels:&lt;/strong&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Show favicons of each of the websites beside the link text of each search result. For ads use a black/gray “Ad” label.&lt;/p&gt;
+
+&lt;h4 id=&quot;sample-ui&quot;&gt;&lt;strong&gt;Sample UI:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh4.googleusercontent.com/7Jo4nbCLg-nvslSqMv-pd5L-0DsBg5U1CoxV3PXKTRJ4hDJ6-2JNZ0kI9EPPz6xNmQkZHVmcF53B5BkwBySXS3MsB7rQKMuYjilxzhW4PAiXj90yPpZM3q3097oNfyZPMTjHTk_u&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Results with favicons&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh3.googleusercontent.com/W8BdFDTKmndZrBg0gkbHW4VEtjI8-1y5RH-KEqDsT9zUEu2ZwoLvSKizZQ7PC2cKMzDRsKsZ1qdk8vQxV7ydnMFT2ebMCaVY9vCSKSnbAM7Mx9oQp0kyKtFzE8N69neiHnwiIg88&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Results with favicons - Highlighted&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh4.googleusercontent.com/bMxZJvN8F0bkoWpsfveR8OowtU94OvX3M4aCVnNEgrlAp192TO4de4XbUKChtvMN6SoOoLL1szN17RTFKMJfTozMchzh8hnMoFYhp18n6-NxQDPcuVrBgISxLBPdMG6_xtTONZ7V&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Comparison - with vs without favicons
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Users get automatically trained to look for favicons and improve the traction on ads. “Ad” tag can be experimented with options to avoid “banner blindness”.&lt;/li&gt;
+  &lt;li&gt;Such favicons improve CTR for both organic search results and ads.&lt;/li&gt;
+  &lt;li&gt;Brand awareness improves for publishers.&lt;/li&gt;
+  &lt;li&gt;Ads look more native within the content.&lt;/li&gt;
+  &lt;li&gt;Already proven on mobiles. Works well across platforms.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There could be some publishers/websites without favicons. Or, they may not want the same icon across all their content. This may require a new search meta data tag that needs to be provided, in which case, the crawlers need to be upgraded to identify this.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Measure of Success:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CTR for organic search results&lt;/li&gt;
+  &lt;li&gt;CTR for ads&lt;/li&gt;
+  &lt;li&gt;Time spent by users on search results.&lt;/li&gt;
+  &lt;li&gt;Brand value improvement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Selective Attention experiments:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Run experiments with various options to ensure users are countered from “banner blindness”. Examples:- change the Ad format, labels, backgrounds etc.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh5.googleusercontent.com/IhIcR280J72NKduu120z_7z5cK-yTMVJFMxslLNAQTfpFJg2GxEDm7c5EdBnfdXGJRDZr7t-0TBO36x8OJdZabbRQLupcu_AIBCQ9DIaLQEJR-GD0UYIsofGwEtaf6soFf5NiCmc&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Yellow background for Ads
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh3.googleusercontent.com/8cUWHTg62pHyabyjqL4lh5i7_eQ6QkYU33pNqor94RRz8oooyGopt4FJQsiArXmEYb2HGfZIykrodGMGQY0z7lZO-nlviTITBDy5eWMULhNLLUAKI7HV8X8NmOFkezAOaiKfp3nN&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Change in favicons lable styles.
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Counters users’ “banner blindness”.&lt;/li&gt;
+  &lt;li&gt;Better user experience and lets you figure out things iteratively.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Frequent changes might lead to user surprise.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Measure of Success:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CTR for organic search results&lt;/li&gt;
+  &lt;li&gt;CTR for ads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;b-get-better-modifyintroduce-ad-placements--improve-ctr&quot;&gt;&lt;strong&gt;(B) Get Better: Modify/Introduce ad placements + improve CTR&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-better-in-page-ad-placements&quot;&gt;&lt;strong&gt;1. Better in-page ad placements:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;As mentioned above, users either scan linearly or look for random spots in the ads. Some of the common hotspots are highlighted below. Place your ads below these hotspots. Choose right ad type near the hotspots (Ex - Product listing type ads at the top, text beneath images etc.). As of now Yahoo search seems to have ads only in the top and bottom of search results listing.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh5.googleusercontent.com/IZz-PBZwENy43ZNA7MKPHvrB3eG3hFUDlNrFom0x6r0V5v4ieCAnttFAKL7knDMF8bRe2NmScS5_EW4EyQpyCRhCJP13G9OqLaanxDisseSCJRssPXWtBsJe6NoLITVF2xG_5E53&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Ad placements considering pin ball scanning behavior.
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh6.googleusercontent.com/RY5fw3iaMgGp3v1vAk1X-hq9hnjEDMH7viCarWUdk9lZoTSk24o3ymBlNXvDEZhFwUiqkZkprxLbmYK0x0A-M6-lZK1XpP-X1E_f4LwDdOn2JmWsmCO2XdvFOr_iYQduUgJTuYQS&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: More ad placements following scroll based pagination.
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;More ad placements and more traction of the users.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Experience might get mixed responses from users unless carefully designed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Measure of Success:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increase in number of impressions.&lt;/li&gt;
+  &lt;li&gt;Increase in CTR.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;efficient-use-of-real-estate&quot;&gt;&lt;strong&gt;Efficient use of real-estate.&lt;/strong&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Some of the sections such as the top of the page and “right side column” of the entire search page are not used to good extent. If carefully designed, they can work as powerful ad placements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A few examples:&lt;/strong&gt; Keep the right hand side ads sticky while user scrolls, refresh the ads every time user scrolls again. Choose native and product listing ads here.&lt;/p&gt;
+
+&lt;p&gt;As of now “car cleaning” does not show any ads. There is a good chance to use the right hand panel here to show product listing type ads.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh6.googleusercontent.com/Caw-VNWHd7n-3tCRE21GBJyYXsKn5R--eZ0t2zEOUeMKPLj_zIAAJ6uaVAxAd5Td1rzrJ3dfjm12dA8nuKR3-_-ss5aCro9Hza7s8eD5P8CHq45rgsXu5ofmHUu0RTHYuYc0OQ6-&quot; width=&quot;800px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Use right half of screen for ad placements.
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; &lt;/code&gt;More ads resulting more revenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can get cluttered unless desinged well leading to loss of focus on search results.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Measure of Success:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increased placeholders for ads&lt;/li&gt;
+  &lt;li&gt;Increased impressions&lt;/li&gt;
+  &lt;li&gt;Increased CTR.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-more-product-listing-ads-on-search-results&quot;&gt;&lt;strong&gt;2. More Product Listing ads on search results:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Focus more on product listing style ads in search results. They can be app installs, registrations or e commerce related ads.&lt;/p&gt;
+
+&lt;h3 id=&quot;c-get-big-reinvent-and-aim-big-with-ads&quot;&gt;&lt;strong&gt;(C) Get Big: (Reinvent and aim big with ads)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-feed-based-ui-for-search-results&quot;&gt;1. &lt;strong&gt;Feed based UI for search results:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Scroll is always a less costly interaction than a click due to modern hardware. Hence pagination on desktop and mobile search can be replaced with feed style UI. This also solves the problem of users not visiting page 2 much. This can be experimented on mobiles first and then on desktop. Gives chance to introduce many native ads if implemented successfully.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh6.googleusercontent.com/RqUPmROrSic8pk75tcbsRhJYnk-7U_B479jbcdd0v-cwvgadqrjdha1BX6qARYwpxUAlDCG3-CkwHDbBr-Ef0I0xaOn238PzR-6l9sYORWI2oLjcne6dmknCx85QLqDqFqI6aH0o&quot; width=&quot;400px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig: Feed based UI with sponsered content
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center; display:inline;&quot;&gt;
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;https://lh4.googleusercontent.com/M6ccnMSLL94yeHDlZf3vaHlne650xeSzaHtfxo_T8byjXKe2v34yYVtVhCeX6A7kOCDdoCdYDBdJ4tUPknh716e8ZD3o-2pw4QRS3haPWPmEI9NZ3sh954VYnLQ2qk8ji9zhvCgh&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+  	&lt;figcaption style=&quot;text-align: center&quot;&gt; Fig 2: Feed based UI with sponsered content
+&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;2-anticipatorypredictive-ads&quot;&gt;2. &lt;strong&gt;Anticipatory/Predictive ads:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;While a user types “hair dryer” no ads are shown but when he types “best hair dryer” ads are shown. Search has “also try” functionality which can be applied to ad keywords. Think ahed of “also try results” and show ads for those as well in the current page. Ex: When user types “hair dryer” also show ads for “best hair dryer” that makes sense.&lt;/p&gt;
+
+&lt;h4 id=&quot;3async-results-devilry-push-results-offline&quot;&gt;3.&lt;strong&gt;Async results devilry (Push results offline):&lt;/strong&gt;**&lt;/h4&gt;
+
+&lt;p&gt;Find methods to deliver search data to user and use it as channel for ads. Similar to Google feed, keep pushing search/news/trending results stream as per user’s interest. This can act as a potential ad channel.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/SERP-Reimagined-for-better-ad-yields/&quot;&gt;Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on March 05, 2020.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Browsers - Chrome dropped support for NPAPI plugins. What's next?]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/browsers-chrome-42-plugins-wont-work/" />
+  <id>http://localhost:4000/browsers-chrome-42-plugins-wont-work</id>
+  <published>2016-01-06T00:00:00-05:00</published>
+  <updated>2016-01-06T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome. Well, this is not a surprise unless you are not following chrome’s regular updates on this topic.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chrome expressed their wish to block this way back in September, 2013. (Ref - &lt;a href=&quot;http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html&quot;&gt;http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chrome web store stopped accepting any new NPAPI based apps since September, 2013.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In November, 2014 this is confirmed and deprication timeline is announced (Ref - &lt;a href=&quot;https://blog.chromium.org/2014/11/the-final-countdown-for-npapi.html&quot;&gt;https://blog.chromium.org/2014/11/the-final-countdown-for-npapi.html&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As said, Chrome 42 (released in April, 2015) disabled these plugins by default with a hack to enable this support as an experimental feature.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Google started to move their Gtalk’s architecture completely to hangouts and made themselves ready for the big move. The time announced was sufficient enough for many apps to prepare themselves for the change.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finally, Chrome 45 (released in September, 2015) stopped the support for NPAPI plugins.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-was-the-support-dropped-&quot;&gt;Why was the support dropped ?&lt;/h2&gt;
+
+&lt;p&gt;Chrome quotes on it’s web site that -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To make browsing with Chrome safer, faster, and more stable, we stopped allowing NPAPI plugins on September 1, 2015.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Ref - &lt;a href=&quot;https://support.google.com/chrome/answer/6213033?hl=en&quot;&gt;https://support.google.com/chrome/answer/6213033?hl=en&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We can clearly see that there is intention to improve the speed of the browser by making sure that plugins and apps are run independent of the browser once launched. (This wasn’t the case with NPAPI).&lt;/li&gt;
+  &lt;li&gt;Also, we can see that this step of chrome is a push forward through more HTML5 based apps (WebRTC and etc.), browser extensions and one click install cross device apps.&lt;/li&gt;
+  &lt;li&gt;This is going to be a major hit for traditional plugin apps like java applets and silverlight apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next-for-the-apps-that-depend-on-npapi-&quot;&gt;What’s next for the apps that depend on NPAPI ?&lt;/h2&gt;
+
+&lt;p&gt;Both Java and silverlight responded by providing a workaround to run the plugin based apps for Chrome 42 to 44. But from Chrome 45, it’s not possible any more. So, they recommend to use a browser which supports NPAPI plugins. Java recommends to use Web Start apps which are like one click install apps, that does not depend on browser once installed and launched. Chrome too, suggested various alternatives to handle stuff in future.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From Java - &lt;a href=&quot;https://java.com/en/download/faq/chrome.xml&quot;&gt;https://java.com/en/download/faq/chrome.xml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;From silverlight - &lt;a href=&quot;https://support.microsoft.com/en-us/kb/3058254&quot;&gt;https://support.microsoft.com/en-us/kb/3058254&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;From Chrome - &lt;a href=&quot;https://www.chromium.org/developers/npapi-deprecation&quot;&gt;https://www.chromium.org/developers/npapi-deprecation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s clear that chrome’s push is towards WebRTC for the media and WebGL for gaming and animation. However, i am going to focus a bit on the java web start apps below which is one nice way to have cross browser and cross device one click install based apps that need to be launched from browsers. For one of my personal projects i went ahead to convert a java applet to JNLP based web start app which worked well.&lt;/p&gt;
+
+&lt;h3 id=&quot;java-web-start-apps--&quot;&gt;Java Web Start apps -&lt;/h3&gt;
+
+&lt;p&gt;Java Web start technology is shipped with your JDK and all that the user need to have is java installed on their local machines to run the apps based on this.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Introduction to Web start apps -&lt;/strong&gt;
+&lt;a href=&quot;https://www.java.com/en/download/faq/java_webstart.xml&quot;&gt;Java Web Start Intro&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Running a Web start app -&lt;/strong&gt;
+&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/deployment/webstart/running.html&quot;&gt;Running Web Start apps&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Migrating Java applets to JNLP Web start apps -&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/7/docs/technotes/guides/jweb/applet_migration.html&quot;&gt;Applet Migration Guide&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://docs.oracle.com/javase/8/docs/technotes/guides/deploy/applet_dev_guide.html#CIADJHDC&quot;&gt;Applet Dev Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Simple tutorials -&lt;/strong&gt;
+&lt;a href=&quot;http://www.mkyong.com/java/java-web-start-jnlp-tutorial-unofficial-guide&quot;&gt;Web start and JNLP Tutotial 1&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://media.techtarget.com/searchDomino/downloads/CH14_0672326280.pdf&quot;&gt;Web start and JNLP Tutotial 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JNLP app demos -&lt;/strong&gt;
+&lt;a href=&quot;http://docs.oracle.com/javase/tutorial/uiswing/examples/misc/index.html&quot;&gt;JNLP Demos&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Web start appp demos -&lt;/strong&gt;
+&lt;a href=&quot;http://goworldwind.org/demos/&quot;&gt;Web Start Demos&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Web start apps are good for now but looking forward, it is most likely that WebRTC and other HTML5 improvements can replace all the plugins and it’s just the matter of time before Safari starts supporting WebRTC.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/browsers-chrome-42-plugins-wont-work/&quot;&gt;Browsers - Chrome dropped support for NPAPI plugins. What's next?&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 06, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[TimeZone - Handling requests in client's time zone in a rails app]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Handling-requests-in-client-timezone-rails-(copy)/" />
+  <id>http://localhost:4000/Handling-requests-in-client-timezone-rails (copy)</id>
+  <published>2016-01-04T00:00:00-05:00</published>
+  <updated>2016-01-04T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This post is a continuation of one of my previous posts -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/Handling-requests-in-browser-timezone-rails/&quot;&gt;TimeZone - Handling requests in client’s time zone in a rails app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is recommended to visit that post before proceeding furthur on current post.&lt;/p&gt;
+
+&lt;p&gt;This post describes an enhanced solution of rails_browser_timezone gem.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-issues-with-rails_browser_timezone--&quot;&gt;Open issues with rails_browser_timezone -&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The very first hit to the server from a browser does not pass the browser offsets, which means this request runs in either the default system timezone or the last known timezone from the DB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This method does not help when the requests are received through APIs. APIs need to either explicitly pass browser off sets with each request or the requests run in the last known timezone which is persisted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some browsers take time to reflect upon the new timezone when client’s system time zone is changed. So, those few requests made meanwhile do not have the updated timezone.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;alternatives--&quot;&gt;Alternatives -&lt;/h2&gt;
+
+&lt;p&gt;While looking at some alternatives to the previous approach all i could find was either to go with JS based timezone tracking or tracking the timezone based on the geo-location which can be obtained from the request’s IP address.&lt;/p&gt;
+
+&lt;p&gt;JS based timezone tracking is buggy when it comes to handling the time zone names on rails servers, as we know from the previous post. Though this can be fixed by mapping these time zones to rails’s timezone strings, we still have the problem that APIs cant use this method.&lt;/p&gt;
+
+&lt;p&gt;Hence, tracking the timezone based on geoip seems to be one good alternative. The only limitation of this approach is that, a user who has his system timezone different than his location’s timezone will still see the information in the location’s timezone.&lt;/p&gt;
+
+&lt;p&gt;This is just a decision based on your app and how you want to deal with it. So, wanted to write a gem with supports timezone tracking based on both browsers and geoip and leave the developers with the flexibility of deciding which method they want to use to choose this.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-comprehensive-solution--&quot;&gt;A comprehensive solution -&lt;/h2&gt;
+
+&lt;p&gt;Keeping the above discussion up, tried to put together a gem called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rails_client_timezone&lt;/code&gt; which intends to solve all the above mentioned problems and gives developers the flexibility to choose how they want to track the time zone.&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/rails_client_timezone&quot;&gt;https://github.com/udayakiran/rails_client_timezone&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please follow the README which helps to get started.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This gem reuses the logic from &lt;a href=&quot;https://github.com/udayakiran/rails_browser_timezone&quot;&gt;rails_browser_timezone gem&lt;/a&gt; to track browser based timezones.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It can track the timezone based on the ip with the help of &lt;a href=&quot;https://rubygems.org/gems/geoip/versions/1.6.1&quot;&gt;geoip gem&lt;/a&gt;. A few tweaks were needed to this gem and had to put in efforts to map some of these timezone strings to match with the rails’s timezone strings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This gem works smartly to track the timezone from ip if browser offsets are not present and it also lets the programmers set the needed preference. This is a key addition.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;explanation-for-modes--&quot;&gt;Explanation for modes -&lt;/h3&gt;
+
+&lt;p&gt;This gem supports 3 modes which can optionally be configured by the developers. Default mode is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:smart&lt;/code&gt; .  Blow is the explanation for modes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:ip -&lt;/strong&gt; Time zone will be detected based on the request’s ip address(using geoip gem’s logic)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:browser -&lt;/strong&gt; Time zone will be detected based on browser utc offsets.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:smart -&lt;/strong&gt; Time zone will be detected by browser if offsets are set or it falls back to ip(:browser mode first, which falls back to :ip mode).&lt;/p&gt;
+
+&lt;p&gt;Create a file in your initializers and set the ‘mode’ to your choice.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Say in config/initializers/rails_client_tz_init.rb&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;RailsClientTimezone&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Setting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ip&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#default value is :smart. Accepted values - :browser, :ip, :smart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;keeping-the-geoip-data-upto-date--&quot;&gt;Keeping the geoip data upto date -&lt;/h3&gt;
+
+&lt;p&gt;This is one minor limitation / update i think we will have to deal with while using this gem. This is needed only for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:ip&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:smart&lt;/code&gt; modes.&lt;/p&gt;
+
+&lt;p&gt;Geoip gem depends on geo data which consists of the information about the ips mapped to the geo locations. This database is consistent and up to date as of now, but in future to improve it’s accuracy and bring in the changes, we can update this any time. There are a number of websites which provide this data.&lt;/p&gt;
+
+&lt;p&gt;By default Geoip City db file is available in the data directory, to override that db file you can download it from Download geoip city database and place anywhere in your app. Create a file in your initializers and set the geo ip city db file path. This step is optional if you are good with the data provided by the gem.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Say in config/initializers/rails_client_tz_init.rb&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;RailsClientTimezone&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Setting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;geoip_data_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;#Default path is &amp;lt;gem_source&amp;gt;/data/geoip/GeoLiteCity.dat&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Hope that this gem provides needed help for the rails developers in handling the issues with time zones.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-client-timezone-rails-(copy)/&quot;&gt;TimeZone - Handling requests in client's time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Video streaming - Track video streaming analytics using jwplayer and videojs]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/video-streaming-analytics-plugins/" />
+  <id>http://localhost:4000/video-streaming-analytics-plugins</id>
+  <published>2015-12-20T00:00:00-05:00</published>
+  <updated>2015-12-20T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.&lt;/p&gt;
+
+&lt;p&gt;A few points to note here are -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;All our apps use either jwplayer5 or videojs to stream videos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The streaming server can be either red5 or wowza or amazon cloud front.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;options-to-track-video-analytics--&quot;&gt;Options to track video analytics -&lt;/h2&gt;
+
+&lt;p&gt;We can track this information in one of the following ways -&lt;/p&gt;
+
+&lt;h3 id=&quot;a-through-video-player-recommended--&quot;&gt;a) Through Video player (Recommended) -&lt;/h3&gt;
+
+&lt;p&gt;We can write a jwplayer plugin for desktops and videojs plugin for mobiles which will send the amount of video watched by user.&lt;/p&gt;
+
+&lt;p&gt;On server, this data can be written either directly to DB after processing or first to a store like redis/memcached and then to the database.&lt;/p&gt;
+
+&lt;h4 id=&quot;advantages--&quot;&gt;Advantages -&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;This keeps video tracking logic generic and app independent. Same plugin works for all apps and all streaming servers. No maintenance is needed if we switch streaming servers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Very loosely coupled and same code works for both mobiles and desktops.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Can be easily extended to track more info as needed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;b-through-steaming-server-not-recommended&quot;&gt;b) Through steaming server (Not Recommended)&lt;/h3&gt;
+
+&lt;p&gt;We need to write an app for the streaming server (red5/wowza/nginx-rtmp) which tracks it based on the client/connection. Paid streaming services like wowza and AWS cloud front provide some of these stats out of the box but others do not. This data needs to be exposed to app servers so that they can access it and store in their database. Streaming server can also push the data.&lt;/p&gt;
+
+&lt;h4 id=&quot;disadvantages--&quot;&gt;Disadvantages -&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Complex to build. Need to build the red5/wowza apps and also a way to store data locally and then push/expose it to the web apps.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not maintainable. We need to write different apps if we need to move to another media server.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;implementation--&quot;&gt;Implementation -&lt;/h2&gt;
+
+&lt;p&gt;Wrote two plugins for jwplayer and videojs each using their JS APIs. The plugins can track the below information session by session. This can be reported like JSON to the server end point URL that is configured.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Progress&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time spent on the video in any session&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Video duration&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Browser/Device (not included in params. Just read “user-agent” header of each request)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of attempts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pass any additional data during initialzation so that it can be sent to the server along with the updates.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also, lets you resume from the video from the last left point if you choose to.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below is the source code of the plugins and usage instructions.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-jwplayer--&quot;&gt;For Jwplayer -&lt;/h3&gt;
+
+&lt;p&gt;Plugin name - jwplayer-tracker&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/jwplayer-tracker&quot;&gt;https://github.com/udayakiran/jwplayer-tracker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-videojs--&quot;&gt;For VideoJs -&lt;/h3&gt;
+
+&lt;p&gt;Plugin name - videojs-tracker&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/videojs-tracker&quot;&gt;https://github.com/udayakiran/videojs-tracker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
+
+&lt;h2 id=&quot;applications-of-the-tracked-analytics--&quot;&gt;Applications of the tracked analytics -&lt;/h2&gt;
+
+&lt;p&gt;Though the plugins send data in the raw format, following information can be tracked by using this effectively.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of users on each devise.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of users by location.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Amount of time spent on the video.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of people who completely watch the video.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All the above information can be tracked over period of time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Below is a simple image showing how the tracked data can be presented.&lt;/p&gt;
+
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/jwplayer-streaming.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Original figure taken from jwplayer.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-streaming-analytics-plugins/&quot;&gt;Video streaming - Track video streaming analytics using jwplayer and videojs&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 20, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Rails/Nodejs - Upgrade and scale up Juggernaut]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/" />
+  <id>http://localhost:4000/Upgrade-and-scale-up-juggernaut</id>
+  <published>2015-11-10T00:00:00-05:00</published>
+  <updated>2015-11-10T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;We used &lt;a href=&quot;https://github.com/maccman/juggernaut&quot;&gt;macman’s juggernaut&lt;/a&gt; for realtime push notifications and chat for one of the rails apps. It was used in a 6 year old legacy app with &lt;a href=&quot;socket.io&quot;&gt;socket.io’s&lt;/a&gt; long polling mechanism. nodejs used was of version 0.2.4. Things have changed so much in the realtime app’s space since then and juggernaut is deprecated now.&lt;/p&gt;
+
+&lt;p&gt;We needed to upgrade juggernaut to get the following -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We had to upgrade socket.io to a version atleast &amp;gt; 0.8 to solve some connectivity problems with reconnection, load balancing and to switch to websockets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nodejs needed to be upgraded to as latest as possible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We also had to scale up the way our chat’s roster script that populates list of online users. This needed some code changes and will explain this process below.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;upgrading-juggernaut--&quot;&gt;Upgrading Juggernaut -&lt;/h2&gt;
+
+&lt;p&gt;As macman/juggernaut repo is deprecated and is not being maintained now. So, we did a bit of research and see that we should go with - &lt;a href=&quot;https://github.com/Groupsite/juggernaut&quot;&gt;GroupSite/juggernaut&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is forked here - &lt;a href=&quot;https://github.com/udayakiran/juggernaut&quot;&gt;udayakiran/juggernaut&lt;/a&gt; and will be maintained from here after.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation--&quot;&gt;Installation -&lt;/h3&gt;
+
+&lt;p&gt;1) Install node https://nodejs.org/en/blog/release/v0.10.40/&lt;/p&gt;
+
+&lt;p&gt;2) Clone or down load the repo to a directory say “juggernaut”&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    git clone https://github.com/udayakiran/juggernaut juggernaut&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;3) Setup juggernaut -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    cd juggernaut
+
+    npm install&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;4) Download latest version of redis (3.0.5) and extract it. Optionally it can be installed.&lt;/p&gt;
+
+&lt;p&gt;5) Start redis and juggernaut&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    cd redis_src_dir
+
+    ./redis-server
+
+    cd juggernaut
+
+    node server.js #nodejs server.js on Ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;changes-to-application&quot;&gt;Changes to application&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Include the application.js file in the app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    %script{:type =&amp;gt; &quot;text/javascript&quot;, :src  =&amp;gt; &quot;#{chat_server_url}/application.js&quot;, :charset =&amp;gt; &quot;utf-8&quot;}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With this clone of juggernaut, socket.io is upgraded to 0.9.9 and application.js code suggests that the way we handle channels is changed. Instead passing channel like a string, it needs to be passed like javascript object.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;populating-roster-in-a-better-way&quot;&gt;Populating roster in a better way&lt;/h2&gt;
+
+&lt;p&gt;This legacy app had it’s chat built using juggernaut which needed the list of online users to be shown. This was not designed to scale. The list of online users were getting populated through periodic ajax requests to a rails metal controller which reads the data from an SQL DB. It had support for group chats, so every ajax request used to get the details of groups of the user, making the SQL queries further heavy.&lt;/p&gt;
+
+&lt;p&gt;Despite this being slow, it was causing huge load on app servers when number of online users are more, eventually causing scalability issues to the other parts og the app. This needs to happen though a push mechanism of juggernaut and online users need to be read from redis, rather than from a SQL database.&lt;/p&gt;
+
+&lt;h4 id=&quot;references--&quot;&gt;References -&lt;/h4&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - https://github.com/Groupsite/juggernaut ('Building a roster' section)
+
+  - http://www.ryanepp.com/blog/how-do-i-tell-if-a-user-is-online
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Store the online users in redis. User may login from multiple tabs. So, a count is maintained to indicate the user logged in status. This counter is incremented on juggernaut connect callback and is decremented on juggernaut disconnect callback. When this count is 0, user is offline.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When a user record is active in redis, it should include user displayname , profile image url and groups details are stored as well. No DB queries are to be run when online user details are fetched.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When ever data gets updated, juggernaut event is fired to the relevant channels and the changes are pushed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Need to write additional juggernaut callbacks on client to handle user coming online and going offline.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also, care needs to be taken that in case redis goes down, or data is lost, it is handled gracefully.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once this is implemented, the app started perfectly scaling up.&lt;/p&gt;
+
+&lt;h2 id=&quot;load-balancing-the-components--&quot;&gt;Load balancing the components -&lt;/h2&gt;
+
+&lt;p&gt;We use HAproxy as the loadbalancer. This works for all the components.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Webscokets are loadbalanced through TCP.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Redis can either be loadbalanced with redis sentinel and proxy like &lt;a href=&quot;https://support.pivotal.io/hc/en-us/articles/205309388-How-to-setup-HAProxy-and-Redis-Sentinel-for-automatic-failover-between-Redis-Master-and-Slave-servers&quot;&gt;here&lt;/a&gt; or with master-salve setup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chat roster script can be run on each app server instance.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next-&quot;&gt;What’s next ?&lt;/h2&gt;
+
+&lt;p&gt;Obviously, there are a number of methods to take the realtime apps forward. The roster script is not completely scalable yet as it still involves ruby. So, we can look at more concurrent options.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Convert roster script from ruby to nodejs or something that offers more concurrency.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We love XMPP  and erlang based &lt;a href=&quot;https://www.ejabberd.im/&quot;&gt;Ejabberd&lt;/a&gt; as server. We are successfully using this in a few of other apps and experienced great deal of flexibilty, cross device support and scalability. There are a number of XMPP servers out there.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Upgrade-and-scale-up-juggernaut/&quot;&gt;Rails/Nodejs - Upgrade and scale up Juggernaut&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ruby - Ruby without rails. Libraries and frameworks]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/ruby-without-rails/" />
+  <id>http://localhost:4000/ruby-without-rails</id>
+  <published>2015-11-02T00:00:00-05:00</published>
+  <updated>2015-11-02T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby’s flexibility and ruby became famous due to rails’s simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.&lt;/p&gt;
+
+&lt;p&gt;Having said that, ruby’s powerful, programmer friendly design helped in the evolution of a lot of other frameworks which might not have sung so well like rails but are cool enough to have a try at.
+Below are some of them that i would like to mention.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-sinatra--&quot;&gt;1) Sinatra -&lt;/h3&gt;
+
+&lt;p&gt;Sinatra is the next most famous ruby framework after rails. It is minimalistic web framework and lightness is the core of it. Tries to be non opinionated as much as it can. This is the most famous and suitable option when you need to build simple and single page webapps and ship to production fast. Though a number of templates and helpers are added in the later versions it does not look promising to build complex apps yet.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;http://www.sinatrarb.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Documentation - &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;http://www.sinatrarb.com/intro.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/sinatra/sinatra/&quot;&gt;https://github.com/sinatra/sinatra/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-rubymotion--&quot;&gt;2) RubyMotion -&lt;/h3&gt;
+
+&lt;p&gt;Build mobile apps with ruby! Yes ! RubyMotion is a cross platform framework to build Android, iOS and Mac OSX apps  using ruby code. Ruby code is compiled to native apis on each of these devises. RubyMotion looks promising and there are already a number of apps out on app store and google play which are built on this. Though it looks cool for rubyists, performance of the apps compared to that of the native mobile apps seem to be a bit on the southern side.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://www.rubymotion.com&quot;&gt;http://www.rubymotion.com&lt;/a&gt;
+Features - &lt;a href=&quot;http://www.rubymotion.com/tour/features/&quot;&gt;http://www.rubymotion.com/tour/features/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-lotus--&quot;&gt;3) Lotus -&lt;/h3&gt;
+
+&lt;p&gt;Personally i feel Lotus very interesting since the very little exploration i could do with it. It is a modular framework with container architecture by default where multiple apps are run with the same ruby process. Though it is MVC, it maintans the separation of concerns there by staying highly non opinionated. As each component is standalone, this can be used for full stack webapps and micro services architectures.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://lotusrb.org/&quot;&gt;http://lotusrb.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://lotusrb.org/guides/&quot;&gt;http://lotusrb.org/guides/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/lotus/lotus&quot;&gt;https://github.com/lotus/lotus&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-padrino--&quot;&gt;4) Padrino -&lt;/h3&gt;
+
+&lt;p&gt;Padrino is a full stack web framework built on top of Sinatra. It claims to help developers with a number of helpers and little bit of functional support to build larger and more complex systems while keeping the lightness of Sinatra to some extent. Their github’s README has a clean and precise explanation of the framework.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://padrinorb.com/&quot;&gt;http://padrinorb.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://padrinorb.com/guides/standalone-usage-in-sinatra/&quot;&gt;http://padrinorb.com/guides/standalone-usage-in-sinatra/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/padrino/padrino-framework&quot;&gt;https://github.com/padrino/padrino-framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-cuba--&quot;&gt;5) Cuba -&lt;/h3&gt;
+
+&lt;p&gt;Cuba is a minimalistic ruby micro framework to build weapps. It calls itself to be inspired by ‘rum’, a minimalistic rack mapper. While i m unsure about its’s popularity as framework, except for the github stars, it looks like something to give a try at if you want a lean and micro ruby framework.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://cuba.is/&quot;&gt;http://cuba.is/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/soveran/cuba&quot;&gt;https://github.com/soveran/cuba&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://theguidetocuba.io/&quot;&gt;http://theguidetocuba.io/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/ruby-without-rails/&quot;&gt;Ruby - Ruby without rails. Libraries and frameworks&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ejabberd - Issues faced and tips]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Ejabberd-tips/" />
+  <id>http://localhost:4000/Ejabberd-tips</id>
+  <published>2015-09-02T00:00:00-04:00</published>
+  <updated>2015-09-02T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our’s is a rails app that uses ejabberd as chat server.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-user-registration-from-our-app--&quot;&gt;1) User registration from our app -&lt;/h2&gt;
+
+&lt;p&gt;Our requirement is that when a new user signs up to our app, a new ejabberd account needs to be created. Obviously this is the same case with many of the apps. We used ruby’ XMPP client for this. We were seeing an error that users could not be created as the limit for the number of users reached.&lt;/p&gt;
+
+&lt;p&gt;The reason is that ejabberd by default has a limit that only x number of users can be registered every 10 mins. This is configurable.&lt;/p&gt;
+
+&lt;h3 id=&quot;fix--&quot;&gt;Fix -&lt;/h3&gt;
+
+&lt;p&gt;Edit the ejabberd config file (a yml file and in our case it is at - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/opt/ejabberd-15.04/conf/ejabberd.yml&lt;/code&gt;) and set registration_timeout to needed value. As we did not want any limit here we had set it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;infinity&lt;/code&gt; .&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# around line 481 for ejabberd-15.504 - under 'register' stanza
+
+register:
+   all: allow
+   registration_timeout: infinity
+
+# around line 494 - top level stanza
+registration_timeout: infinity&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-avoid-websocket-timeout--&quot;&gt;2) Avoid websocket timeout -&lt;/h2&gt;
+
+&lt;p&gt;We used websockets for the users to connect to ejabberd and looks like ejabberd treats the websocket connection as idle if there is no activity for 5 mins and terminates the connections. So, idle users were getting disconnected. To prevent this, we chose to enable mod_ping and made sure the connections do not get terminated.&lt;/p&gt;
+
+&lt;h3 id=&quot;enabling-mod_ping--&quot;&gt;Enabling mod_ping -&lt;/h3&gt;
+
+&lt;p&gt;In ejabberd.yml&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;mod_ping:
+    send_pings: true
+    ping_interval: 250 # default value is 32 secs. 4.5 mins ll do for us.
+    timeout_action: none&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;More about mod_ping - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modping&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modping&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-creating-a-global-shared-roster--&quot;&gt;3) Creating a global shared roster -&lt;/h2&gt;
+
+&lt;p&gt;We wanted every user in the app to be able to see every other user. There are group chats but they are implemented through chat rooms. This means every user is in the contacts of every other user. So, we decided not to create roster list for each user (which is obviously not smart) and instead created a global shared roster like explained below.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access ejabberd admin interface on browser - http://yourhost:5280/admin&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On the left navigation panel, choose Virtual hosts &amp;gt; yourhost &amp;gt; Shared Roster Groups.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create one with name ‘everyone’ members value as ‘@all’ and displayed groups as ‘everyone’. (Note - ‘everyone’ is just a sample name. Use your desired name.). It looks like the screenshot below -&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/shared_roster_all.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Shared global roster creation&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Learn more about shared roster here - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references--&quot;&gt;References -&lt;/h2&gt;
+
+&lt;p&gt;Ejabberd Documentation - &lt;a href=&quot;http://docs.ejabberd.im/&quot;&gt;http://docs.ejabberd.im/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ejabberd Configuration - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Ejabberd-tips/&quot;&gt;Ejabberd - Issues faced and tips&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/" />
+  <id>http://localhost:4000/Rails-ajaxification-with-ajaxify-rails</id>
+  <published>2015-08-13T00:00:00-04:00</published>
+  <updated>2015-08-13T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-do-you-need-this-&quot;&gt;Why do you need this ?&lt;/h3&gt;
+
+&lt;p&gt;The main reason we wanted to do this is to keep the user on the same page through out the interactions. This was needed as we were supporting webRTC based voice calls through websocket connections, which we did not want to drop when user navigates across the pages.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements--&quot;&gt;Requirements -&lt;/h3&gt;
+&lt;p&gt;We wanted to convert a rails 4.2 app to completely ajax. Followig are some of the requirements.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;App should work like a single page app without any new page navigation.&lt;/li&gt;
+  &lt;li&gt;Code changes need to be as minimum as possible.&lt;/li&gt;
+  &lt;li&gt;There should be a clear feedback to the users while ajax requests are in progress.&lt;/li&gt;
+  &lt;li&gt;We should be able to support page specific assets (js, CSS and images)&lt;/li&gt;
+  &lt;li&gt;Assets and specific sections of the page need to be reloaded after deployments.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;implementation--&quot;&gt;Implementation -&lt;/h1&gt;
+
+&lt;p&gt;Following gems are used with a few tricks to achieve all our requirements.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/udayakiran/ajaxify_rails&quot;&gt;Ajaxify-rails&lt;/a&gt; - ajaxifying the app (works similar to turbo links). This is a clone of &lt;a href=&quot;https://github.com/ncri/ajaxify_rails&quot;&gt;ncri’s repo&lt;/a&gt; with a few bug fixes and one enhancement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gazay/gon&quot;&gt;Gon&lt;/a&gt; - Pass ruby variables to javascript (typically from controllers)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.hubspot.com/pace/&quot;&gt;Pace&lt;/a&gt; - Youtube style horizontal progress bar.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-ajaxification-implementation--&quot;&gt;Basic ajaxification implementation -&lt;/h2&gt;
+
+&lt;p&gt;ajaxify_rails gem is preferred for this over turbo_links for one major reason i.e As of rails 4.2 turbo links gem always replaces the body tag. We cant specify different containers which need to be updated for different ajax requests. There is a mention that this will be solved in rails 5 and future versions of turbo links. So, ajaxify_rails worked very well for us here.&lt;/p&gt;
+
+&lt;p&gt;Following are the details of ajaxify_rails gem and how certain things are handled during ajaxification.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-the-gem--&quot;&gt;About the gem -&lt;/h3&gt;
+
+&lt;h4 id=&quot;features--&quot;&gt;Features -&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automatically turning internal links into ajax links that load content without a full page reload.&lt;/li&gt;
+  &lt;li&gt;Form submissions are converted to ajax as well.&lt;/li&gt;
+  &lt;li&gt;Provides a way to specify the ‘content_container’ which needs to get the ajax response updated.&lt;/li&gt;
+  &lt;li&gt;A number of callbacks are available to perform things during ajax life cycle.&lt;/li&gt;
+  &lt;li&gt;Provides a way to reload whole page after the deployments when assets expire.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;improvements-neeeded--&quot;&gt;Improvements neeeded -&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One thing that this gem lacked in it is to reload the whole page after deployments if a specific view file or layout file has changed. But we could add this ourselves and the code is present in &lt;a href=&quot;https://github.com/udayakiran/ajaxify_rails&quot;&gt;My git repo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;usage--&quot;&gt;Usage -&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ajaxify.init() is called on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dom:loaded&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;By default the response of the ajax request is updated inside a element with id “main”. This can be changed for each ajax request by setting “content_container” value as needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;few-internals--&quot;&gt;Few internals -&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Page title is supported by default.&lt;/li&gt;
+  &lt;li&gt;Loader can be customized with our own css to the element “ajaxify_loader”&lt;/li&gt;
+  &lt;li&gt;Loader can be disabled by setting “display_loader” to false while initializing or by setting class “display_loader” or “no_display_loader” to each link we are ajaxifying.&lt;/li&gt;
+  &lt;li&gt;Flash messages are supported by default. If flash message of types other than “notice” is used then it should be specified as “flash_types” while initializing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;events--callbacks--&quot;&gt;Events &amp;amp; Callbacks -&lt;/h4&gt;
+
+&lt;p&gt;There are a number of events supported e.g - content_loaded, flast_displayed, before_load, content_inserted, load_error and etc. JS callbacks can be written for each of these events.&lt;/p&gt;
+
+&lt;h4 id=&quot;scrolling--&quot;&gt;Scrolling -&lt;/h4&gt;
+
+&lt;p&gt;By default the page scrolls to to the top on every request. This can be turned off by setting “scroll_to_top” to false while initializing. Scrolling of individual links can also be turned off or turned on by setting class “no_scroll_to_top” or “scroll_to_top”&lt;/p&gt;
+
+&lt;h4 id=&quot;turn-off-ajaxification--&quot;&gt;Turn off ajaxification -&lt;/h4&gt;
+&lt;p&gt;Ajaxification can be temporarily turned off for some pages using Ajaxify.activate(false) and can be turned on using Ajaxify.activate().&lt;/p&gt;
+
+&lt;h4 id=&quot;loading-controller-specific-assets--&quot;&gt;Loading controller specific assets -&lt;/h4&gt;
+
+&lt;p&gt;Normal requests are served through one layout where as ajaxified requests are served with a layout which has the normal layout wrapped in. We include the contoller specific assets in this layout.&lt;/p&gt;
+
+&lt;h4 id=&quot;expiring-assets-after-deployment--&quot;&gt;Expiring assets after deployment -&lt;/h4&gt;
+
+&lt;p&gt;ajaxify_rails gem provides a way to expire the assets (js, css and images) after deployment. It reloads the whole page with the first ajaxified request after the deployment. The only change needed for this to work is to make sure the below option to true in your envionment file (staging.rb/development.rb/production.rb)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;digest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;reloading-the-whole-page-when-any-layoutsapp-logic-changes--&quot;&gt;Reloading the whole page when any layouts/app logic changes -&lt;/h4&gt;
+
+&lt;p&gt;Say you have made the changes to some view files and after the server restart, the already opened pages are required to reload whole page instead with ajax, there is a way provided for this. You ll have to just assign array of those filenames along with some digest.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;layout_digests&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'xyz.haml-efegegegega787878'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To create this list, following code can be added in an initializer file.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;FILES_TO_BE_OBSERVED&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;app/views/layouts/_header.html.haml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;app/views/layouts/_logo.html.haml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;digests&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;FILES_TO_BE_OBSERVED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;digests&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Digest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;SHA256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;hexdigest&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;rescue&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;next&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;layout_digests&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Digest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MD5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;hexdigest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;digests&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;passing-ruby-variables-to-js--&quot;&gt;Passing ruby variables to JS -&lt;/h2&gt;
+
+&lt;p&gt;We had a specific case where we wanted to update a particular div out side the content div after every ajax response. The value of the div comes from controller with every request. So, this needed us to have a way to pass the controller variables to javascript.&lt;/p&gt;
+
+&lt;p&gt;This was done by using &lt;a href=&quot;https://github.com/gazay/gon&quot;&gt;Gon gem&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gon passes the controller variables to javascript assets files as js variables.&lt;/li&gt;
+  &lt;li&gt;Gon has to be initialized for every request, by including “include_gon(:init =&amp;gt; true)” in the layout file.&lt;/li&gt;
+  &lt;li&gt;Any controller variable is declared as “gon.variable_name = something” in the controller and can be accessed in the javascript by “gon.variable_name”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;youtube-style-progress-bar-with-pace--&quot;&gt;Youtube style progress bar with pace -&lt;/h2&gt;
+
+&lt;p&gt;We wanted to give a clear feedback about the progress of the ajaxified requests. One good UX for this is to show a progress bar at the top of the page like how You tube and many other apps do.&lt;/p&gt;
+
+&lt;p&gt;This was done using &lt;a href=&quot;http://github.hubspot.com/pace&quot;&gt;Pace&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By default pace gem displays the progress bar for page load requests, ajax requests, ajaxified requests as well as for the elements which we can specify (default element is body tag).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;apis-provdided-by-pace--&quot;&gt;Apis provdided by Pace -&lt;/h3&gt;
+
+&lt;p&gt;start, restart, stop, track and ignore.&lt;/p&gt;
+
+&lt;h3 id=&quot;events-and-callbacks--&quot;&gt;Events and callbacks -&lt;/h3&gt;
+
+&lt;p&gt;start, restart, stop, done, hide.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage---1&quot;&gt;Usage -&lt;/h3&gt;
+
+&lt;p&gt;Include pace.js and set the options for page using “window.paceOptions = {}”&lt;/p&gt;
+
+&lt;p&gt;For more details refer the &lt;a href=&quot;http://github.hubspot.com/pace&quot;&gt;Hom page&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Ajaxification of an already built app was really cool and glad that we could do it with minimal code change in a clean way. This helped us in improving the speed of the app and also helping to stay on a single page and do a lot of things, there by persisting the websocket connections and etc. while navigating in between different page links.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/&quot;&gt;Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on August 13, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JavaScript - Pro JavaScript Tips]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Pro-JS-Tips/" />
+  <id>http://localhost:4000/Pro-JS-Tips</id>
+  <published>2015-07-10T00:00:00-04:00</published>
+  <updated>2015-07-10T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Slides from one of our tech talks where a few tips and tools for JS apps are mentioned. This is just a first talk in the series of javascript related discussions.&lt;/p&gt;
+
+&lt;p&gt;Topics include -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;OOP &amp;amp; Inheritance - prototype based objects, inheritance &amp;amp; multiple inheritance with ring.js&lt;/li&gt;
+  &lt;li&gt;Enhanced functional behavior - underscore.js&lt;/li&gt;
+  &lt;li&gt;Running tasks - grunt.js&lt;/li&gt;
+  &lt;li&gt;Writing tests - jasmine&lt;/li&gt;
+  &lt;li&gt;Packaging the code - npm &amp;amp; bower&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/n63NASypSjo6p5&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/n63NASypSjo6p5&quot; title=&quot;Tech Talk - Pro JavaScript Tips&quot; target=&quot;_blank&quot;&gt;Tech Talk - Pro JavaScript Tips&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/udayslideshare&quot;&gt;Udaya Kiran&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Pro-JS-Tips/&quot;&gt;JavaScript - Pro JavaScript Tips&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on July 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Customer Centricity - Product Centric Vs Customer Centric]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/customer-centirc-vs-product-centric/" />
+  <id>http://localhost:4000/customer-centirc-vs-product-centric</id>
+  <published>2015-06-06T00:00:00-04:00</published>
+  <updated>2015-06-06T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;It is common for the product development world to categorize organizations as either ‘Product centric’ or ‘Customer centric’ and stress on the point that you need to be ‘Customer centric’ to sremain successful. In my opinion, there are no separate entities called ‘Product centric’ and ‘Customer centric’ . Every product development company needs to be ‘product centric’ and every product being built needs to be ‘Customer centric’. This results in compounding the customer satisfaction. Especially when you are building public facing enterprise products targeting a million or a billion users, it is critical to understand both the customers and the product, and to maintain harmony between them. Its important not to be too focused on individual customers so that we keep the product generic and are solving the problems we intend to solve.&lt;/p&gt;
+
+&lt;p&gt;It is not only important to have a vision and process, but also execute them through the product.
+More than our sales representatives and advertisements, it’s the product that the customers spend more time with.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Build the products that speak to the customers.&lt;/li&gt;
+  &lt;li&gt;Build the products that listen to the customers.&lt;/li&gt;
+  &lt;li&gt;Build the products that educate the customers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Listed below are some things we follow which, i think are the efforts towards building such products.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-and-development&quot;&gt;DESIGN AND DEVELOPMENT:&lt;/h2&gt;
+
+&lt;p&gt;Always go for small and focused product development teams. This worked very well for us. Being a small and focused team, we have an ideal combination here where the designers and the developers work very closely on products. The principles followed during the designs are to keep things consistent and intuitive. Every screen and behavior is designed and decided in a way that it not only looks visually appealing but is also functionally efficient.
+One example of a good design comes from one of our learning products is that any trainer can set up a site in a few seconds, create courses and start teaching.&lt;/p&gt;
+
+&lt;p&gt;We focus on giving the best experience not only to the professionals but also beginners. A great way to measure this is through customer calls. We aim at receiving minimum calls from the users asking us about a certain feature. If there is a feature which is not intuitive enough, it will not be delivered to the end user until it gets simplified.&lt;/p&gt;
+
+&lt;p&gt;Apart from this, we also understand that the users make mistakes. Hence, we make the user interface forgiving by providing the options to recover from errors.&lt;/p&gt;
+
+&lt;p&gt;Developers  not only play a vital role in transforming the design into a functional product but also in enhancing the designs. Developers take initiatives to make complex things simple. They don’t hesitate writing a few thousand lines of extra code to simplify the customer’s job.
+For example,  setting up own domain is automated so that even the users with little technical knowledge can do these things with the click of a button.
+Every feature is built in a way that it scales. So customers don’t have to worry about peak traffic hours. Dev-ops team contributes in identifying and fixing the scalability problems.&lt;/p&gt;
+
+&lt;p&gt;Hence, there is a perfect co-ordination among the teams which results in a highly efficient customer experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;review-and-evolve&quot;&gt;REVIEW AND EVOLVE:&lt;/h2&gt;
+
+&lt;p&gt;Product goes through a number of reviews before and after the release. Before the release, review happens by paying attention to each and every detail so that a pixel perfect product is delivered. Each page, section and string is reviewed carefully so that customers do not find any faulty or ambiguous behavior. We believe that a product is never complete. Once it is released, efforts will be made in an iterative fashion to have the things improved and simplified. One example is that we keep upgrading the User Interface various rounds with a view of improving the experience every time and keep it up to date.&lt;/p&gt;
+
+&lt;h2 id=&quot;support&quot;&gt;SUPPORT:&lt;/h2&gt;
+
+&lt;p&gt;This is a critical factor in keeping the customers happy. We do not hold a huge support team for any of the products but product itself is built in a way to help the support process more efficient. We support our customers in two ways:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-proactive-support&quot;&gt;1. Proactive support:&lt;/h4&gt;
+
+&lt;p&gt;We do not wait for the customers to report the issues back but product itself keeps monitoring various customer interactions to identify problems. Exception notifiers, real time monitoring and google analytics play an important role in identifying issues proactively and fix them without customers having to report. This is an example of product listening to the customers&lt;/p&gt;
+
+&lt;h4 id=&quot;2-reactive-support&quot;&gt;2. Reactive support:&lt;/h4&gt;
+
+&lt;p&gt;This happens when customer requests for help about the product. Reaching out to the support team has been made very simple and we typically respond as soon as possible. Developers are closely involved in this part as well and so far there are not many customer questions that are left unanswered.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;In conclusion, all the processes are product centric with the customers in mind. This helps us in pushing the limits of the old 80-20 rule (if 80% of your customers are happy, you are successful) by keeping the happy customers percentage as close to 100 as possible.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/customer-centirc-vs-product-centric/&quot;&gt;Customer Centricity - Product Centric Vs Customer Centric&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on June 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Scalability - Time to relook at you distributed file system.]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Time-to-relook-at-dfs/" />
+  <id>http://localhost:4000/Time-to-relook-at-dfs</id>
+  <published>2015-05-03T00:00:00-04:00</published>
+  <updated>2015-05-03T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This is a post explaining how we realized our scalability bottle necks and considered the alternatives for our distributed file system.&lt;/p&gt;
+
+&lt;p&gt;We strongly follow the distributed architecture and try to scale out each of our components as much as possible. At the same time, care is taken that things are not scaled up prematurely but they are done as we go in an incremental fashion. One such components of us was the distributed file system.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem--&quot;&gt;Problem -&lt;/h2&gt;
+
+&lt;p&gt;We wanted to save some static assets and videos from our app servers on to a content server through a mounted drive which is mounted using &lt;a href=&quot;https://www.gluster.org/&quot;&gt;GlusterFS&lt;/a&gt;. Our files can be small text files, images and etc. plus videos that can be of size upto 3-4 GBs. We wanted to use glusterfs for a number of reasons and easy to mount and manage is one of those. Things went very well for more than a year and we had collected close to 100GB data on production. Suddenly we were seeing issues like slow response times, especially with large video uploads. It reached a state where a video of size 3 GB was taking 2-3 mins time to get written to the disk.&lt;/p&gt;
+
+&lt;h2 id=&quot;analysis--options--&quot;&gt;Analysis &amp;amp; Options -&lt;/h2&gt;
+
+&lt;p&gt;Looking more at the details we found that our dfs was the real bottleneck. A simple file copy was taking close to 2 mins to write the file to the hard disk. A few things we did and wanted to do were -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move to faster SSD hard disks.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch from our 1 gbps network to a faster one.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Either optimize or consider alternatives for the dfs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First two changes are infrastructure related but the third one needed some real research into. A few performance optimizations did not help us much and we considered some alternatives. Below presentation titled &lt;a href=&quot;http://www.slideshare.net/azilian/performance-comparison&quot;&gt;‘Performance comparison of Distributed File Systems on 1Gbit networks’&lt;/a&gt; gives some insights.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/bqytUCI2lOC2QY&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/azilian/performance-comparison&quot; title=&quot;Performance comparison of Distributed File Systems on 1Gbit networks&quot; target=&quot;_blank&quot;&gt;Performance comparison of Distributed File Systems on 1Gbit networks&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/azilian&quot; target=&quot;_blank&quot;&gt;Marian Marinov&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;h3 id=&quot;decision--&quot;&gt;Decision -&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;After a bit of research we wanted to move to Hadoop DFS as we needed good speeds for both small and large files and we wanted to have a truly distributed system.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We wanted this solution to be like a mounted file system. So, went ahead with mapr’s implementation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The next thing is to see if this really does the needed job, and i m writing down a few speed tests that show this.&lt;/p&gt;
+
+&lt;h2 id=&quot;performance-testing-with-hdfs--&quot;&gt;Performance testing with HDFS -&lt;/h2&gt;
+
+&lt;p&gt;Showing the file copy speeds from local machine to HDFS drive and vice versa that indicate the improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Using cp command from Local to HDFS -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;File size&lt;/td&gt;
+      &lt;td&gt;Machine&lt;/td&gt;
+      &lt;td&gt;Start time&lt;/td&gt;
+      &lt;td&gt;End time&lt;/td&gt;
+      &lt;td&gt;Remarks&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Small file (mention size 50 MB)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&amp;lt; 1Sec&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Medium file (mention size 615 Mb)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;07:52:20&lt;/td&gt;
+      &lt;td&gt;07:52:23&lt;/td&gt;
+      &lt;td&gt;3 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Large file (mention size 1.1GB)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;07:55:18&lt;/td&gt;
+      &lt;td&gt;07:55:24&lt;/td&gt;
+      &lt;td&gt;6 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Very large file (mention size 2.4 GB)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;07:46:52&lt;/td&gt;
+      &lt;td&gt;07:47:14&lt;/td&gt;
+      &lt;td&gt;22 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Using cp command from HDFS to Local -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;File size&lt;/td&gt;
+      &lt;td&gt;Machine&lt;/td&gt;
+      &lt;td&gt;Start time&lt;/td&gt;
+      &lt;td&gt;End time&lt;/td&gt;
+      &lt;td&gt;Remarks&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Small file (mention size 50 MB)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&amp;lt; 1Sec&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Medium file (mention size 615 Mb)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;08:05:39&lt;/td&gt;
+      &lt;td&gt;08:05:41&lt;/td&gt;
+      &lt;td&gt;2 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Large file (mention size 1.1GB )&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;08:02:52&lt;/td&gt;
+      &lt;td&gt;08:02:56&lt;/td&gt;
+      &lt;td&gt;4 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Very large file (mention size 2.4 GB)&lt;/td&gt;
+      &lt;td&gt;10.229.94.18&lt;/td&gt;
+      &lt;td&gt;07:58:20&lt;/td&gt;
+      &lt;td&gt;07:58:37&lt;/td&gt;
+      &lt;td&gt;17 secs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We can clearly see that a 2.4 GB file is taking about 20 secs of time compared to 2 mins with glusterfs. So, it is clear and we went ahead with HDFS.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion--&quot;&gt;Conclusion -&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;There are a number of DFS solutions out there and the one that suits you is the one to start off easily and lets you optimize later. Gluster helped us to get started fast and run smoothly for a year or so. Once we hit more than a few hundred gbs of data and started seeing the problems, we just switched to HDFS.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Time-to-relook-at-dfs/&quot;&gt;Scalability - Time to relook at you distributed file system.&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on May 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ruby/Rails - Database replication with rails4]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Rails-database-replication/" />
+  <id>http://localhost:4000/Rails-database-replication</id>
+  <published>2015-04-11T00:00:00-04:00</published>
+  <updated>2015-04-11T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This is a quick write up about the options we looked at to implement master-salve DB setup (replication and failover) for active record 4 (rails 4).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Our need was that all reads should go to slave and writes to master.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some critical reads should still go to master.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There should be a flexibilty to decide which query should hit master and which one to hit slave.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;options--&quot;&gt;Options -&lt;/h2&gt;
+
+&lt;p&gt;We were using &lt;a href=&quot;https://github.com/schoefmax/multi_db&quot;&gt;schoefmax’s multi DB&lt;/a&gt; gem with rails 2 which is no more supported in rails 4. Did not make many attempts to fix it as we wanted to take the advantage of the optimizations and new query style added in Active Record 4 and implementing all of this with multi db is some effort.&lt;/p&gt;
+
+&lt;p&gt;The following gems are evaluated.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/taskrabbit/makara&quot;&gt;https://github.com/taskrabbit/makara&lt;/a&gt; -
+    &lt;ul&gt;
+      &lt;li&gt;This is great. Automatically switches reads and writes in and can be overridden easily.&lt;/li&gt;
+      &lt;li&gt;Dbs can be blacklisted.&lt;/li&gt;
+      &lt;li&gt;Sticky flows can be maintainted.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tchandy/octopus&quot;&gt;https://github.com/tchandy/octopus&lt;/a&gt; -
+    &lt;ul&gt;
+      &lt;li&gt;This is very good. Code changes needed are very simple.&lt;/li&gt;
+      &lt;li&gt;Supports sharding, replication and failover.&lt;/li&gt;
+      &lt;li&gt;Does not seem to automatically switching reads and writes that well.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wbharding/seamless_database_pool&quot;&gt;https://github.com/wbharding/seamless_database_pool&lt;/a&gt; -
+    &lt;ul&gt;
+      &lt;li&gt;This is good and does do well with replication and failover.&lt;/li&gt;
+      &lt;li&gt;Not rails 4 compatible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Chose makara gem as it seems to exactly does what we need and is being maintained actively. Octopus would be preferred over this incase we decide to go with sharding in future.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation-with-makara-gem--&quot;&gt;Implementation with makara gem -&lt;/h2&gt;
+
+&lt;h3 id=&quot;enabling-multiple-db-support-on-any-environment--&quot;&gt;Enabling multiple DB support on any environment -&lt;/h3&gt;
+
+&lt;p&gt;Change the database.yml like below. No code change is needed.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;environment&amp;gt;: #development, staging, production
+  adapter: makara_mysql2
+  encoding: utf8
+  reconnect: false
+  socket: /var/lib/mysql/mysql.sock
+  makara:
+    blacklist_duration: 3
+    master_ttl: 5
+    sticky: true
+    connections:
+      - role: master
+        host: localhost
+        pool: 5
+        username: &amp;lt;username&amp;gt;
+        password: &amp;lt;pwd&amp;gt;
+        database: &amp;lt;master_db_name&amp;gt;
+      - role: slave
+        host: localhost
+        pool: 5
+        username: &amp;lt;username&amp;gt;
+        password: &amp;lt;pwd&amp;gt;
+        database: &amp;lt;slave_db_name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;notes--&quot;&gt;Notes -&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In case any situation where a read has to explicitly go to master, we can either use stick_to_master! method on the model connection OR override the default adapter with a new one. (Ex - &lt;a href=&quot;http://www.blrice.net/blog/2014/12/06/scaling-rails-with-distributed-db-reads&quot;&gt;http://www.blrice.net/blog/2014/12/06/scaling-rails-with-distributed-db-reads&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;One common scenario where we may need to read from master is immediately after a record’s creation. This is just incase replication does not work. So, reload method can be proxied to read from master. But as of now, this can be handled by using sticky option in the config(sticky: true).  Did not find the need to address this during the testing. But, just a word of caution for your app.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Rails-database-replication/&quot;&gt;Ruby/Rails - Database replication with rails4&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on April 11, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ruby/Rails - Capistrano 3 - SVN support]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Capistrano-3-rails-deployment-svn-fix/" />
+  <id>http://localhost:4000/Capistrano-3-rails-deployment-svn-fix</id>
+  <published>2015-01-05T00:00:00-05:00</published>
+  <updated>2015-01-05T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;Well, Capistrano 3 has dropped the support for SVN as source control mechanism. Unable to to implement this in a generic way was the reason quoted. Discussion can be followed on the github issue here - &lt;a href=&quot;https://github.com/capistrano/capistrano/issues/752&quot;&gt;https://github.com/capistrano/capistrano/issues/752&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looks like there are no plans to commit this fix to the branch any time soon and SVN is no more a priority for capistrano. So, i have put together my fix (not very pretty though..) to support SVN and like to share it in case it helps.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution--&quot;&gt;Solution -&lt;/h2&gt;
+
+&lt;p&gt;Install capistrano gem from the source here -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/udayakiran/capistrano/tree/3.4.0-svn-scm&quot;&gt;https://github.com/udayakiran/capistrano/tree/3.4.0-svn-scm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This fix is currently made on 3.4.0 on a fresh branch and i am not planning to merge this with trunk any time just to keep this fix a separate one. Just go through the commit history to see the changes made. These changes can be easily applied to later versions of capistrano.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation-instructions--&quot;&gt;Installation instructions -&lt;/h3&gt;
+
+&lt;p&gt;Same as installing a gem form any git branch.&lt;/p&gt;
+
+&lt;p&gt;A) Add the below line to your Gemfile if you are using one.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rails'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git://github.com/udayakiran/capistrano.git&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:branch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3.4.0-svn-scm&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;OR&lt;/p&gt;
+
+&lt;p&gt;B) Follow the steps in &lt;a href=&quot;http://stackoverflow.com/questions/2823492/install-gem-from-github-branch&quot;&gt;this stackoverflow answer&lt;/a&gt; to build the gem.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Capistrano-3-rails-deployment-svn-fix/&quot;&gt;Ruby/Rails - Capistrano 3 - SVN support&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ruby/Rails - Wepay payment gateway integration]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Wepay-payment-gateway-integration-ruby/" />
+  <id>http://localhost:4000/Wepay-payment-gateway-integration-ruby</id>
+  <published>2014-12-12T00:00:00-05:00</published>
+  <updated>2014-12-12T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Since it’s launch, wepay has been a great payment gateway which provides best user experience along with developer friendly integration. I use this for a number of web and mobile apps and feel that this is one of the best way to handle one time purchases, recurring payments and etc. without having to store any details of the customer’s credit card.&lt;/p&gt;
+
+&lt;p&gt;I am going to share a few ideas on how to integrate wepay with your rails/sinatra app.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started--&quot;&gt;Getting Started -&lt;/h2&gt;
+
+&lt;p&gt;Wepay has an excellent developer’s site which has every single detail you may expect as a beginner. Their support is very responding and helpful. Will mention some of the important links below so you can get some help and start.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Developers site - &lt;a href=&quot;https://www.wepay.com/developer&quot;&gt;https://www.wepay.com/developer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;API documentation - &lt;a href=&quot;https://www.wepay.com/developer/reference&quot;&gt;https://www.wepay.com/developer/reference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SDKs - &lt;a href=&quot;https://www.wepay.com/developer/resources/sdks&quot;&gt;https://www.wepay.com/developer/resources/sdks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Some use cases -
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wepay.com/developer/usecases/tipping-point-payments&quot;&gt;https://www.wepay.com/developer/usecases/tipping-point-payments&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wepay.com/developer/usecases/delayed-payouts&quot;&gt;https://www.wepay.com/developer/usecases/delayed-payouts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wepay.com/developer/usecases/subscription-payments&quot;&gt;https://www.wepay.com/developer/usecases/subscription-payments&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wepay.com/developer/usecases/mobile-app&quot;&gt;https://www.wepay.com/developer/usecases/mobile-app&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Find some implementation specific details below.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation-with-ruby--&quot;&gt;Implementation with ruby -&lt;/h2&gt;
+
+&lt;p&gt;We can use wepay’s ruby SDK to integrate your rails/sinatra app with wepay. But i m going to do this by using one of the gems we developed for ourselves. Either should do fine.&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/wepay_client&quot;&gt;https://github.com/udayakiran/wepay_client&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please refer README for details on how to use this.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup-and-usage&quot;&gt;Setup and usage&lt;/h2&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;In rails put following in Gemfile&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'wepay_client'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'git://github.com/udayakiran/wepay_client.git'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Create a wepay_config.rb in config/initializers folder and setup the client with wepay client id and client secret&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'wepay_client'&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;WepayClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configure&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;client_id&lt;/span&gt;     &lt;span class=&quot;s1&quot;&gt;'11111111'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;client_secret&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'5f434343'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;use_ssl&lt;/span&gt;       &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;use_stage&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'RAILS_ENV'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'production'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;An example to call wepay apis&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;wepay&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WepayClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;instance&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;account&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wepay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;create_account&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'token data'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1122334&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;account&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:account_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;alternates--&quot;&gt;Alternates -&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, Wepay provides a ruby SDK for the same purpose - &lt;a href=&quot;https://github.com/wepay/ruby-sdk&quot;&gt;https://github.com/wepay/ruby-sdk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;wepay’s SDK can be used if you find it more comfortable. We started this wepay_client gem during the initial days when there was no ruby SDK from wepay. There are a few differences in the design and i think we are doing a little better job of handling exceptions and converting response to proper ruby objects.&lt;/p&gt;
+
+&lt;p&gt;However, both of these sever the same purpose. So, either can be chosen without a thought. We try our best to keep this gem up to date and well maintained.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Wepay-payment-gateway-integration-ruby/&quot;&gt;Ruby/Rails - Wepay payment gateway integration&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 12, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JavaScript - ring.js (Multiple inheritance in js)]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-ring-js/" />
+  <id>http://localhost:4000/Javascript-ring-js</id>
+  <published>2014-10-03T00:00:00-04:00</published>
+  <updated>2014-10-03T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ring js helps to create class system which supports multiple inheritance in a classical object oriented way.&lt;/li&gt;
+  &lt;li&gt;As such , javascript supports prototypal inheritance which is not that flexible in supporting multiple inheritance or mixin way of reusing classes which is addressed by this.&lt;/li&gt;
+  &lt;li&gt;Ring js is inspired by python’s classical multiple inheritance system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Home page - &lt;a href=&quot;http://ringjs.neoname.eu/&quot;&gt;http://ringjs.neoname.eu/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Source code - &lt;a href=&quot;https://github.com/nicolas-van/ring.js&quot;&gt;https://github.com/nicolas-van/ring.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Documentation / Tutorial - &lt;a href=&quot;http://ringjs.neoname.eu/docs/tutorial.html&quot;&gt;http://ringjs.neoname.eu/docs/tutorial.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;example--&quot;&gt;Example -&lt;/h2&gt;
+
+&lt;p&gt;Will try to explain the simple example on ringjs’s home page. (Please check the tutorial before trying this. One needs to include underscore.js and ring.js to run the below code.)&lt;/p&gt;
+
+&lt;h3 id=&quot;1-simple-example--&quot;&gt;1. Simple example -&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Lets try to create a 'SpiderMan' class which is extended from the classes 'Spider' and 'Man'&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//create class 'Human'&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//create class 'Spider'&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;climb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;climbing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//create class 'SpiderMan' which inherits from &quot;Spider&quot; and &quot;Man&quot;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, my name is Peter Parker&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;hello, my name is Peter Parker&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;###2. One more example -&lt;/p&gt;
+
+&lt;p&gt;As an obvious doubt what if both ‘Spider’ and ‘Human’ classes both have a function with the same name. Lets try the below example.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello, my name is Peter Parker&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;chirping....&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;chirping....&quot;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lets&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;redefine&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;see&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;hello, my name is Peter Parker&quot;;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//Now, it's clear that the method of the class which is inlcuded first in the oder of inheritance gets called.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;open-issue--caution--&quot;&gt;Open issue / Caution -&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you look at the source of ring.js &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://github.com/nicolas-van/ring.js/blob/master/ring.js&lt;/code&gt; (around line 28), it has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;use strict&quot;;&lt;/code&gt; statement. This can cause some syntax errors on the new versions of javascript compilers which you may not have seen before including this library. More details about strict mode can be found at - &lt;a href=&quot;http://www.w3schools.com/js/js_strict.asp&quot;&gt;http://www.w3schools.com/js/js_strict.asp&lt;/a&gt; .&lt;/p&gt;
+
+    &lt;h4 id=&quot;fix--&quot;&gt;Fix -&lt;/h4&gt;
+    &lt;p&gt;Obviously try to fix these syntax errors but if you have too many errors which you cant fix, feel free to edit ring.js’s source and remove the ‘“user strict;”’ statement. It should be fine removing this.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I would say “There are out of count ways to create classes in JS but ring.js is one cool way if you want to write classical style of OO code and take the advantage of multiple inheritance.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-ring-js/&quot;&gt;JavaScript - ring.js (Multiple inheritance in js)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 03, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JavaScript - uderscore.js (Functional power to js, without side effects)]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-underscore-js/" />
+  <id>http://localhost:4000/Javascript-underscore-js</id>
+  <published>2014-10-02T00:00:00-04:00</published>
+  <updated>2014-10-02T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Underscore js is nothing but a simple js library that gives a number of js functional programming helpers which can be used in your js code. It works well with your own js libraries like prototypejs, jQuery or backbone.&lt;/li&gt;
+  &lt;li&gt;Simplifies your code to a good extent. Well defined functional helpers are a great advantage for programming languages like python and ruby. Underscore does the same for JS.&lt;/li&gt;
+  &lt;li&gt;More importantly, it does not modify any built-in objects to add these methods. In the practical scenario, we use multiple libraries from different authors. It is important that built-in objects are not extended in any of this code to avoid side effects. (An example problem caused by extending Array.prototype add adding methods/properties - &lt;a href=&quot;http://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype&quot;&gt;http://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Easy to get started and makes you productive in minutes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Home page - &lt;a href=&quot;http://underscorejs.org/&quot;&gt;http://underscorejs.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Source code - &lt;a href=&quot;http://underscorejs.org/docs/underscore.html&quot;&gt;http://underscorejs.org/docs/underscore.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Documentation - &lt;a href=&quot;http://underscorejs.org/&quot;&gt;http://underscorejs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;important-functions--&quot;&gt;Important functions -&lt;/h2&gt;
+
+&lt;p&gt;Underscorejs’s home page has the list of functions it offers and they are faily simple to be followed from here. I am just listing down some of them which i think are cool.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;functions&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Collection (Array/Object)&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;each, map, reduce, reduceRight, find, where, findWhere, reject, some, contains, invoke, pluck, max, sortBy, groupBy, countBy&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Array&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;first, last, rest, compact, flatten, without, union, intersection, uniq, zip, unzip, lastIndexOf, findIndex, range&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objects&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;keys, allKeys, values, pairs, functions, findKey, extend, pick, omit, clone, has, isEqual, isMatch, isEmpty, isElement, isArray, isObject, isArguments, isFunction, isString, isNumber, isFinite, isBoolean, isDate, isRegExp, isNaN, isNull, isUndefined&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Functions&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;bind, partial, memoize, delay, throttle, once, after, before, compose&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chaining&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;chain&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;example--&quot;&gt;Example -&lt;/h2&gt;
+
+&lt;p&gt;In case of underscorejs, you ll call all the functions on “_” and pass your Objects/variables as arguments.
+Note that you need to have underscore.js required in your environment to execute the example below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;A spec using beforeAll and afterAll&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;beforeAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;afterAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;sets the initial value of foo before specs run&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;does not reset foo between specs&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I would say “Underscore is no big deal and not needed to be a part of your code base if you don’t want. I had written a lot of JS code before finding this and was always comfortable. But once you find this little thing, you ll only realize that it takes a great deal out of your way and makes you happy. Especially, if you know what it means modifying the native objects.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-underscore-js/&quot;&gt;JavaScript - uderscore.js (Functional power to js, without side effects)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 02, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Handling requests in browser time zone in a rails app]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Handling-requests-in-browser-timezone-rails/" />
+  <id>http://localhost:4000/Handling-requests-in-browser-timezone-rails</id>
+  <published>2014-09-02T00:00:00-04:00</published>
+  <updated>2014-09-02T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user’s time zone so users don’t have to do the timezone conversions.&lt;/p&gt;
+
+&lt;p&gt;In this post, i’ll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.&lt;/p&gt;
+
+&lt;p&gt;The most seamless way of showing time information in the user’s time zone is to track the time zone from the browser and run the time related operations on your server considering this time zone and return the time in this time zone. As simple as that.&lt;/p&gt;
+
+&lt;h2 id=&quot;common-solutions--&quot;&gt;Common solutions -&lt;/h2&gt;
+
+&lt;p&gt;Let’s look at some common methods we can use with ROR -&lt;/p&gt;
+
+&lt;p&gt;As Eli has nicely written these up here - &lt;a href=&quot;https://viget.com/extend/using-time-zones-with-rails&quot;&gt;https://viget.com/extend/using-time-zones-with-rails&lt;/a&gt; , METHOD -1 has the short coming of not being able to detect the Day light savings METHOD -2 of JSTZ is preferred. This works 90% of the times but there is no guarantee that this solution works with any server side framework all the time.&lt;/p&gt;
+
+&lt;p&gt;The main reason is jstz determines the time zone and returns it as a &lt;em&gt;String&lt;/em&gt;. There is no standard in the strings used by the software to represent the time zones unfortunately and due to this some of the cases fail even with Rails.&lt;/p&gt;
+
+&lt;p&gt;Just to confirm - please go you rails console and print the following.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.keys&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You will observe that these are not the same string used by jstz if you can look at it’s time zone.&lt;/p&gt;
+
+&lt;p&gt;Hence, this solution does not work for all the cases as well. Also, it is observed that Rails keep adding support for new time zones as they are adopted by the cities / governments. Changing the strings of jstz to be same as Rails’s is one approach but i am not recommending that.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-approach--&quot;&gt;My approach -&lt;/h2&gt;
+
+&lt;p&gt;My approach to solve this problem is purely based on the offsets. Because -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Offsets are the standard across the time zones unlike name, so we only pass the offset values to server let Rails / any server software decide the time zone name.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;By tracking summer and winter offsets we can handle the daly light savings issues.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another point to handle is the changes to the time zones and their adoption by the software -
+Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs).
+(Ref - &lt;a href=&quot;http://www.timetemperature.com/pacific/samoa_time_zone.shtml&quot;&gt;http://www.timetemperature.com/pacific/samoa_time_zone.shtml&lt;/a&gt;).  These changes might / might not have been picked up by user’s browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;final-solution--&quot;&gt;Final solution -&lt;/h2&gt;
+
+&lt;p&gt;I have put together my approach as a gem (that works for rails as of now but can easily be extended to others.) -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;https://github.com/udayakiran/rails_browser_timezone&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is tested for rails 2.3.x, 3.x and 4.x and works fine for us.&lt;/p&gt;
+
+&lt;p&gt;Please follow the steps in README to use it in your app.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-issue--&quot;&gt;Open Issue -&lt;/h2&gt;
+
+&lt;p&gt;Browsers some time do not keep them up to date with the time zone changes and they are buggy.&lt;/p&gt;
+
+&lt;p&gt;For example, as i am writing this, Google Chrome sends the offsets of Samoa time zone as WST for all the dates before and after 2011 which is an issue. Firefox sends the time zone offsets as SST for both the dates before and after 2011, which is also incorrect.&lt;/p&gt;
+
+&lt;p&gt;However, rails 4.x (ruby 2.2) knows that Samoa before 2011, December is SST and  WST after that.&lt;/p&gt;
+
+&lt;p&gt;But, this is one of those edge cases. For the popular time zones browsers and rails does a very good job and the solution works.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion--&quot;&gt;Conclusion -&lt;/h2&gt;
+
+&lt;p&gt;The approach i used worked for us in majority of the cases by choosing the correct baseline year. Only point to not is that Rails 2.x and 3.x might not be able to track the time zone changes that happened after their year. But these are &amp;lt;2% edge cases as we observed. But, the rest worked well.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to be touch about any issues faced / bugs reported through the github page of the gem.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I would say “Time zones are some times complex as they change and there is a difference in the adoption across the browsers. But, majority of the time zones we have traffic from, are simple !”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-browser-timezone-rails/&quot;&gt;Handling requests in browser time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-jquery-confirm-action/" />
+  <id>http://localhost:4000/Javascript-jquery-confirm-action</id>
+  <published>2013-11-15T00:00:00-05:00</published>
+  <updated>2013-11-15T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;This is a jQuery plugin that confirms an action on click of an element and executes separate js code based on the confirmation.&lt;/p&gt;
+
+&lt;p&gt;Can be used to confirm users actions in a pretty way without having to use browser confirm box / alert box.&lt;/p&gt;
+
+&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code - &lt;a href=&quot;https://github.com/udayakiran/jQuery.confirmAction.js&quot;&gt;https://github.com/udayakiran/jQuery.confirmAction.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;setup--usage--&quot;&gt;Setup &amp;amp; Usage -&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download jquery.confirmAction.js OR jquery.confirmAction.min.js&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Include jQuery file (1.7+) and the plugin file (or .min file) in your HTML page.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://code.jquery.com/jquery-1.7.1.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jquery.confirmAction.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;example-usage--&quot;&gt;Example usage -&lt;/h4&gt;
+
+&lt;p&gt;Say there is a link/button with id “confirm_link”, if you want to display a confirmation message to the user on clicking this link and decide weather to proceed or not -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+     &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#confirm_link&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;confirmAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#&amp;lt;container_id&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Text that describes the confirmation related info&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;confirmButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Confirm button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;cancelButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Cancel button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;avoid_confirm_double_click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;cancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking cancel button.&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking confirm button.&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;    
+
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-jquery-confirm-action/&quot;&gt;JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 15, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

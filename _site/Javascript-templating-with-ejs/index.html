@@ -1,0 +1,273 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>JavaScript - Templating with embedded js (no more ugly HTML inside js) &#8211; Tech stream</title>
+<meta name="description" content="">
+<meta name="keywords" content="javascript, web">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript - Templating with embedded js (no more ugly HTML inside js)">
+<meta property="og:description" content="">
+<meta property="og:url" content="http://localhost:4000/Javascript-templating-with-ejs/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Javascript-templating-with-ejs/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #616161db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="JavaScript - Templating with embedded js (no more ugly HTML inside js)">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Javascript-templating-with-ejs/" rel="bookmark" title="JavaScript - Templating with embedded js (no more ugly HTML inside js)">JavaScript - Templating with embedded js (no more ugly HTML inside js)</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~2 minutes
+          <i style="font-style:normal;">  |  </i>
+          November 19, 2012
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <h2 id="why---">Why ? -</h2>
+
+<p><a href="http://www.embeddedjs.com/">Embedded js</a> is a client side templating library, which is used to write cleaner HTML and JS code in the places that render html dynamically with javascript. Results in easy to write, clean, readable and maintainable code base.</p>
+
+<h2 id="problem--">Problem -</h2>
+
+<p>We have been working on a simple ajax based messaging app where as messages come they are updated in the UI through ajax. The messages are of different types and each type has a different html layout structure we need to construct based on the ajax’s response. This caused some parts in the code that look like below -</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">  var text_messages = function(data) {
+
+  var html = "&lt;h1&gt;"+Messages since" + data.last_seen.toString() +"&lt;/h1&gt;";
+  html += "&lt;ul&gt;";
+  for(var i=0; i&lt;data.messages.length; i++) {
+      html += "&lt;li&gt;&lt;a href='profiles/"+data.messages[i].senderID+"'&gt;"&lt;/a&gt;";
+      html += "&lt;span class='msg-content'&gt;" + data.messages[i].text + " &lt;/span&gt;";
+      html += "&lt;span clas='msg-date'&gt;" + data.messages[i].receivedAt + "&lt;/span&gt;";
+      html += "&lt;/li&gt;"
+  }
+  html += "&lt;/ul&gt;"
+  $('more_message_content').innerHTML = html;
+}</code></pre></figure>
+
+<p>It can be observed from the above code that both HTML and js mixed in a way that it is not easy to read and debug. This is a simpler example compared to our code base and a lots of other complex JS heavy apps.</p>
+
+<h2 id="solution-with-ejs-templates--">Solution with Ejs templates -</h2>
+
+<p>Embedded JS lets us write the js code inside html look a like template structure. Templates can be maintained as separate files to which data can be passed.</p>
+
+<p>This results in a code base that looks like this -</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">  &lt;h1&gt;'Messages since &lt;%= data.last_seen.toString(); %&gt; &lt;/h1&gt;
+    &lt;ul&gt;
+      &lt;% for(var i=0; i&lt;data.messages.length; i++) { %&gt;
+          &lt;li&gt;
+              &lt;a href='profiles/&lt;%= data.messages[i].senderID%&gt;'&gt;&lt;/a&gt;
+              &lt;span class='msg-content'&gt; &lt;%= data.messages[i].text %&gt;&lt;/span&gt;
+              &lt;span clas='msg-date'&gt;&lt;%= data.messages[i].receivedAt %&gt;&lt;/span&gt;
+          &lt;/li&gt;
+      &lt;% } %&gt;
+    &lt;/ul&gt;</code></pre></figure>
+
+<p>Lets call the above template as messages.ejs and it can be rendered like</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">var callback = new EJS({url: 'templates/calendar.ejs'}).update('more_message_content');</code></pre></figure>
+
+<p>We can clearly see that this code, after cleanup looks like HTML - more readable and maintainable.</p>
+
+<h2 id="other-benefits-of-ejs--">Other benefits of Ejs -</h2>
+
+<ul>
+  <li>
+    <p>Supports number of view helpers.</p>
+  </li>
+  <li>
+    <p>Supports partials which means templates can be embedded in other templates making them reusable.</p>
+  </li>
+  <li>
+    <p>Support caching of the templates.</p>
+  </li>
+</ul>
+
+<h2 id="ejs-references--">Ejs References -</h2>
+
+<ul>
+  <li>
+    <p>Homepage - http://www.embeddedjs.com/</p>
+  </li>
+  <li>
+    <p>GettingStarted - <a href="http://www.embeddedjs.com/getting_started.html">Gettng Started</a></p>
+  </li>
+  <li>
+    <p>Screencast - <a href="http://www.embeddedjs.com/screencast/index.html">http://www.embeddedjs.com/screencast/index.html</a></p>
+  </li>
+</ul>
+
+<blockquote>
+  <blockquote>
+    <p>If you still are writing your ajax html code inside your JS, it’s the time to clean it up with embedded js.</p>
+  </blockquote>
+</blockquote>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript" class="tag"><span class="term">javascript</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Javascript-templating-with-ejs/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Javascript-templating-with-ejs/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Javascript-templating-with-ejs/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Ruby_gc_optimization/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

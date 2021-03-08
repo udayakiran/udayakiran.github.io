@@ -1,0 +1,319 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Video streaming - Track video streaming analytics using jwplayer and videojs &#8211; Tech stream</title>
+<meta name="description" content="Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs.">
+<meta name="keywords" content="video, javascript, web, mobile">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Video streaming - Track video streaming analytics using jwplayer and videojs">
+<meta property="og:description" content="Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs.">
+<meta property="og:url" content="http://localhost:4000/video-streaming-analytics-plugins/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/video-streaming-analytics-plugins/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #39b470db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Video streaming - Track video streaming analytics using jwplayer and videojs">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/video-streaming-analytics-plugins/" rel="bookmark" title="Video streaming - Track video streaming analytics using jwplayer and videojs">Video streaming - Track video streaming analytics using jwplayer and videojs</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~3 minutes
+          <i style="font-style:normal;">  |  </i>
+          December 20, 2015
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.</p>
+
+<p>A few points to note here are -</p>
+
+<ul>
+  <li>
+    <p>All our apps use either jwplayer5 or videojs to stream videos.</p>
+  </li>
+  <li>
+    <p>The streaming server can be either red5 or wowza or amazon cloud front.</p>
+  </li>
+</ul>
+
+<h2 id="options-to-track-video-analytics--">Options to track video analytics -</h2>
+
+<p>We can track this information in one of the following ways -</p>
+
+<h3 id="a-through-video-player-recommended--">a) Through Video player (Recommended) -</h3>
+
+<p>We can write a jwplayer plugin for desktops and videojs plugin for mobiles which will send the amount of video watched by user.</p>
+
+<p>On server, this data can be written either directly to DB after processing or first to a store like redis/memcached and then to the database.</p>
+
+<h4 id="advantages--">Advantages -</h4>
+
+<ol>
+  <li>
+    <p>This keeps video tracking logic generic and app independent. Same plugin works for all apps and all streaming servers. No maintenance is needed if we switch streaming servers.</p>
+  </li>
+  <li>
+    <p>Very loosely coupled and same code works for both mobiles and desktops.</p>
+  </li>
+  <li>
+    <p>Can be easily extended to track more info as needed.</p>
+  </li>
+</ol>
+
+<h3 id="b-through-steaming-server-not-recommended">b) Through steaming server (Not Recommended)</h3>
+
+<p>We need to write an app for the streaming server (red5/wowza/nginx-rtmp) which tracks it based on the client/connection. Paid streaming services like wowza and AWS cloud front provide some of these stats out of the box but others do not. This data needs to be exposed to app servers so that they can access it and store in their database. Streaming server can also push the data.</p>
+
+<h4 id="disadvantages--">Disadvantages -</h4>
+
+<ol>
+  <li>
+    <p>Complex to build. Need to build the red5/wowza apps and also a way to store data locally and then push/expose it to the web apps.</p>
+  </li>
+  <li>
+    <p>Not maintainable. We need to write different apps if we need to move to another media server.</p>
+  </li>
+</ol>
+
+<h2 id="implementation--">Implementation -</h2>
+
+<p>Wrote two plugins for jwplayer and videojs each using their JS APIs. The plugins can track the below information session by session. This can be reported like JSON to the server end point URL that is configured.</p>
+
+<ul>
+  <li>
+    <p>Progress</p>
+  </li>
+  <li>
+    <p>Time spent on the video in any session</p>
+  </li>
+  <li>
+    <p>Video duration</p>
+  </li>
+  <li>
+    <p>Browser/Device (not included in params. Just read “user-agent” header of each request)</p>
+  </li>
+  <li>
+    <p>Number of attempts</p>
+  </li>
+  <li>
+    <p>Pass any additional data during initialzation so that it can be sent to the server along with the updates.</p>
+  </li>
+  <li>
+    <p>Also, lets you resume from the video from the last left point if you choose to.</p>
+  </li>
+</ul>
+
+<p>Below is the source code of the plugins and usage instructions.</p>
+
+<h3 id="for-jwplayer--">For Jwplayer -</h3>
+
+<p>Plugin name - jwplayer-tracker</p>
+
+<p>Source - <a href="https://github.com/udayakiran/jwplayer-tracker">https://github.com/udayakiran/jwplayer-tracker</a></p>
+
+<p>Follow the README to find the information about usage, config params and tips.</p>
+
+<h3 id="for-videojs--">For VideoJs -</h3>
+
+<p>Plugin name - videojs-tracker</p>
+
+<p>Source - <a href="https://github.com/udayakiran/videojs-tracker">https://github.com/udayakiran/videojs-tracker</a></p>
+
+<p>Follow the README to find the information about usage, config params and tips.</p>
+
+<h2 id="applications-of-the-tracked-analytics--">Applications of the tracked analytics -</h2>
+
+<p>Though the plugins send data in the raw format, following information can be tracked by using this effectively.</p>
+
+<ol>
+  <li>
+    <p>Number of users on each devise.</p>
+  </li>
+  <li>
+    <p>Number of users by location.</p>
+  </li>
+  <li>
+    <p>Amount of time spent on the video.</p>
+  </li>
+  <li>
+    <p>Number of people who completely watch the video.</p>
+  </li>
+  <li>
+    <p>All the above information can be tracked over period of time.</p>
+  </li>
+</ol>
+
+<p>Below is a simple image showing how the tracked data can be presented.</p>
+
+<figure class="full">
+	<img src="/images/jwplayer-streaming.png" alt="" />
+	<figcaption style="text-align: center">Original figure taken from jwplayer.com</figcaption>
+</figure>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#video" title="Pages tagged video" class="tag"><span class="term">video</span></a><a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript" class="tag"><span class="term">javascript</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a><a href="http://localhost:4000/tags/#mobile" title="Pages tagged mobile" class="tag"><span class="term">mobile</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/video-streaming-analytics-plugins/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/video-streaming-analytics-plugins/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/video-streaming-analytics-plugins/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

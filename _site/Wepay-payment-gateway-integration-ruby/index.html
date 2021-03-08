@@ -1,0 +1,259 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Ruby/Rails - Wepay payment gateway integration &#8211; Tech stream</title>
+<meta name="description" content="Integrating a rails app with wepay's APIs">
+<meta name="keywords" content="ror, ruby, web">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ruby/Rails - Wepay payment gateway integration">
+<meta property="og:description" content="Integrating a rails app with wepay's APIs">
+<meta property="og:url" content="http://localhost:4000/Wepay-payment-gateway-integration-ruby/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Wepay-payment-gateway-integration-ruby/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #39b470db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Ruby/Rails - Wepay payment gateway integration">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Wepay-payment-gateway-integration-ruby/" rel="bookmark" title="Ruby/Rails - Wepay payment gateway integration">Ruby/Rails - Wepay payment gateway integration</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~2 minutes
+          <i style="font-style:normal;">  |  </i>
+          December 12, 2014
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>Since it’s launch, wepay has been a great payment gateway which provides best user experience along with developer friendly integration. I use this for a number of web and mobile apps and feel that this is one of the best way to handle one time purchases, recurring payments and etc. without having to store any details of the customer’s credit card.</p>
+
+<p>I am going to share a few ideas on how to integrate wepay with your rails/sinatra app.</p>
+
+<h2 id="getting-started--">Getting Started -</h2>
+
+<p>Wepay has an excellent developer’s site which has every single detail you may expect as a beginner. Their support is very responding and helpful. Will mention some of the important links below so you can get some help and start.</p>
+
+<ol>
+  <li>Developers site - <a href="https://www.wepay.com/developer">https://www.wepay.com/developer</a></li>
+  <li>API documentation - <a href="https://www.wepay.com/developer/reference">https://www.wepay.com/developer/reference</a></li>
+  <li>SDKs - <a href="https://www.wepay.com/developer/resources/sdks">https://www.wepay.com/developer/resources/sdks</a></li>
+  <li>Some use cases -
+    <ul>
+      <li><a href="https://www.wepay.com/developer/usecases/tipping-point-payments">https://www.wepay.com/developer/usecases/tipping-point-payments</a></li>
+      <li><a href="https://www.wepay.com/developer/usecases/delayed-payouts">https://www.wepay.com/developer/usecases/delayed-payouts</a></li>
+      <li><a href="https://www.wepay.com/developer/usecases/subscription-payments">https://www.wepay.com/developer/usecases/subscription-payments</a></li>
+      <li><a href="https://www.wepay.com/developer/usecases/mobile-app">https://www.wepay.com/developer/usecases/mobile-app</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Find some implementation specific details below.</p>
+
+<h2 id="implementation-with-ruby--">Implementation with ruby -</h2>
+
+<p>We can use wepay’s ruby SDK to integrate your rails/sinatra app with wepay. But i m going to do this by using one of the gems we developed for ourselves. Either should do fine.</p>
+
+<p>Source - <a href="https://github.com/udayakiran/wepay_client">https://github.com/udayakiran/wepay_client</a></p>
+
+<p>Please refer README for details on how to use this.</p>
+
+<h2 id="setup-and-usage">Setup and usage</h2>
+
+<h3 id="setup">Setup</h3>
+
+<p>In rails put following in Gemfile</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">gem</span> <span class="s1">'wepay_client'</span><span class="p">,</span><span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s1">'git://github.com/udayakiran/wepay_client.git'</span></code></pre></figure>
+
+<h3 id="usage">Usage</h3>
+
+<p>Create a wepay_config.rb in config/initializers folder and setup the client with wepay client id and client secret</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">'wepay_client'</span>
+
+<span class="no">WepayClient</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">configure</span> <span class="k">do</span>
+  <span class="n">client_id</span>     <span class="s1">'11111111'</span>
+  <span class="n">client_secret</span> <span class="s1">'5f434343'</span>
+  <span class="n">use_ssl</span>       <span class="kp">true</span>
+  <span class="n">use_stage</span>     <span class="o">!</span><span class="p">(</span><span class="no">ENV</span><span class="p">[</span><span class="s1">'RAILS_ENV'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'production'</span><span class="p">)</span>
+<span class="k">end</span></code></pre></figure>
+
+<p>An example to call wepay apis</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">wepay</span> <span class="o">=</span> <span class="no">WepayClient</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">instance</span>
+<span class="n">account</span> <span class="o">=</span> <span class="n">wepay</span><span class="p">.</span><span class="nf">create_account</span><span class="p">(</span><span class="s1">'token data'</span><span class="p">,</span> <span class="mi">1122334</span><span class="p">)</span>
+<span class="nb">p</span> <span class="n">account</span><span class="p">[</span><span class="ss">:account_id</span><span class="p">]</span></code></pre></figure>
+
+<h2 id="alternates--">Alternates -</h2>
+
+<p>As mentioned above, Wepay provides a ruby SDK for the same purpose - <a href="https://github.com/wepay/ruby-sdk">https://github.com/wepay/ruby-sdk</a></p>
+
+<p>wepay’s SDK can be used if you find it more comfortable. We started this wepay_client gem during the initial days when there was no ruby SDK from wepay. There are a few differences in the design and i think we are doing a little better job of handling exceptions and converting response to proper ruby objects.</p>
+
+<p>However, both of these sever the same purpose. So, either can be chosen without a thought. We try our best to keep this gem up to date and well maintained.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#ror" title="Pages tagged ror" class="tag"><span class="term">ror</span></a><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Wepay-payment-gateway-integration-ruby/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Wepay-payment-gateway-integration-ruby/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Wepay-payment-gateway-integration-ruby/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Javascript-ring-js/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

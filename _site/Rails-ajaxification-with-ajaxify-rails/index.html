@@ -1,0 +1,340 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem &#8211; Tech stream</title>
+<meta name="description" content="Ajaxifying a rails app with ajaxify-rails gem and a few other tweaks.">
+<meta name="keywords" content="ror, ruby, web">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem">
+<meta property="og:description" content="Ajaxifying a rails app with ajaxify-rails gem and a few other tweaks.">
+<meta property="og:url" content="http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #39b470db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/" rel="bookmark" title="Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem">Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~6 minutes
+          <i style="font-style:normal;">  |  </i>
+          August 13, 2015
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.</p>
+
+<h3 id="why-do-you-need-this-">Why do you need this ?</h3>
+
+<p>The main reason we wanted to do this is to keep the user on the same page through out the interactions. This was needed as we were supporting webRTC based voice calls through websocket connections, which we did not want to drop when user navigates across the pages.</p>
+
+<h3 id="requirements--">Requirements -</h3>
+<p>We wanted to convert a rails 4.2 app to completely ajax. Followig are some of the requirements.</p>
+
+<ul>
+  <li>App should work like a single page app without any new page navigation.</li>
+  <li>Code changes need to be as minimum as possible.</li>
+  <li>There should be a clear feedback to the users while ajax requests are in progress.</li>
+  <li>We should be able to support page specific assets (js, CSS and images)</li>
+  <li>Assets and specific sections of the page need to be reloaded after deployments.</li>
+</ul>
+
+<h1 id="implementation--">Implementation -</h1>
+
+<p>Following gems are used with a few tricks to achieve all our requirements.</p>
+
+<p><a href="https://github.com/udayakiran/ajaxify_rails">Ajaxify-rails</a> - ajaxifying the app (works similar to turbo links). This is a clone of <a href="https://github.com/ncri/ajaxify_rails">ncri’s repo</a> with a few bug fixes and one enhancement.</p>
+
+<p><a href="https://github.com/gazay/gon">Gon</a> - Pass ruby variables to javascript (typically from controllers)</p>
+
+<p><a href="http://github.hubspot.com/pace/">Pace</a> - Youtube style horizontal progress bar.</p>
+
+<h2 id="basic-ajaxification-implementation--">Basic ajaxification implementation -</h2>
+
+<p>ajaxify_rails gem is preferred for this over turbo_links for one major reason i.e As of rails 4.2 turbo links gem always replaces the body tag. We cant specify different containers which need to be updated for different ajax requests. There is a mention that this will be solved in rails 5 and future versions of turbo links. So, ajaxify_rails worked very well for us here.</p>
+
+<p>Following are the details of ajaxify_rails gem and how certain things are handled during ajaxification.</p>
+
+<h3 id="about-the-gem--">About the gem -</h3>
+
+<h4 id="features--">Features -</h4>
+
+<ul>
+  <li>Automatically turning internal links into ajax links that load content without a full page reload.</li>
+  <li>Form submissions are converted to ajax as well.</li>
+  <li>Provides a way to specify the ‘content_container’ which needs to get the ajax response updated.</li>
+  <li>A number of callbacks are available to perform things during ajax life cycle.</li>
+  <li>Provides a way to reload whole page after the deployments when assets expire.</li>
+</ul>
+
+<h4 id="improvements-neeeded--">Improvements neeeded -</h4>
+
+<ul>
+  <li>One thing that this gem lacked in it is to reload the whole page after deployments if a specific view file or layout file has changed. But we could add this ourselves and the code is present in <a href="https://github.com/udayakiran/ajaxify_rails">My git repo</a>.</li>
+</ul>
+
+<h4 id="usage--">Usage -</h4>
+<ul>
+  <li>Ajaxify.init() is called on <code class="language-plaintext highlighter-rouge">dom:loaded</code></li>
+  <li>By default the response of the ajax request is updated inside a element with id “main”. This can be changed for each ajax request by setting “content_container” value as needed.</li>
+</ul>
+
+<h4 id="few-internals--">Few internals -</h4>
+<ul>
+  <li>Page title is supported by default.</li>
+  <li>Loader can be customized with our own css to the element “ajaxify_loader”</li>
+  <li>Loader can be disabled by setting “display_loader” to false while initializing or by setting class “display_loader” or “no_display_loader” to each link we are ajaxifying.</li>
+  <li>Flash messages are supported by default. If flash message of types other than “notice” is used then it should be specified as “flash_types” while initializing.</li>
+</ul>
+
+<h4 id="events--callbacks--">Events &amp; Callbacks -</h4>
+
+<p>There are a number of events supported e.g - content_loaded, flast_displayed, before_load, content_inserted, load_error and etc. JS callbacks can be written for each of these events.</p>
+
+<h4 id="scrolling--">Scrolling -</h4>
+
+<p>By default the page scrolls to to the top on every request. This can be turned off by setting “scroll_to_top” to false while initializing. Scrolling of individual links can also be turned off or turned on by setting class “no_scroll_to_top” or “scroll_to_top”</p>
+
+<h4 id="turn-off-ajaxification--">Turn off ajaxification -</h4>
+<p>Ajaxification can be temporarily turned off for some pages using Ajaxify.activate(false) and can be turned on using Ajaxify.activate().</p>
+
+<h4 id="loading-controller-specific-assets--">Loading controller specific assets -</h4>
+
+<p>Normal requests are served through one layout where as ajaxified requests are served with a layout which has the normal layout wrapped in. We include the contoller specific assets in this layout.</p>
+
+<h4 id="expiring-assets-after-deployment--">Expiring assets after deployment -</h4>
+
+<p>ajaxify_rails gem provides a way to expire the assets (js, css and images) after deployment. It reloads the whole page with the first ajaxified request after the deployment. The only change needed for this to work is to make sure the below option to true in your envionment file (staging.rb/development.rb/production.rb)</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Rails</span><span class="p">.</span><span class="nf">application</span><span class="p">.</span><span class="nf">config</span><span class="p">.</span><span class="nf">assets</span><span class="p">.</span><span class="nf">digest</span> <span class="o">=</span> <span class="kp">true</span></code></pre></figure>
+
+<h4 id="reloading-the-whole-page-when-any-layoutsapp-logic-changes--">Reloading the whole page when any layouts/app logic changes -</h4>
+
+<p>Say you have made the changes to some view files and after the server restart, the already opened pages are required to reload whole page instead with ajax, there is a way provided for this. You ll have to just assign array of those filenames along with some digest.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Rails</span><span class="p">.</span><span class="nf">application</span><span class="p">.</span><span class="nf">config</span><span class="p">.</span><span class="nf">layout_digests</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'xyz.haml-efegegegega787878'</span><span class="p">]</span></code></pre></figure>
+
+<p>To create this list, following code can be added in an initializer file.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">FILES_TO_BE_OBSERVED</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"app/views/layouts/_header.html.haml"</span><span class="p">,</span><span class="s2">"app/views/layouts/_logo.html.haml"</span><span class="p">]</span>  
+<span class="n">digests</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="no">FILES_TO_BE_OBSERVED</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">filename</span><span class="o">|</span>
+  <span class="k">begin</span>
+    <span class="n">digests</span> <span class="o">&lt;&lt;</span> <span class="no">Digest</span><span class="o">::</span><span class="no">SHA256</span><span class="p">.</span><span class="nf">file</span><span class="p">(</span><span class="n">filename</span><span class="p">).</span><span class="nf">hexdigest</span>
+  <span class="k">rescue</span>
+    <span class="k">next</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Rails</span><span class="p">.</span><span class="nf">application</span><span class="p">.</span><span class="nf">config</span><span class="p">.</span><span class="nf">layout_digests</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">MD5</span><span class="p">.</span><span class="nf">hexdigest</span><span class="p">(</span><span class="n">digests</span><span class="p">.</span><span class="nf">join</span><span class="p">)</span></code></pre></figure>
+
+<h2 id="passing-ruby-variables-to-js--">Passing ruby variables to JS -</h2>
+
+<p>We had a specific case where we wanted to update a particular div out side the content div after every ajax response. The value of the div comes from controller with every request. So, this needed us to have a way to pass the controller variables to javascript.</p>
+
+<p>This was done by using <a href="https://github.com/gazay/gon">Gon gem</a></p>
+
+<ul>
+  <li>Gon passes the controller variables to javascript assets files as js variables.</li>
+  <li>Gon has to be initialized for every request, by including “include_gon(:init =&gt; true)” in the layout file.</li>
+  <li>Any controller variable is declared as “gon.variable_name = something” in the controller and can be accessed in the javascript by “gon.variable_name”</li>
+</ul>
+
+<h2 id="youtube-style-progress-bar-with-pace--">Youtube style progress bar with pace -</h2>
+
+<p>We wanted to give a clear feedback about the progress of the ajaxified requests. One good UX for this is to show a progress bar at the top of the page like how You tube and many other apps do.</p>
+
+<p>This was done using <a href="http://github.hubspot.com/pace">Pace</a></p>
+
+<ul>
+  <li>By default pace gem displays the progress bar for page load requests, ajax requests, ajaxified requests as well as for the elements which we can specify (default element is body tag).</li>
+</ul>
+
+<h3 id="apis-provdided-by-pace--">Apis provdided by Pace -</h3>
+
+<p>start, restart, stop, track and ignore.</p>
+
+<h3 id="events-and-callbacks--">Events and callbacks -</h3>
+
+<p>start, restart, stop, done, hide.</p>
+
+<h3 id="usage---1">Usage -</h3>
+
+<p>Include pace.js and set the options for page using “window.paceOptions = {}”</p>
+
+<p>For more details refer the <a href="http://github.hubspot.com/pace">Hom page</a></p>
+
+<blockquote>
+  <blockquote>
+    <p>Ajaxification of an already built app was really cool and glad that we could do it with minimal code change in a clean way. This helped us in improving the speed of the app and also helping to stay on a single page and do a lot of things, there by persisting the websocket connections and etc. while navigating in between different page links.</p>
+  </blockquote>
+</blockquote>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#ror" title="Pages tagged ror" class="tag"><span class="term">ror</span></a><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Rails-ajaxification-with-ajaxify-rails/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Pro-JS-Tips/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,484 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues &#8211; Tech stream</title>
+<meta name="description" content="Research summary of a search engine results page design and recommendations for better Ad yields.">
+<meta name="keywords" content="Ads, UX, Design, web">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">
+<meta property="og:description" content="Research summary of a search engine results page design and recommendations for better Ad yields.">
+<meta property="og:url" content="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #616161db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" rel="bookmark" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~7 minutes
+          <i style="font-style:normal;">  |  </i>
+          March 05, 2020
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>In this post, I am propsing a few suggesstions to the deskop search engine results page to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. I have bucketized the suggestions into 3 groups based on amount of investment to implement these changes. Over the long run, this is expected to uptick the ad revenues by X%. This uptick is a result of A% increase in CTR, B% of new ad placements and C% of additional traffic.</p>
+
+<ul>
+  <li>
+    <p><strong>A) Get Fitter: UX changes to improve CTR with existing ad placements [Low investment]</strong></p>
+  </li>
+  <li>
+    <p><strong>B) Get Better: Modify/Introduce new ad placements + improved UX from (A) [Medium investment]</strong></p>
+  </li>
+  <li>
+    <p><strong>C) Get Big: Reinvent and go big [High investment]</strong></p>
+  </li>
+</ul>
+
+<h4 id="below-are-a-few-initiatives-proposed-across-these-buckets">Below are a few Initiatives proposed across these buckets:</h4>
+
+<div class="datatable-begin"></div>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Get Fitter</th>
+      <th style="text-align: center">Get Better</th>
+      <th style="text-align: right">Get Big</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Search listing UX.</td>
+      <td style="text-align: center">Better in-page ad placements</td>
+      <td style="text-align: right">Feed based UI for search results</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Brand Favicons + Ad labels.</td>
+      <td style="text-align: center">Efficient use of real-estate.</td>
+      <td style="text-align: right">Anticipatory/Predictive ads</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Selective Attention experiments.</td>
+      <td style="text-align: center">More Product Listing ads on search results</td>
+      <td style="text-align: right">Async delivery for search results.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="datatable-end"></div>
+
+<hr />
+
+<h2 id="user-behavior-background"><strong>User Behavior Background:</strong></h2>
+
+<ol>
+  <li>Users scan through search results. It’s either a linear top to bottom scan (for simple search pages) or random hotspot check (for pages with images and other interactive blocks).</li>
+</ol>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh5.googleusercontent.com/5w-9swEi1HlsQaexYqFyWSFlKat1MHjfb_ISaHTkSJ3_Lwe198YKdT79UTuwkHiXFEX0bCGTE6AH5uJq9Xotxh9eHMk_KozDDXa2nOQTVSH_Ni2oapMkeqihm6g_7bzompLiXlE0" width="400px" alt="" />
+  	<figcaption style="text-align: center"> Linear Scan through page</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center">
+<figure class="">
+	<img src="https://lh6.googleusercontent.com/3y4c7ategdcAPzvGZZTZdg5Cg9nBOXFB0aFrgz1rHUL6bV8lIBmoPt67J2FAJFEXiWKo2tx-LZOgi11Jr0AfYOTeWwZ4vsORyb4drpRuV5xYRrqAnULFinlRXnnNmZ2AEMjHb_Va" width="400px" alt="" />
+  	<figcaption style="text-align: center"> Random/Pin ball style Scan through page</figcaption>
+  </figure>
+</div>
+<ol>
+  <li>
+    <p>It’a rare that users go to page 2 (&lt; X%).</p>
+  </li>
+  <li>
+    <p>Users are automatically trained to ignore the information they do not want to look at (Ex - URL links of search results, default ad placements and ad labels).</p>
+  </li>
+  <li>
+    <p>With mobile generation, a scroll is considered a casual effort and a click/touch is a costly effort during browsing.</p>
+  </li>
+</ol>
+
+<h2 id="a-get-fitter-improve-ctr-with-existing-ad-placements"><strong>(A) Get Fitter: Improve CTR with existing ad placements</strong></h2>
+
+<ol>
+  <li>
+    <h3 id="brand-favicons--ad-labels"><strong>Brand Favicons + Ad labels:</strong></h3>
+  </li>
+</ol>
+
+<p>Show favicons of each of the websites beside the link text of each search result. For ads use a black/gray “Ad” label.</p>
+
+<h4 id="sample-ui"><strong>Sample UI:</strong></h4>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh4.googleusercontent.com/7Jo4nbCLg-nvslSqMv-pd5L-0DsBg5U1CoxV3PXKTRJ4hDJ6-2JNZ0kI9EPPz6xNmQkZHVmcF53B5BkwBySXS3MsB7rQKMuYjilxzhW4PAiXj90yPpZM3q3097oNfyZPMTjHTk_u" width="600px" alt="" />
+  	<figcaption style="text-align: center"> Results with favicons</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh3.googleusercontent.com/W8BdFDTKmndZrBg0gkbHW4VEtjI8-1y5RH-KEqDsT9zUEu2ZwoLvSKizZQ7PC2cKMzDRsKsZ1qdk8vQxV7ydnMFT2ebMCaVY9vCSKSnbAM7Mx9oQp0kyKtFzE8N69neiHnwiIg88" width="600px" alt="" />
+  	<figcaption style="text-align: center"> Results with favicons - Highlighted</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh4.googleusercontent.com/bMxZJvN8F0bkoWpsfveR8OowtU94OvX3M4aCVnNEgrlAp192TO4de4XbUKChtvMN6SoOoLL1szN17RTFKMJfTozMchzh8hnMoFYhp18n6-NxQDPcuVrBgISxLBPdMG6_xtTONZ7V" width="800px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Comparison - with vs without favicons
+</figcaption>
+  </figure>
+</div>
+
+<p><strong>Pros:</strong></p>
+
+<ol>
+  <li>Users get automatically trained to look for favicons and improve the traction on ads. “Ad” tag can be experimented with options to avoid “banner blindness”.</li>
+  <li>Such favicons improve CTR for both organic search results and ads.</li>
+  <li>Brand awareness improves for publishers.</li>
+  <li>Ads look more native within the content.</li>
+  <li>Already proven on mobiles. Works well across platforms.</li>
+</ol>
+
+<p><strong>Cons</strong>:</p>
+
+<ol>
+  <li>There could be some publishers/websites without favicons. Or, they may not want the same icon across all their content. This may require a new search meta data tag that needs to be provided, in which case, the crawlers need to be upgraded to identify this.</li>
+</ol>
+
+<p><strong>Measure of Success:</strong></p>
+
+<ul>
+  <li>CTR for organic search results</li>
+  <li>CTR for ads</li>
+  <li>Time spent by users on search results.</li>
+  <li>Brand value improvement</li>
+</ul>
+
+<ol>
+  <li><strong>Selective Attention experiments:</strong></li>
+</ol>
+
+<p>Run experiments with various options to ensure users are countered from “banner blindness”. Examples:- change the Ad format, labels, backgrounds etc.</p>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh5.googleusercontent.com/IhIcR280J72NKduu120z_7z5cK-yTMVJFMxslLNAQTfpFJg2GxEDm7c5EdBnfdXGJRDZr7t-0TBO36x8OJdZabbRQLupcu_AIBCQ9DIaLQEJR-GD0UYIsofGwEtaf6soFf5NiCmc" width="600px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Yellow background for Ads
+</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh3.googleusercontent.com/8cUWHTg62pHyabyjqL4lh5i7_eQ6QkYU33pNqor94RRz8oooyGopt4FJQsiArXmEYb2HGfZIykrodGMGQY0z7lZO-nlviTITBDy5eWMULhNLLUAKI7HV8X8NmOFkezAOaiKfp3nN" width="800px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Change in favicons lable styles.
+</figcaption>
+  </figure>
+</div>
+
+<p><strong>Pros:</strong></p>
+
+<ol>
+  <li>Counters users’ “banner blindness”.</li>
+  <li>Better user experience and lets you figure out things iteratively.</li>
+</ol>
+
+<p><strong>Cons:</strong></p>
+
+<ol>
+  <li>Frequent changes might lead to user surprise.</li>
+</ol>
+
+<p><strong>Measure of Success:</strong></p>
+
+<ul>
+  <li>CTR for organic search results</li>
+  <li>CTR for ads</li>
+</ul>
+
+<h3 id="b-get-better-modifyintroduce-ad-placements--improve-ctr"><strong>(B) Get Better: Modify/Introduce ad placements + improve CTR</strong></h3>
+
+<h4 id="1-better-in-page-ad-placements"><strong>1. Better in-page ad placements:</strong></h4>
+
+<p>As mentioned above, users either scan linearly or look for random spots in the ads. Some of the common hotspots are highlighted below. Place your ads below these hotspots. Choose right ad type near the hotspots (Ex - Product listing type ads at the top, text beneath images etc.). As of now Yahoo search seems to have ads only in the top and bottom of search results listing.</p>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh5.googleusercontent.com/IZz-PBZwENy43ZNA7MKPHvrB3eG3hFUDlNrFom0x6r0V5v4ieCAnttFAKL7knDMF8bRe2NmScS5_EW4EyQpyCRhCJP13G9OqLaanxDisseSCJRssPXWtBsJe6NoLITVF2xG_5E53" width="800px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Ad placements considering pin ball scanning behavior.
+</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh6.googleusercontent.com/RY5fw3iaMgGp3v1vAk1X-hq9hnjEDMH7viCarWUdk9lZoTSk24o3ymBlNXvDEZhFwUiqkZkprxLbmYK0x0A-M6-lZK1XpP-X1E_f4LwDdOn2JmWsmCO2XdvFOr_iYQduUgJTuYQS" width="800px" alt="" />
+  	<figcaption style="text-align: center"> Fig: More ad placements following scroll based pagination.
+</figcaption>
+  </figure>
+</div>
+
+<p><strong>Pros</strong>:</p>
+
+<ol>
+  <li>More ad placements and more traction of the users.</li>
+</ol>
+
+<p><strong>Cons</strong>:</p>
+
+<ol>
+  <li>Experience might get mixed responses from users unless carefully designed.</li>
+</ol>
+
+<p><strong>Measure of Success:</strong></p>
+
+<ul>
+  <li>Increase in number of impressions.</li>
+  <li>Increase in CTR.</li>
+</ul>
+
+<ol>
+  <li>
+    <h4 id="efficient-use-of-real-estate"><strong>Efficient use of real-estate.</strong></h4>
+  </li>
+</ol>
+
+<p>Some of the sections such as the top of the page and “right side column” of the entire search page are not used to good extent. If carefully designed, they can work as powerful ad placements.</p>
+
+<p><strong>A few examples:</strong> Keep the right hand side ads sticky while user scrolls, refresh the ads every time user scrolls again. Choose native and product listing ads here.</p>
+
+<p>As of now “car cleaning” does not show any ads. There is a good chance to use the right hand panel here to show product listing type ads.</p>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh6.googleusercontent.com/Caw-VNWHd7n-3tCRE21GBJyYXsKn5R--eZ0t2zEOUeMKPLj_zIAAJ6uaVAxAd5Td1rzrJ3dfjm12dA8nuKR3-_-ss5aCro9Hza7s8eD5P8CHq45rgsXu5ofmHUu0RTHYuYc0OQ6-" width="800px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Use right half of screen for ad placements.
+</figcaption>
+  </figure>
+</div>
+
+<p><strong>Pros:</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge"> </code>More ads resulting more revenue.</p>
+
+<p><strong>Cons:</strong></p>
+
+<p>Can get cluttered unless desinged well leading to loss of focus on search results.</p>
+
+<p><strong>Measure of Success:</strong></p>
+
+<ul>
+  <li>Increased placeholders for ads</li>
+  <li>Increased impressions</li>
+  <li>Increased CTR.</li>
+</ul>
+
+<h4 id="2-more-product-listing-ads-on-search-results"><strong>2. More Product Listing ads on search results:</strong></h4>
+
+<p>Focus more on product listing style ads in search results. They can be app installs, registrations or e commerce related ads.</p>
+
+<h3 id="c-get-big-reinvent-and-aim-big-with-ads"><strong>(C) Get Big: (Reinvent and aim big with ads)</strong></h3>
+
+<h4 id="1-feed-based-ui-for-search-results">1. <strong>Feed based UI for search results:</strong></h4>
+
+<p>Scroll is always a less costly interaction than a click due to modern hardware. Hence pagination on desktop and mobile search can be replaced with feed style UI. This also solves the problem of users not visiting page 2 much. This can be experimented on mobiles first and then on desktop. Gives chance to introduce many native ads if implemented successfully.</p>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh6.googleusercontent.com/RqUPmROrSic8pk75tcbsRhJYnk-7U_B479jbcdd0v-cwvgadqrjdha1BX6qARYwpxUAlDCG3-CkwHDbBr-Ef0I0xaOn238PzR-6l9sYORWI2oLjcne6dmknCx85QLqDqFqI6aH0o" width="400px" alt="" />
+  	<figcaption style="text-align: center"> Fig: Feed based UI with sponsered content
+</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center; display:inline;">
+<figure class="">
+	<img src="https://lh4.googleusercontent.com/M6ccnMSLL94yeHDlZf3vaHlne650xeSzaHtfxo_T8byjXKe2v34yYVtVhCeX6A7kOCDdoCdYDBdJ4tUPknh716e8ZD3o-2pw4QRS3haPWPmEI9NZ3sh954VYnLQ2qk8ji9zhvCgh" width="600px" alt="" />
+  	<figcaption style="text-align: center"> Fig 2: Feed based UI with sponsered content
+</figcaption>
+  </figure>
+</div>
+
+<h4 id="2-anticipatorypredictive-ads">2. <strong>Anticipatory/Predictive ads:</strong></h4>
+
+<p>While a user types “hair dryer” no ads are shown but when he types “best hair dryer” ads are shown. Search has “also try” functionality which can be applied to ad keywords. Think ahed of “also try results” and show ads for those as well in the current page. Ex: When user types “hair dryer” also show ads for “best hair dryer” that makes sense.</p>
+
+<h4 id="3async-results-devilry-push-results-offline">3.<strong>Async results devilry (Push results offline):</strong>**</h4>
+
+<p>Find methods to deliver search data to user and use it as channel for ads. Similar to Google feed, keep pushing search/news/trending results stream as per user’s interest. This can act as a potential ad channel.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Ads" title="Pages tagged Ads" class="tag"><span class="term">Ads</span></a><a href="http://localhost:4000/tags/#UX" title="Pages tagged UX" class="tag"><span class="term">UX</span></a><a href="http://localhost:4000/tags/#Design" title="Pages tagged Design" class="tag"><span class="term">Design</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/browsers-chrome-42-plugins-wont-work/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/browsers-chrome-42-plugins-wont-work/" title="Browsers - Chrome dropped support for NPAPI plugins. What's next?">Browsers - Chrome dropped support for NPAPI plugins. What's next?</a></h4>
+        <span>Published on January 06, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

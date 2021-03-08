@@ -1,0 +1,16 @@
+current directory: /Users/uday/soft/udayakiran.github.io/vendor/gems/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/uday/.rbenv/versions/2.7.1/bin/ruby -I /Users/uday/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20210306-10621-1gsf0wa.rb extconf.rb
+creating Makefile
+
+current directory: /Users/uday/soft/udayakiran.github.io/vendor/gems/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/uday/soft/udayakiran.github.io/vendor/gems/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/uday/soft/udayakiran.github.io/vendor/gems/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20210306-10621-qi7q6v

@@ -1,0 +1,264 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Handling requests in browser time zone in a rails app &#8211; Tech stream</title>
+<meta name="description" content="Handling requests in browser time zone in a rails app">
+<meta name="keywords" content="javascript, programming, ror, ruby, web">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Handling requests in browser time zone in a rails app">
+<meta property="og:description" content="Handling requests in browser time zone in a rails app">
+<meta property="og:url" content="http://localhost:4000/Handling-requests-in-browser-timezone-rails/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Handling-requests-in-browser-timezone-rails/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #616161db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Handling requests in browser time zone in a rails app">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Handling-requests-in-browser-timezone-rails/" rel="bookmark" title="Handling requests in browser time zone in a rails app">Handling requests in browser time zone in a rails app</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~4 minutes
+          <i style="font-style:normal;">  |  </i>
+          September 02, 2014
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user’s time zone so users don’t have to do the timezone conversions.</p>
+
+<p>In this post, i’ll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.</p>
+
+<p>The most seamless way of showing time information in the user’s time zone is to track the time zone from the browser and run the time related operations on your server considering this time zone and return the time in this time zone. As simple as that.</p>
+
+<h2 id="common-solutions--">Common solutions -</h2>
+
+<p>Let’s look at some common methods we can use with ROR -</p>
+
+<p>As Eli has nicely written these up here - <a href="https://viget.com/extend/using-time-zones-with-rails">https://viget.com/extend/using-time-zones-with-rails</a> , METHOD -1 has the short coming of not being able to detect the Day light savings METHOD -2 of JSTZ is preferred. This works 90% of the times but there is no guarantee that this solution works with any server side framework all the time.</p>
+
+<p>The main reason is jstz determines the time zone and returns it as a <em>String</em>. There is no standard in the strings used by the software to represent the time zones unfortunately and due to this some of the cases fail even with Rails.</p>
+
+<p>Just to confirm - please go you rails console and print the following.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">ActiveSupport</span><span class="nd">::TimeZone::MAPPING</span>
+<span class="nt">ActiveSupport</span><span class="nd">::TimeZone::MAPPING</span><span class="nc">.keys</span>
+<span class="nt">ActiveSupport</span><span class="nd">::TimeZone::MAPPING</span><span class="nc">.values</span></code></pre></figure>
+
+<p>You will observe that these are not the same string used by jstz if you can look at it’s time zone.</p>
+
+<p>Hence, this solution does not work for all the cases as well. Also, it is observed that Rails keep adding support for new time zones as they are adopted by the cities / governments. Changing the strings of jstz to be same as Rails’s is one approach but i am not recommending that.</p>
+
+<h2 id="my-approach--">My approach -</h2>
+
+<p>My approach to solve this problem is purely based on the offsets. Because -</p>
+
+<ul>
+  <li>
+    <p>Offsets are the standard across the time zones unlike name, so we only pass the offset values to server let Rails / any server software decide the time zone name.</p>
+  </li>
+  <li>
+    <p>By tracking summer and winter offsets we can handle the daly light savings issues.</p>
+  </li>
+  <li>
+    <p>Another point to handle is the changes to the time zones and their adoption by the software -
+Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs).
+(Ref - <a href="http://www.timetemperature.com/pacific/samoa_time_zone.shtml">http://www.timetemperature.com/pacific/samoa_time_zone.shtml</a>).  These changes might / might not have been picked up by user’s browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.</p>
+  </li>
+</ul>
+
+<h2 id="final-solution--">Final solution -</h2>
+
+<p>I have put together my approach as a gem (that works for rails as of now but can easily be extended to others.) -</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">https://github.com/udayakiran/rails_browser_timezone</code></pre></figure>
+
+<p>This is tested for rails 2.3.x, 3.x and 4.x and works fine for us.</p>
+
+<p>Please follow the steps in README to use it in your app.</p>
+
+<h2 id="open-issue--">Open Issue -</h2>
+
+<p>Browsers some time do not keep them up to date with the time zone changes and they are buggy.</p>
+
+<p>For example, as i am writing this, Google Chrome sends the offsets of Samoa time zone as WST for all the dates before and after 2011 which is an issue. Firefox sends the time zone offsets as SST for both the dates before and after 2011, which is also incorrect.</p>
+
+<p>However, rails 4.x (ruby 2.2) knows that Samoa before 2011, December is SST and  WST after that.</p>
+
+<p>But, this is one of those edge cases. For the popular time zones browsers and rails does a very good job and the solution works.</p>
+
+<h2 id="conclusion--">Conclusion -</h2>
+
+<p>The approach i used worked for us in majority of the cases by choosing the correct baseline year. Only point to not is that Rails 2.x and 3.x might not be able to track the time zone changes that happened after their year. But these are &lt;2% edge cases as we observed. But, the rest worked well.</p>
+
+<p>Please feel free to be touch about any issues faced / bugs reported through the github page of the gem.</p>
+
+<blockquote>
+  <p>I would say “Time zones are some times complex as they change and there is a difference in the adoption across the browsers. But, majority of the time zones we have traffic from, are simple !”</p>
+</blockquote>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript" class="tag"><span class="term">javascript</span></a><a href="http://localhost:4000/tags/#programming" title="Pages tagged programming" class="tag"><span class="term">programming</span></a><a href="http://localhost:4000/tags/#ror" title="Pages tagged ror" class="tag"><span class="term">ror</span></a><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Handling-requests-in-browser-timezone-rails/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Handling-requests-in-browser-timezone-rails/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Handling-requests-in-browser-timezone-rails/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/Javascript-jquery-confirm-action/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

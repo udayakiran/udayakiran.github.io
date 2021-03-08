@@ -1,0 +1,280 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Ruby - Optimize the garbage collector performance (REE 1.8.7 or older) &#8211; Tech stream</title>
+<meta name="description" content="Optimizing the GC performance of ruby to have faster and consistent rails response times.">
+<meta name="keywords" content="ruby, ror, programming, performance">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)">
+<meta property="og:description" content="Optimizing the GC performance of ruby to have faster and consistent rails response times.">
+<meta property="og:url" content="http://localhost:4000/Ruby_gc_optimization/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Ruby_gc_optimization/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #39b470db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Ruby_gc_optimization/" rel="bookmark" title="Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)">Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~4 minutes
+          <i style="font-style:normal;">  |  </i>
+          October 24, 2012
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <h2 id="problem--">Problem -</h2>
+
+<p>It all started with a little bit of inspection into the logs where we observed that a particular rails action is randomly taking more time than expected. There were not many queries and simple view rendering was taking time. For example when 10 hits were made to the end point with no other load on the machine, every 4 hits were taking 20ms but the next hit was taking 100ms as such.</p>
+
+<p>A little more introspection revealed that a particular partial was taking that extra bit of time. Finding the root cause and fixing this was the problem.</p>
+
+<h2 id="analysis--">Analysis -</h2>
+
+<p>We were using New relic’s monitoring and it helped in locating the issue. As there were spikes in the ruby code, it is clear that ruby’s execution was taking time. Now, to get the next level details about this execution delay, we had to enable ruby’s GC execution measurement. We were using ruby enterprise edition 1.8.7 and followed the link here to enable the GC monitoring - <a href="https://docs.newrelic.com/docs/agents/ruby-agent/features/garbage-collection">https://docs.newrelic.com/docs/agents/ruby-agent/features/garbage-collection</a></p>
+
+<p>Once GC monitoring was enabled, we could easily see that every time the request took extra milli seconds, GC execution was taking that extra time, and rest remained same. So, now, we located the problem. It’s ruby’s garbage collector!</p>
+
+<h2 id="solution--">Solution -</h2>
+
+<p>A little bit of search on how to optimize ruby GC helped me to find the reference from <a href="http://www.rubyenterpriseedition.com/documentation.html#_garbage_collector_performance_tuning">REE’s documentation</a></p>
+
+<h3 id="tuning-the-gc--">Tuning the GC -</h3>
+
+<p>We use passenger as our app server. We need to find out the optimal heap settings for ruby and configure passenger to run with this GC tuned ruby.</p>
+
+<h4 id="a-observe-the-heap-stats--">A. Observe the heap stats -</h4>
+
+<p>Observe the heap usage on the specific app server which you need to optimize (for production, examining one app server is enough if all your app servers are identical.)</p>
+
+<p>Install gdb.rb to print the ruby process related stats prettily.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Install</span> <span class="n">gdb</span><span class="p">.</span><span class="nf">rb</span><span class="p">:</span>
+<span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">gdb</span><span class="p">.</span><span class="nf">rb</span></code></pre></figure>
+
+<p>Use <code class="language-plaintext highlighter-rouge">sudo passenger-status</code> to find a thread that has handled enough requests and note its PID.
+Connect to the passenger thread with <code class="language-plaintext highlighter-rouge">gdb.rb</code>:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">gdb</span><span class="p">.</span><span class="nf">rb</span> <span class="o">&lt;</span><span class="n">pid</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Get <code class="language-plaintext highlighter-rouge">gdb.rb</code> to print out the stats about your objects:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="n">objects</span>
+
+<span class="no">You</span> <span class="n">will</span> <span class="n">find</span> <span class="n">a</span> <span class="n">section</span> <span class="n">that</span> <span class="n">looks</span> <span class="n">like</span> <span class="ss">below:
+
+  </span><span class="no">HEAPS</span>            <span class="mi">6</span>
+  <span class="no">SLOTS</span>      <span class="mi">2435789</span>
+  <span class="no">LIVE</span>       <span class="mi">1159435</span> <span class="p">(</span><span class="mf">47.60</span><span class="o">%</span><span class="p">)</span>
+  <span class="no">FREE</span>       <span class="mi">1266614</span> <span class="p">(</span><span class="mf">52.40</span><span class="o">%</span><span class="p">)</span></code></pre></figure>
+
+<p>We’re going to assume that “LIVE” is the approximate number of slots you normally use up. Round that up to something like 1,500,000 and calculate the below.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RUBY_HEAP_MIN_SLOTS</span><span class="o">=</span><span class="mi">1800000</span>          <span class="c1"># Slots Live + 20%</span>
+<span class="no">RUBY_HEAP_FREE_MIN</span><span class="o">=</span><span class="mi">18000</span>             <span class="c1"># 1% of HEAP_MIN_SLOTS</span>
+<span class="no">RUBY_HEAP_SLOTS_INCREMENT</span><span class="o">=</span><span class="mi">144000</span>     <span class="c1"># 8% of HEAP_MIN_SLOTS</span>
+<span class="no">RUBY_HEAP_SLOTS_GROWTH_FACTOR</span><span class="o">=</span><span class="mi">1</span>
+<span class="no">RUBY_GC_MALLOC_LIMIT</span><span class="o">=</span><span class="mi">60000000</span></code></pre></figure>
+
+<p>These settings can be tweaked as you like. These are the settings that worked for me and for our app. They can be tweaked as needed. All we are trying to do here  is to allocate adequate heap space to minimize the GC’s efforts.</p>
+
+<h4 id="b-export-these-settings-for-ruby-executable">B. Export these settings for ruby executable</h4>
+
+<p>Create a wrapper script that sets these variables in the environment before calling ruby. For example i ll create a file <code class="language-plaintext highlighter-rouge">ruby_gc_tuned</code> in /usr/local/bin and add the below lines.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/bin/bash</span>
+
+<span class="n">export</span> <span class="no">RUBY_HEAP_MIN_SLOTS</span><span class="o">=</span><span class="mi">1800000</span>
+<span class="n">export</span> <span class="no">RUBY_HEAP_FREE_MIN</span><span class="o">=</span><span class="mi">18000</span>
+<span class="n">export</span> <span class="no">RUBY_HEAP_SLOTS_INCREMENT</span><span class="o">=</span><span class="mi">144000</span>
+<span class="n">export</span> <span class="no">RUBY_HEAP_SLOTS_GROWTH_FACTOR</span><span class="o">=</span><span class="mi">1</span>
+<span class="n">export</span> <span class="no">RUBY_GC_MALLOC_LIMIT</span><span class="o">=</span><span class="mi">60000000</span>
+
+<span class="nb">exec</span> <span class="s2">"/usr/local/bin/ruby"</span> <span class="s2">"$@"</span></code></pre></figure>
+
+<h4 id="c-edit-the-ruby-path-in-passenger-config">C. Edit the ruby path in passenger config</h4>
+
+<p>Edit passenger.conf and change the PassengerRuby value to point to ruby_gc_tuned.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">PassengerRoot</span> <span class="sr">/usr/</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="mf">1.8</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="n">passenger</span><span class="o">-</span><span class="mf">3.0</span><span class="o">.</span><span class="mi">11</span>
+<span class="no">PassengerRuby</span> <span class="sr">/usr/</span><span class="n">local</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">ruby_gc_tuned</span></code></pre></figure>
+
+<p>Now restart apache and check NewRelic to see how you did.</p>
+
+<h2 id="improvements-observed--">Improvements Observed -</h2>
+
+<p>In our case the 100ms taken by the requests on and off has dropped to 35ms. The 80ms taken by ruby GC went down to 15ms.</p>
+
+<p>This remained very much constant.</p>
+
+<h2 id="future--">Future -</h2>
+
+<p>This is a note that this particular optimization may not be needed any more after ruby 2.0’s release. So, if you are running on ruby 2.0 (with YARV) you are good to use the ruby as such as heap size optimization is not required.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a><a href="http://localhost:4000/tags/#ror" title="Pages tagged ror" class="tag"><span class="term">ror</span></a><a href="http://localhost:4000/tags/#programming" title="Pages tagged programming" class="tag"><span class="term">programming</span></a><a href="http://localhost:4000/tags/#performance" title="Pages tagged performance" class="tag"><span class="term">performance</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Ruby_gc_optimization/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Ruby_gc_optimization/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Ruby_gc_optimization/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/file-upload-progress-with-apache/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

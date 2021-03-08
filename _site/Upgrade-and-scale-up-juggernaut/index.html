@@ -1,0 +1,314 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Rails/Nodejs - Upgrade and scale up Juggernaut &#8211; Tech stream</title>
+<meta name="description" content="Upgrade and scale up macman's juggernaut library.">
+<meta name="keywords" content="ror, ruby, nodejs, websocket">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rails/Nodejs - Upgrade and scale up Juggernaut">
+<meta property="og:description" content="Upgrade and scale up macman's juggernaut library.">
+<meta property="og:url" content="http://localhost:4000/Upgrade-and-scale-up-juggernaut/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image" style="background-color: #616161db">
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Rails/Nodejs - Upgrade and scale up Juggernaut">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/" rel="bookmark" title="Rails/Nodejs - Upgrade and scale up Juggernaut">Rails/Nodejs - Upgrade and scale up Juggernaut</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~4 minutes
+          <i style="font-style:normal;">  |  </i>
+          November 10, 2015
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>We used <a href="https://github.com/maccman/juggernaut">macman’s juggernaut</a> for realtime push notifications and chat for one of the rails apps. It was used in a 6 year old legacy app with <a href="socket.io">socket.io’s</a> long polling mechanism. nodejs used was of version 0.2.4. Things have changed so much in the realtime app’s space since then and juggernaut is deprecated now.</p>
+
+<p>We needed to upgrade juggernaut to get the following -</p>
+
+<ul>
+  <li>
+    <p>We had to upgrade socket.io to a version atleast &gt; 0.8 to solve some connectivity problems with reconnection, load balancing and to switch to websockets.</p>
+  </li>
+  <li>
+    <p>Nodejs needed to be upgraded to as latest as possible.</p>
+  </li>
+  <li>
+    <p>We also had to scale up the way our chat’s roster script that populates list of online users. This needed some code changes and will explain this process below.</p>
+  </li>
+</ul>
+
+<h2 id="upgrading-juggernaut--">Upgrading Juggernaut -</h2>
+
+<p>As macman/juggernaut repo is deprecated and is not being maintained now. So, we did a bit of research and see that we should go with - <a href="https://github.com/Groupsite/juggernaut">GroupSite/juggernaut</a></p>
+
+<p>This is forked here - <a href="https://github.com/udayakiran/juggernaut">udayakiran/juggernaut</a> and will be maintained from here after.</p>
+
+<h3 id="installation--">Installation -</h3>
+
+<p>1) Install node https://nodejs.org/en/blog/release/v0.10.40/</p>
+
+<p>2) Clone or down load the repo to a directory say “juggernaut”</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">    git clone https://github.com/udayakiran/juggernaut juggernaut</code></pre></figure>
+
+<p>3) Setup juggernaut -</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">    cd juggernaut
+
+    npm install</code></pre></figure>
+
+<p>4) Download latest version of redis (3.0.5) and extract it. Optionally it can be installed.</p>
+
+<p>5) Start redis and juggernaut</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">    cd redis_src_dir
+
+    ./redis-server
+
+    cd juggernaut
+
+    node server.js #nodejs server.js on Ubuntu</code></pre></figure>
+
+<h2 id="changes-to-application">Changes to application</h2>
+
+<ul>
+  <li>Include the application.js file in the app.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">    %script{:type =&gt; "text/javascript", :src  =&gt; "#{chat_server_url}/application.js", :charset =&gt; "utf-8"}</code></pre></figure>
+
+<ul>
+  <li>With this clone of juggernaut, socket.io is upgraded to 0.9.9 and application.js code suggests that the way we handle channels is changed. Instead passing channel like a string, it needs to be passed like javascript object.</li>
+</ul>
+
+<h2 id="populating-roster-in-a-better-way">Populating roster in a better way</h2>
+
+<p>This legacy app had it’s chat built using juggernaut which needed the list of online users to be shown. This was not designed to scale. The list of online users were getting populated through periodic ajax requests to a rails metal controller which reads the data from an SQL DB. It had support for group chats, so every ajax request used to get the details of groups of the user, making the SQL queries further heavy.</p>
+
+<p>Despite this being slow, it was causing huge load on app servers when number of online users are more, eventually causing scalability issues to the other parts og the app. This needs to happen though a push mechanism of juggernaut and online users need to be read from redis, rather than from a SQL database.</p>
+
+<h4 id="references--">References -</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  - https://github.com/Groupsite/juggernaut ('Building a roster' section)
+
+  - http://www.ryanepp.com/blog/how-do-i-tell-if-a-user-is-online
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p>Store the online users in redis. User may login from multiple tabs. So, a count is maintained to indicate the user logged in status. This counter is incremented on juggernaut connect callback and is decremented on juggernaut disconnect callback. When this count is 0, user is offline.</p>
+  </li>
+  <li>
+    <p>When a user record is active in redis, it should include user displayname , profile image url and groups details are stored as well. No DB queries are to be run when online user details are fetched.</p>
+  </li>
+  <li>
+    <p>When ever data gets updated, juggernaut event is fired to the relevant channels and the changes are pushed.</p>
+  </li>
+  <li>
+    <p>Need to write additional juggernaut callbacks on client to handle user coming online and going offline.</p>
+  </li>
+  <li>
+    <p>Also, care needs to be taken that in case redis goes down, or data is lost, it is handled gracefully.</p>
+  </li>
+</ol>
+
+<p>Once this is implemented, the app started perfectly scaling up.</p>
+
+<h2 id="load-balancing-the-components--">Load balancing the components -</h2>
+
+<p>We use HAproxy as the loadbalancer. This works for all the components.</p>
+
+<ul>
+  <li>
+    <p>Webscokets are loadbalanced through TCP.</p>
+  </li>
+  <li>
+    <p>Redis can either be loadbalanced with redis sentinel and proxy like <a href="https://support.pivotal.io/hc/en-us/articles/205309388-How-to-setup-HAProxy-and-Redis-Sentinel-for-automatic-failover-between-Redis-Master-and-Slave-servers">here</a> or with master-salve setup.</p>
+  </li>
+  <li>
+    <p>Chat roster script can be run on each app server instance.</p>
+  </li>
+</ul>
+
+<h2 id="whats-next-">What’s next ?</h2>
+
+<p>Obviously, there are a number of methods to take the realtime apps forward. The roster script is not completely scalable yet as it still involves ruby. So, we can look at more concurrent options.</p>
+
+<ul>
+  <li>
+    <p>Convert roster script from ruby to nodejs or something that offers more concurrency.</p>
+  </li>
+  <li>
+    <p>We love XMPP  and erlang based <a href="https://www.ejabberd.im/">Ejabberd</a> as server. We are successfully using this in a few of other apps and experienced great deal of flexibilty, cross device support and scalability. There are a number of XMPP servers out there.</p>
+  </li>
+</ul>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#ror" title="Pages tagged ror" class="tag"><span class="term">ror</span></a><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a><a href="http://localhost:4000/tags/#nodejs" title="Pages tagged nodejs" class="tag"><span class="term">nodejs</span></a><a href="http://localhost:4000/tags/#websocket" title="Pages tagged websocket" class="tag"><span class="term">websocket</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Upgrade-and-scale-up-juggernaut/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Upgrade-and-scale-up-juggernaut/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Upgrade-and-scale-up-juggernaut/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/ruby-without-rails/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h3>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the sit...&hellip; <a href="http://localhost:4000/udayakiran.github.io/jekyll/update/welcome-to-jekyll/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative web browsing. Present and Future">Collaborative web browsing. Present and Future</a></h4>
+        <span>Published on March 12, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues">Desktop Web Search Engine Results Page - Design considerations for better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>
