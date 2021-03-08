@@ -2,7 +2,7 @@
 layout: post
 title: "Learnings Managing An Enterprise Scale Architecture Migration"
 description: "Large scale system migrations have lots of impact on organizations, people and culture. Cost is too high some times."
-tags: [Leadership, Enterprise, Scale, Architecture, Program Management]
+tags: [Leadership, Enterprise, Scalability, Architecture, Program Management]
 image:
   feature: abstract-6.jpg
   color: "39b470"

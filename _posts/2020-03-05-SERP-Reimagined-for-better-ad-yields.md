@@ -2,7 +2,7 @@
 layout: post
 title: "Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues"
 description: "Research summary of a search engine results page design and recommendations for better Ad yields."
-tags: [Ads, UX, Design, web, product]
+tags: [Advertising, UX, Architecture, Web, Product, Browsers]
 image:
   feature: abstract-6.jpg
   color: "616161"

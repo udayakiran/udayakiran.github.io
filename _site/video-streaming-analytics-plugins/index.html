@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Video streaming - Track video streaming analytics using jwplayer and videojs &#8211; Tech stream</title>
+<title>Video streaming - Video Streaming Analytics Using Jwplayer and Videojs &#8211; Tech stream</title>
 <meta name="description" content="Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs.">
-<meta name="keywords" content="video, javascript, web, mobile">
+<meta name="keywords" content="video, javascript, Web, mobile">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Video streaming - Track video streaming analytics using jwplayer and videojs">
+<meta property="og:title" content="Video streaming - Video Streaming Analytics Using Jwplayer and Videojs">
 <meta property="og:description" content="Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs.">
 <meta property="og:url" content="http://localhost:4000/video-streaming-analytics-plugins/">
 <meta property="og:site_name" content="Tech stream">
@@ -107,7 +107,7 @@
 
 <div class="entry-header">
   <div class="entry-image" style="background-color: #616161db">
-    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Video streaming - Track video streaming analytics using jwplayer and videojs">-->
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Video streaming - Video Streaming Analytics Using Jwplayer and Videojs">-->
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -117,13 +117,13 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://localhost:4000/video-streaming-analytics-plugins/" rel="bookmark" title="Video streaming - Track video streaming analytics using jwplayer and videojs">Video streaming - Track video streaming analytics using jwplayer and videojs</a></h1>
+          <h1 class="entry-title"><a href="http://localhost:4000/video-streaming-analytics-plugins/" rel="bookmark" title="Video streaming - Video Streaming Analytics Using Jwplayer and Videojs">Video streaming - Video Streaming Analytics Using Jwplayer and Videojs</a></h1>
         
         
         <h2 class="entry-reading-time" style="text-align: center">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~3 minutes
+          Reading time ~5 minutes
           <i style="font-style:normal;">  |  </i>
           December 20, 2017
         </h2><!-- /.entry-reading-time -->
@@ -132,17 +132,22 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.</p>
+      <p>Video is one of the most consumed format of content on our e-learning platform.  We were offering an inhouse developed video steaming solution that helps multiple web clients to stream videos. Our pricing model was to charge based on the amount of time spent watching the videos. We also wanted to know how many viewers are from the desktops and how many are from the mobile devices.</p>
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/v3.png" width="600px" alt="" />
+</figure>
+</div>
+
+<p>Hence, we ended up developing a high scaling near real time video analytics infra. In this post, I am planning to provide details of this system.</p>
 
 <p>A few points to note here are -</p>
 
 <ul>
-  <li>
-    <p>All our apps use either jwplayer5 or videojs to stream videos.</p>
-  </li>
-  <li>
-    <p>The streaming server can be either red5 or wowza or amazon cloud front.</p>
-  </li>
+  <li>All our apps use either jwplayer5 or videojs as client to stream videos.</li>
+  <li>Videos are delivered either over http / rtmp / Apple HLS based streaming methods.</li>
+  <li>We use our own Red5 based streaming server but this method works for any streaming server as long as clients are jWplayer and videoJS.</li>
 </ul>
 
 <h2 id="options-to-track-video-analytics--">Options to track video analytics -</h2>
@@ -230,6 +235,66 @@
 
 <p>Follow the README to find the information about usage, config params and tips.</p>
 
+<h2 id="server-side--">Server side -</h2>
+
+<h3 id="information-received-by-server">Information Received By Server</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  { session_id: ,
+    previous_position: ,
+    current_position: ,
+    progress: ,
+    video_duration: ,
+    total_session_duration:,
+    additional_data: ...}
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Param</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">session_id</td>
+      <td>A globally unique session id string that helps to identify and store data per session. Every time the video player gets launched, a new session id gets created.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">previous_position</td>
+      <td>The position of the video controlbar when last update happend (in secs)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">current_position</td>
+      <td>The position of the video controlbar at present (in secs)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">progress</td>
+      <td>The overall percentage of video is watched so far (percentage</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">video_duration</td>
+      <td>Total video length (in secs)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">total_session_duration</td>
+      <td>Total amount of time spent watched in this session (in secs.). This is culumative and calcualtes the replays, seeking back and etc.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">additional_data</td>
+      <td>additional data initialized on client while loading the player. Can contain user specific info.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can use any simple http end point and write simple code to process and store these tokens. We have used a simple nodejs edge server to store these details and it was scaled uptp 20k TPS to ensure reliable, no loss progress tracking.</p>
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/dat.png" width="600px" alt="" />
+</figure>
+</div>
+
 <h2 id="applications-of-the-tracked-analytics--">Applications of the tracked analytics -</h2>
 
 <p>Though the plugins send data in the raw format, following information can be tracked by using this effectively.</p>
@@ -260,7 +325,7 @@
 </figure>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://localhost:4000/tags/#video" title="Pages tagged video" class="tag"><span class="term">video</span></a><a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript" class="tag"><span class="term">javascript</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a><a href="http://localhost:4000/tags/#mobile" title="Pages tagged mobile" class="tag"><span class="term">mobile</span></a></span>
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#video" title="Pages tagged video" class="tag"><span class="term">video</span></a><a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript" class="tag"><span class="term">javascript</span></a><a href="http://localhost:4000/tags/#Web" title="Pages tagged Web" class="tag"><span class="term">Web</span></a><a href="http://localhost:4000/tags/#mobile" title="Pages tagged mobile" class="tag"><span class="term">mobile</span></a></span>
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">

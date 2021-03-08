@@ -2,7 +2,7 @@
 layout: post
 title: "Browsers - Chrome dropped support for NPAPI plugins. What's next?"
 description: "Browsers - Chrome dropped support for a number of plugins. What's the reason? What's next?"
-tags: [java, browsers, web, Java web start, HTML5]
+tags: [java, Browsers, Web, Java web start, HTML5]
 image:
   feature: abstract-6.jpg
   color: "39b470"

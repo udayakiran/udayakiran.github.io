@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Video streaming - Track video streaming analytics using jwplayer and videojs"
+title: "Video streaming - Video Streaming Analytics Using Jwplayer and Videojs"
 description: "Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs."
-tags: [video, javascript, web, mobile]
+tags: [video, javascript, Web, mobile]
 image:
   feature: abstract-6.jpg
   color: "616161"
@@ -10,13 +10,21 @@ image:
 bg_color: "616161"
 ---
 
-As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.
+Video is one of the most consumed format of content on our e-learning platform.  We were offering an inhouse developed video steaming solution that helps multiple web clients to stream videos. Our pricing model was to charge based on the amount of time spent watching the videos. We also wanted to know how many viewers are from the desktops and how many are from the mobile devices. 
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/v3.png" width="600px" alt="">
+</figure>
+</div>
+
+Hence, we ended up developing a high scaling near real time video analytics infra. In this post, I am planning to provide details of this system.
 
 A few points to note here are -
 
-- All our apps use either jwplayer5 or videojs to stream videos.
-
-- The streaming server can be either red5 or wowza or amazon cloud front.  
+- All our apps use either jwplayer5 or videojs as client to stream videos.
+- Videos are delivered either over http / rtmp / Apple HLS based streaming methods.
+- We use our own Red5 based streaming server but this method works for any streaming server as long as clients are jWplayer and videoJS.
 
 ## Options to track video analytics -
 
@@ -83,6 +91,42 @@ Plugin name - videojs-tracker
 Source - <https://github.com/udayakiran/videojs-tracker>
 
 Follow the README to find the information about usage, config params and tips.
+
+
+
+## Server side - 
+
+
+### Information Received By Server 
+
+```
+  { session_id: ,
+    previous_position: ,
+    current_position: ,
+    progress: ,
+    video_duration: ,
+    total_session_duration:,
+    additional_data: ...}
+```
+
+
+| Param | Explanation |
+| :---- | ---- |
+| session_id | A globally unique session id string that helps to identify and store data per session. Every time the video player gets launched, a new session id gets created. |
+| previous_position | The position of the video controlbar when last update happend (in secs) |
+| current_position | The position of the video controlbar at present (in secs) |
+| progress | The overall percentage of video is watched so far (percentage |
+| video_duration | Total video length (in secs) |
+| total_session_duration | Total amount of time spent watched in this session (in secs.). This is culumative and calcualtes the replays, seeking back and etc. |
+| additional_data | additional data initialized on client while loading the player. Can contain user specific info. |
+
+You can use any simple http end point and write simple code to process and store these tokens. We have used a simple nodejs edge server to store these details and it was scaled uptp 20k TPS to ensure reliable, no loss progress tracking.
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/dat.png" width="600px" alt="">
+</figure>
+</div>
 
 ## Applications of the tracked analytics -
 
