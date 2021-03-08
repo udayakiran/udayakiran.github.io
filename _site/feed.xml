@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T11:33:33-05:00</updated>
+<updated>2021-03-08T11:40:21-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -714,6 +714,150 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Video streaming - Track video streaming analytics using jwplayer and videojs]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/video-streaming-analytics-plugins/" />
+  <id>http://localhost:4000/video-streaming-analytics-plugins</id>
+  <published>2017-12-20T00:00:00-05:00</published>
+  <updated>2017-12-20T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.&lt;/p&gt;
+
+&lt;p&gt;A few points to note here are -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;All our apps use either jwplayer5 or videojs to stream videos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The streaming server can be either red5 or wowza or amazon cloud front.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;options-to-track-video-analytics--&quot;&gt;Options to track video analytics -&lt;/h2&gt;
+
+&lt;p&gt;We can track this information in one of the following ways -&lt;/p&gt;
+
+&lt;h3 id=&quot;a-through-video-player-recommended--&quot;&gt;a) Through Video player (Recommended) -&lt;/h3&gt;
+
+&lt;p&gt;We can write a jwplayer plugin for desktops and videojs plugin for mobiles which will send the amount of video watched by user.&lt;/p&gt;
+
+&lt;p&gt;On server, this data can be written either directly to DB after processing or first to a store like redis/memcached and then to the database.&lt;/p&gt;
+
+&lt;h4 id=&quot;advantages--&quot;&gt;Advantages -&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;This keeps video tracking logic generic and app independent. Same plugin works for all apps and all streaming servers. No maintenance is needed if we switch streaming servers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Very loosely coupled and same code works for both mobiles and desktops.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Can be easily extended to track more info as needed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;b-through-steaming-server-not-recommended&quot;&gt;b) Through steaming server (Not Recommended)&lt;/h3&gt;
+
+&lt;p&gt;We need to write an app for the streaming server (red5/wowza/nginx-rtmp) which tracks it based on the client/connection. Paid streaming services like wowza and AWS cloud front provide some of these stats out of the box but others do not. This data needs to be exposed to app servers so that they can access it and store in their database. Streaming server can also push the data.&lt;/p&gt;
+
+&lt;h4 id=&quot;disadvantages--&quot;&gt;Disadvantages -&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Complex to build. Need to build the red5/wowza apps and also a way to store data locally and then push/expose it to the web apps.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not maintainable. We need to write different apps if we need to move to another media server.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;implementation--&quot;&gt;Implementation -&lt;/h2&gt;
+
+&lt;p&gt;Wrote two plugins for jwplayer and videojs each using their JS APIs. The plugins can track the below information session by session. This can be reported like JSON to the server end point URL that is configured.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Progress&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time spent on the video in any session&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Video duration&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Browser/Device (not included in params. Just read “user-agent” header of each request)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of attempts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pass any additional data during initialzation so that it can be sent to the server along with the updates.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also, lets you resume from the video from the last left point if you choose to.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below is the source code of the plugins and usage instructions.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-jwplayer--&quot;&gt;For Jwplayer -&lt;/h3&gt;
+
+&lt;p&gt;Plugin name - jwplayer-tracker&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/jwplayer-tracker&quot;&gt;https://github.com/udayakiran/jwplayer-tracker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-videojs--&quot;&gt;For VideoJs -&lt;/h3&gt;
+
+&lt;p&gt;Plugin name - videojs-tracker&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/videojs-tracker&quot;&gt;https://github.com/udayakiran/videojs-tracker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
+
+&lt;h2 id=&quot;applications-of-the-tracked-analytics--&quot;&gt;Applications of the tracked analytics -&lt;/h2&gt;
+
+&lt;p&gt;Though the plugins send data in the raw format, following information can be tracked by using this effectively.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of users on each devise.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of users by location.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Amount of time spent on the video.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number of people who completely watch the video.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All the above information can be tracked over period of time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Below is a simple image showing how the tracked data can be presented.&lt;/p&gt;
+
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/jwplayer-streaming.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Original figure taken from jwplayer.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-streaming-analytics-plugins/&quot;&gt;Video streaming - Track video streaming analytics using jwplayer and videojs&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 20, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Browsers - Chrome dropped support for NPAPI plugins. What's next?]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/browsers-chrome-42-plugins-wont-work/" />
   <id>http://localhost:4000/browsers-chrome-42-plugins-wont-work</id>
@@ -924,150 +1068,6 @@
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-client-timezone-rails-(copy)/&quot;&gt;TimeZone - Handling requests in client's time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Video streaming - Track video streaming analytics using jwplayer and videojs]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/video-streaming-analytics-plugins/" />
-  <id>http://localhost:4000/video-streaming-analytics-plugins</id>
-  <published>2015-12-20T00:00:00-05:00</published>
-  <updated>2015-12-20T00:00:00-05:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;As part of one of our products, we were offering a video steaming solution that helps multiple web apps to stream videos. We wanted to charge for video streaming based on the amount of time spent watching the videos and also wanted to know how many viewers are from the desktops and how many are from the mobile devices. So, will explain below how to build something that tracks all this basic information.&lt;/p&gt;
-
-&lt;p&gt;A few points to note here are -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;All our apps use either jwplayer5 or videojs to stream videos.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The streaming server can be either red5 or wowza or amazon cloud front.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;options-to-track-video-analytics--&quot;&gt;Options to track video analytics -&lt;/h2&gt;
-
-&lt;p&gt;We can track this information in one of the following ways -&lt;/p&gt;
-
-&lt;h3 id=&quot;a-through-video-player-recommended--&quot;&gt;a) Through Video player (Recommended) -&lt;/h3&gt;
-
-&lt;p&gt;We can write a jwplayer plugin for desktops and videojs plugin for mobiles which will send the amount of video watched by user.&lt;/p&gt;
-
-&lt;p&gt;On server, this data can be written either directly to DB after processing or first to a store like redis/memcached and then to the database.&lt;/p&gt;
-
-&lt;h4 id=&quot;advantages--&quot;&gt;Advantages -&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;This keeps video tracking logic generic and app independent. Same plugin works for all apps and all streaming servers. No maintenance is needed if we switch streaming servers.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Very loosely coupled and same code works for both mobiles and desktops.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Can be easily extended to track more info as needed.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;b-through-steaming-server-not-recommended&quot;&gt;b) Through steaming server (Not Recommended)&lt;/h3&gt;
-
-&lt;p&gt;We need to write an app for the streaming server (red5/wowza/nginx-rtmp) which tracks it based on the client/connection. Paid streaming services like wowza and AWS cloud front provide some of these stats out of the box but others do not. This data needs to be exposed to app servers so that they can access it and store in their database. Streaming server can also push the data.&lt;/p&gt;
-
-&lt;h4 id=&quot;disadvantages--&quot;&gt;Disadvantages -&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Complex to build. Need to build the red5/wowza apps and also a way to store data locally and then push/expose it to the web apps.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Not maintainable. We need to write different apps if we need to move to another media server.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;implementation--&quot;&gt;Implementation -&lt;/h2&gt;
-
-&lt;p&gt;Wrote two plugins for jwplayer and videojs each using their JS APIs. The plugins can track the below information session by session. This can be reported like JSON to the server end point URL that is configured.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Progress&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Time spent on the video in any session&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Video duration&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Browser/Device (not included in params. Just read “user-agent” header of each request)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Number of attempts&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pass any additional data during initialzation so that it can be sent to the server along with the updates.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Also, lets you resume from the video from the last left point if you choose to.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Below is the source code of the plugins and usage instructions.&lt;/p&gt;
-
-&lt;h3 id=&quot;for-jwplayer--&quot;&gt;For Jwplayer -&lt;/h3&gt;
-
-&lt;p&gt;Plugin name - jwplayer-tracker&lt;/p&gt;
-
-&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/jwplayer-tracker&quot;&gt;https://github.com/udayakiran/jwplayer-tracker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
-
-&lt;h3 id=&quot;for-videojs--&quot;&gt;For VideoJs -&lt;/h3&gt;
-
-&lt;p&gt;Plugin name - videojs-tracker&lt;/p&gt;
-
-&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/videojs-tracker&quot;&gt;https://github.com/udayakiran/videojs-tracker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Follow the README to find the information about usage, config params and tips.&lt;/p&gt;
-
-&lt;h2 id=&quot;applications-of-the-tracked-analytics--&quot;&gt;Applications of the tracked analytics -&lt;/h2&gt;
-
-&lt;p&gt;Though the plugins send data in the raw format, following information can be tracked by using this effectively.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Number of users on each devise.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Number of users by location.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Amount of time spent on the video.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Number of people who completely watch the video.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;All the above information can be tracked over period of time.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Below is a simple image showing how the tracked data can be presented.&lt;/p&gt;
-
-&lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;/images/jwplayer-streaming.png&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption style=&quot;text-align: center&quot;&gt;Original figure taken from jwplayer.com&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-streaming-analytics-plugins/&quot;&gt;Video streaming - Track video streaming analytics using jwplayer and videojs&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 20, 2015.&lt;/p&gt;
   </content>
 </entry>
 
