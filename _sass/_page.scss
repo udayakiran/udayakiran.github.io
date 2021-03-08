@@ -70,7 +70,7 @@ body {
 		h2 {
 			margin: 0;
 			@include font-rem(12);
-			font-family: $text-font;
+			font-family: $text-font !important;
 			text-transform: none;
 			font-style: italic;
 			font-weight: normal;

@@ -89,6 +89,7 @@ exclude:
   - package.json
   - spec
   - tmp
+  - vendor
 
 coderay:
   coderay_line_numbers: nil

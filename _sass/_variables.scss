@@ -21,8 +21,8 @@ $light-font: 'OpensansLight', Helvetica, Arial, sans-serif;
 $heading-font: $light-font;
 $text-font: $light-font;
 $caption-font: $base-font;
-$code-font: monospace;
-$alt-font: serif;
+$code-font: $base-font;
+$alt-font: $base-font;
 
 $doc-font-size: 16;
 $doc-line-height: 26;

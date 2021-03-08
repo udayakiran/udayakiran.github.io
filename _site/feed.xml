@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T02:55:56-05:00</updated>
+<updated>2021-03-08T02:58:56-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -677,6 +677,110 @@
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/browsers-chrome-42-plugins-wont-work/&quot;&gt;Browsers - Chrome dropped support for NPAPI plugins. What's next?&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 06, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[TimeZone - Handling requests in client's time zone in a rails app]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Handling-requests-in-client-timezone-rails/" />
+  <id>http://localhost:4000/Handling-requests-in-client-timezone-rails</id>
+  <published>2016-01-04T00:00:00-05:00</published>
+  <updated>2016-01-04T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This post is a continuation of one of my previous posts -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/Handling-requests-in-browser-timezone-rails/&quot;&gt;TimeZone - Handling requests in client’s time zone in a rails app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is recommended to visit that post before proceeding furthur on current post.&lt;/p&gt;
+
+&lt;p&gt;This post describes an enhanced solution of rails_browser_timezone gem.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-issues-with-rails_browser_timezone--&quot;&gt;Open issues with rails_browser_timezone -&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The very first hit to the server from a browser does not pass the browser offsets, which means this request runs in either the default system timezone or the last known timezone from the DB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This method does not help when the requests are received through APIs. APIs need to either explicitly pass browser off sets with each request or the requests run in the last known timezone which is persisted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some browsers take time to reflect upon the new timezone when client’s system time zone is changed. So, those few requests made meanwhile do not have the updated timezone.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;alternatives--&quot;&gt;Alternatives -&lt;/h2&gt;
+
+&lt;p&gt;While looking at some alternatives to the previous approach all i could find was either to go with JS based timezone tracking or tracking the timezone based on the geo-location which can be obtained from the request’s IP address.&lt;/p&gt;
+
+&lt;p&gt;JS based timezone tracking is buggy when it comes to handling the time zone names on rails servers, as we know from the previous post. Though this can be fixed by mapping these time zones to rails’s timezone strings, we still have the problem that APIs cant use this method.&lt;/p&gt;
+
+&lt;p&gt;Hence, tracking the timezone based on geoip seems to be one good alternative. The only limitation of this approach is that, a user who has his system timezone different than his location’s timezone will still see the information in the location’s timezone.&lt;/p&gt;
+
+&lt;p&gt;This is just a decision based on your app and how you want to deal with it. So, wanted to write a gem with supports timezone tracking based on both browsers and geoip and leave the developers with the flexibility of deciding which method they want to use to choose this.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-comprehensive-solution--&quot;&gt;A comprehensive solution -&lt;/h2&gt;
+
+&lt;p&gt;Keeping the above discussion up, tried to put together a gem called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rails_client_timezone&lt;/code&gt; which intends to solve all the above mentioned problems and gives developers the flexibility to choose how they want to track the time zone.&lt;/p&gt;
+
+&lt;p&gt;Source - &lt;a href=&quot;https://github.com/udayakiran/rails_client_timezone&quot;&gt;https://github.com/udayakiran/rails_client_timezone&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please follow the README which helps to get started.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This gem reuses the logic from &lt;a href=&quot;https://github.com/udayakiran/rails_browser_timezone&quot;&gt;rails_browser_timezone gem&lt;/a&gt; to track browser based timezones.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It can track the timezone based on the ip with the help of &lt;a href=&quot;https://rubygems.org/gems/geoip/versions/1.6.1&quot;&gt;geoip gem&lt;/a&gt;. A few tweaks were needed to this gem and had to put in efforts to map some of these timezone strings to match with the rails’s timezone strings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This gem works smartly to track the timezone from ip if browser offsets are not present and it also lets the programmers set the needed preference. This is a key addition.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;explanation-for-modes--&quot;&gt;Explanation for modes -&lt;/h3&gt;
+
+&lt;p&gt;This gem supports 3 modes which can optionally be configured by the developers. Default mode is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:smart&lt;/code&gt; .  Blow is the explanation for modes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:ip -&lt;/strong&gt; Time zone will be detected based on the request’s ip address(using geoip gem’s logic)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:browser -&lt;/strong&gt; Time zone will be detected based on browser utc offsets.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:smart -&lt;/strong&gt; Time zone will be detected by browser if offsets are set or it falls back to ip(:browser mode first, which falls back to :ip mode).&lt;/p&gt;
+
+&lt;p&gt;Create a file in your initializers and set the ‘mode’ to your choice.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Say in config/initializers/rails_client_tz_init.rb&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;RailsClientTimezone&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Setting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:ip&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#default value is :smart. Accepted values - :browser, :ip, :smart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;keeping-the-geoip-data-upto-date--&quot;&gt;Keeping the geoip data upto date -&lt;/h3&gt;
+
+&lt;p&gt;This is one minor limitation / update i think we will have to deal with while using this gem. This is needed only for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:ip&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:smart&lt;/code&gt; modes.&lt;/p&gt;
+
+&lt;p&gt;Geoip gem depends on geo data which consists of the information about the ips mapped to the geo locations. This database is consistent and up to date as of now, but in future to improve it’s accuracy and bring in the changes, we can update this any time. There are a number of websites which provide this data.&lt;/p&gt;
+
+&lt;p&gt;By default Geoip City db file is available in the data directory, to override that db file you can download it from Download geoip city database and place anywhere in your app. Create a file in your initializers and set the geo ip city db file path. This step is optional if you are good with the data provided by the gem.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Say in config/initializers/rails_client_tz_init.rb&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;RailsClientTimezone&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Setting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;geoip_data_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;#Default path is &amp;lt;gem_source&amp;gt;/data/geoip/GeoLiteCity.dat&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Hope that this gem provides needed help for the rails developers in handling the issues with time zones.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-client-timezone-rails/&quot;&gt;TimeZone - Handling requests in client's time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -2187,73 +2291,6 @@ Cities and governments can always choose to change a time zone or apply changes 
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-browser-timezone-rails/&quot;&gt;Handling requests in browser time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-jquery-confirm-action/" />
-  <id>http://localhost:4000/Javascript-jquery-confirm-action</id>
-  <published>2013-11-15T00:00:00-05:00</published>
-  <updated>2013-11-15T00:00:00-05:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
-
-&lt;p&gt;This is a jQuery plugin that confirms an action on click of an element and executes separate js code based on the confirmation.&lt;/p&gt;
-
-&lt;p&gt;Can be used to confirm users actions in a pretty way without having to use browser confirm box / alert box.&lt;/p&gt;
-
-&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Source code - &lt;a href=&quot;https://github.com/udayakiran/jQuery.confirmAction.js&quot;&gt;https://github.com/udayakiran/jQuery.confirmAction.js&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;setup--usage--&quot;&gt;Setup &amp;amp; Usage -&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Download jquery.confirmAction.js OR jquery.confirmAction.min.js&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Include jQuery file (1.7+) and the plugin file (or .min file) in your HTML page.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://code.jquery.com/jquery-1.7.1.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jquery.confirmAction.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;example-usage--&quot;&gt;Example usage -&lt;/h4&gt;
-
-&lt;p&gt;Say there is a link/button with id “confirm_link”, if you want to display a confirmation message to the user on clicking this link and decide weather to proceed or not -&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-
-     &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#confirm_link&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;confirmAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#&amp;lt;container_id&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Text that describes the confirmation related info&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;confirmButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Confirm button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;cancelButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;Cancel button label&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;avoid_confirm_double_click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;cancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking cancel button.&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;confirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;//Code to be executed on clicking confirm button.&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;    
-
- &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-jquery-confirm-action/&quot;&gt;JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 15, 2013.&lt;/p&gt;
   </content>
 </entry>
 
