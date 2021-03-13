@@ -12,6 +12,12 @@ bg_color: "616161"
 
 This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our's is a rails app that uses ejabberd as chat server.
 
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/eb.png" width="600px" alt="">
+</figure>
+</div>
+
 ## 1) User registration from our app -
 
 Our requirement is that when a new user signs up to our app, a new ejabberd account needs to be created. Obviously this is the same case with many of the apps. We used ruby' XMPP client for this. We were seeing an error that users could not be created as the limit for the number of users reached.

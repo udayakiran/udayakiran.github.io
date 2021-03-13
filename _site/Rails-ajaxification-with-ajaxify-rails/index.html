@@ -134,6 +134,12 @@
     <div class="entry-content">
       <p>Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.</p>
 
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/ar.png" width="600px" alt="" />
+</figure>
+</div>
+
 <h3 id="why-do-you-need-this-">Why do you need this ?</h3>
 
 <p>The main reason we wanted to do this is to keep the user on the same page through out the interactions. This was needed as we were supporting webRTC based voice calls through websocket connections, which we did not want to drop when user navigates across the pages.</p>
@@ -174,7 +180,6 @@
   <li>Form submissions are converted to ajax as well.</li>
   <li>Provides a way to specify the ‘content_container’ which needs to get the ajax response updated.</li>
   <li>A number of callbacks are available to perform things during ajax life cycle.</li>
-  <li>Provides a way to reload whole page after the deployments when assets expire.</li>
 </ul>
 
 <h4 id="improvements-neeeded--">Improvements neeeded -</h4>

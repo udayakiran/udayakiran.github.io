@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby - Ruby without rails. Libraries and frameworks"
+title: "Ruby - Ruby Beyond Rails - Libraries and Frameworks"
 description: "An overview of some of the libraries and frameworks of ruby besides rails."
 tags: [programming, ruby]
 image:
@@ -11,6 +11,12 @@ bg_color: "39b470"
 ---
 
 Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby's flexibility and ruby became famous due to rails's simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.
+
+<div style="text-align: center">
+<figure class="full">
+	<img src="/images/rf.png" width="600px" alt="">
+</figure>
+</div>
 
 Having said that, ruby's powerful, programmer friendly design helped in the evolution of a lot of other frameworks which might not have sung so well like rails but are cool enough to have a try at.
 Below are some of them that i would like to mention.

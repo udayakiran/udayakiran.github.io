@@ -43,7 +43,7 @@ This is forked here - [udayakiran/juggernaut](https://github.com/udayakiran/jugg
 {% highlight text %}
 
     cd juggernaut
-
+    
     npm install
 
 {% endhighlight %}
@@ -55,11 +55,11 @@ This is forked here - [udayakiran/juggernaut](https://github.com/udayakiran/jugg
 {% highlight text %}
 
     cd redis_src_dir
-
+    
     ./redis-server
-
+    
     cd juggernaut
-
+    
     node server.js #nodejs server.js on Ubuntu
 
 {% endhighlight %}
@@ -86,7 +86,7 @@ Despite this being slow, it was causing huge load on app servers when number of 
 #### References -
 
       - https://github.com/Groupsite/juggernaut ('Building a roster' section)
-
+    
       - http://www.ryanepp.com/blog/how-do-i-tell-if-a-user-is-online
 
 

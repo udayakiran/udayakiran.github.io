@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-08T16:17:49-05:00</updated>
+<updated>2021-03-13T14:32:37-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -926,8 +926,8 @@
   <title type="html"><![CDATA[Browsers - Chrome dropped support for NPAPI plugins. What's next?]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/browsers-chrome-42-plugins-wont-work/" />
   <id>http://localhost:4000/browsers-chrome-42-plugins-wont-work</id>
-  <published>2016-01-06T00:00:00-05:00</published>
-  <updated>2016-01-06T00:00:00-05:00</updated>
+  <published>2016-04-06T00:00:00-04:00</published>
+  <updated>2016-04-06T00:00:00-04:00</updated>
   <author>
     <name>Udaya Kiran</name>
     <uri>http://localhost:4000</uri>
@@ -1036,7 +1036,115 @@
   &lt;p&gt;Web start apps are good for now but looking forward, it is most likely that WebRTC and other HTML5 improvements can replace all the plugins and it’s just the matter of time before Safari starts supporting WebRTC.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/browsers-chrome-42-plugins-wont-work/&quot;&gt;Browsers - Chrome dropped support for NPAPI plugins. What's next?&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 06, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/browsers-chrome-42-plugins-wont-work/&quot;&gt;Browsers - Chrome dropped support for NPAPI plugins. What's next?&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on April 06, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP/" />
+  <id>http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP</id>
+  <published></published>
+  <updated></updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;problem--&quot;&gt;Problem -&lt;/h2&gt;
+
+&lt;p&gt;I got a chance to work on multiple asych real time applications on the web early in my career. Being part of an e-learning product cloud demanded us to build high scale real time chat use cases for collaborative learning experience. These applications were running on desktop browsers, mobile/tablet browsers and on android/iOS native apps.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/chat.jpg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To deliver a simple chat is easy but when you try doing it at scale and evolve its architecture to make it reliable taught me many interesting learnings. Some of the challenges include -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Roster management to show who of my contacts are online.&lt;/li&gt;
+  &lt;li&gt;Deliver real time chat messages , including media content.&lt;/li&gt;
+  &lt;li&gt;Maintain high concurrency for all operations.&lt;/li&gt;
+  &lt;li&gt;Chat history management.&lt;/li&gt;
+  &lt;li&gt;Notifications.&lt;/li&gt;
+  &lt;li&gt;Handling chat events across multiple tabs/browsers and devices. Synchronize them.&lt;/li&gt;
+  &lt;li&gt;Blocking calls from other contacts if user’s call is active.&lt;/li&gt;
+  &lt;li&gt;Handle hardware usage diligently call has ended.&lt;/li&gt;
+  &lt;li&gt;Group chats and group calls&lt;/li&gt;
+  &lt;li&gt;Cost effective design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;solution--&quot;&gt;Solution -&lt;/h2&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/fYvQrGAiRvuXz8&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/udayslideshare/scalable-real-time-chat-text-audio-video-implemented-using-xmpp&quot; title=&quot;Scalable Real Time Chat (Text, Audio, Video) - Implemented using XMPP&quot; target=&quot;_blank&quot;&gt;Scalable Real Time Chat (Text, Audio, Video) - Implemented using XMPP&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/udayslideshare&quot; target=&quot;_blank&quot;&gt;Udaya Kiran&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This saved a cumulative of 1.5 SDE and 2 QA bandwith for releases through out the month.&lt;/li&gt;
+  &lt;li&gt;Test coverage for code improved from 65% to 87%&lt;/li&gt;
+  &lt;li&gt;Number of regression bugs reduced by 10% upon release.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;XMPP and WebSocket - http://stackoverflow.com/a/26560860, https://blog.andyet.com/2014/10/30/websocket/&lt;/li&gt;
+  &lt;li&gt;XMPP over Socket.io - http://stackoverflow.com/a/33868081&lt;/li&gt;
+  &lt;li&gt;Jingle - http://xmpp.org/extensions/xep-0166.pdf&lt;/li&gt;
+  &lt;li&gt;XMPP fundamental stanza examples - &lt;a href=&quot;http://xmpp.org/rfcs/rfc3921.html&quot;&gt;http://xmpp.org/rfcs/rfc3921.html#stanzas-presence-children-show&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;BOSH vs WebSockets - http://stackoverflow.com/a/6442488&lt;/li&gt;
+  &lt;li&gt;XMPP and WebRTC - https://xmpp.org/uses/webrtc.html&lt;/li&gt;
+  &lt;li&gt;Lua vs Erlang - http://vschart.com/compare/lua/vs/erlang-programming-language&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP/&quot;&gt;&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on .&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Behavioural Testing Ruby/Rails Apps @ Scale with Rspec and Cucumber]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Behavioural-Testing-Using-Cucumber-RSpec-Rails/" />
+  <id>http://localhost:4000/Behavioural-Testing-Using-Cucumber-RSpec-Rails</id>
+  <published>2016-02-05T00:00:00-05:00</published>
+  <updated>2016-02-05T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;problem--&quot;&gt;Problem -&lt;/h2&gt;
+
+&lt;p&gt;When I used to lead the development of a functional heavy e-learning cloud (it’s like Shopify for e-learning) we used to have a fairly large code base written in Ruby (Rails) and nodejs. To understand the scale, there were 250+ APIs used by hundreds of websites launched on this cloud platform.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/rails-rspec.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We had a development team of size 40+ spread across 3 engineering centers and integration testing used to be an issue. This demanded a lot of cross team coordination efforts to perform releases on a daily cadance and resulted in slower deployment cycles. The platform was under development for 3+ years already and had good unit and functional test coverage.  I decided to lead an effort towards increasing our integration test coverage, automate behavior testing so that SDE bandwidth is saved during integration and UAT is fast tracked by QA being able to run all behavior tests in self service manner.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution--&quot;&gt;Solution -&lt;/h2&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/k5jytoDvnMLyyA&quot; width=&quot;695&quot; height=&quot;585&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/k5jytoDvnMLyyA&quot; title=&quot; Behavioural Testing Ruby/Rails Apps @ Scale - Rspec &amp;amp; Cucumber&quot; target=&quot;_blank&quot;&gt; Behavioural Testing Ruby/Rails Apps @ Scale - Rspec &amp;amp; Cucumber&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/udayslideshare&quot; target=&quot;_blank&quot;&gt;Udaya Kiran&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This saved a cumulative of 1.5 SDE and 2 QA bandwith for releases through out the month.&lt;/li&gt;
+  &lt;li&gt;Test coverage for code improved from 65% to 87%&lt;/li&gt;
+  &lt;li&gt;Number of regression bugs reduced by 10% upon release.&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Behavioural-Testing-Using-Cucumber-RSpec-Rails/&quot;&gt;Behavioural Testing Ruby/Rails Apps @ Scale with Rspec and Cucumber&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on February 05, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1152,11 +1260,174 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Ruby - Ruby Beyond Rails - Libraries and Frameworks]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/ruby-beyond-rails/" />
+  <id>http://localhost:4000/ruby-beyond-rails</id>
+  <published>2015-11-02T00:00:00-05:00</published>
+  <updated>2015-11-02T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby’s flexibility and ruby became famous due to rails’s simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/rf.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Having said that, ruby’s powerful, programmer friendly design helped in the evolution of a lot of other frameworks which might not have sung so well like rails but are cool enough to have a try at.
+Below are some of them that i would like to mention.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-sinatra--&quot;&gt;1) Sinatra -&lt;/h3&gt;
+
+&lt;p&gt;Sinatra is the next most famous ruby framework after rails. It is minimalistic web framework and lightness is the core of it. Tries to be non opinionated as much as it can. This is the most famous and suitable option when you need to build simple and single page webapps and ship to production fast. Though a number of templates and helpers are added in the later versions it does not look promising to build complex apps yet.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;http://www.sinatrarb.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Documentation - &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;http://www.sinatrarb.com/intro.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/sinatra/sinatra/&quot;&gt;https://github.com/sinatra/sinatra/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-rubymotion--&quot;&gt;2) RubyMotion -&lt;/h3&gt;
+
+&lt;p&gt;Build mobile apps with ruby! Yes ! RubyMotion is a cross platform framework to build Android, iOS and Mac OSX apps  using ruby code. Ruby code is compiled to native apis on each of these devises. RubyMotion looks promising and there are already a number of apps out on app store and google play which are built on this. Though it looks cool for rubyists, performance of the apps compared to that of the native mobile apps seem to be a bit on the southern side.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://www.rubymotion.com&quot;&gt;http://www.rubymotion.com&lt;/a&gt;
+Features - &lt;a href=&quot;http://www.rubymotion.com/tour/features/&quot;&gt;http://www.rubymotion.com/tour/features/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-lotus--&quot;&gt;3) Lotus -&lt;/h3&gt;
+
+&lt;p&gt;Personally i feel Lotus very interesting since the very little exploration i could do with it. It is a modular framework with container architecture by default where multiple apps are run with the same ruby process. Though it is MVC, it maintans the separation of concerns there by staying highly non opinionated. As each component is standalone, this can be used for full stack webapps and micro services architectures.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://lotusrb.org/&quot;&gt;http://lotusrb.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://lotusrb.org/guides/&quot;&gt;http://lotusrb.org/guides/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/lotus/lotus&quot;&gt;https://github.com/lotus/lotus&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-padrino--&quot;&gt;4) Padrino -&lt;/h3&gt;
+
+&lt;p&gt;Padrino is a full stack web framework built on top of Sinatra. It claims to help developers with a number of helpers and little bit of functional support to build larger and more complex systems while keeping the lightness of Sinatra to some extent. Their github’s README has a clean and precise explanation of the framework.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://padrinorb.com/&quot;&gt;http://padrinorb.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://padrinorb.com/guides/standalone-usage-in-sinatra/&quot;&gt;http://padrinorb.com/guides/standalone-usage-in-sinatra/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/padrino/padrino-framework&quot;&gt;https://github.com/padrino/padrino-framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-cuba--&quot;&gt;5) Cuba -&lt;/h3&gt;
+
+&lt;p&gt;Cuba is a minimalistic ruby micro framework to build weapps. It calls itself to be inspired by ‘rum’, a minimalistic rack mapper. While i m unsure about its’s popularity as framework, except for the github stars, it looks like something to give a try at if you want a lean and micro ruby framework.&lt;/p&gt;
+
+&lt;p&gt;Homepage - &lt;a href=&quot;http://cuba.is/&quot;&gt;http://cuba.is/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github - &lt;a href=&quot;https://github.com/soveran/cuba&quot;&gt;https://github.com/soveran/cuba&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guides - &lt;a href=&quot;http://theguidetocuba.io/&quot;&gt;http://theguidetocuba.io/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/ruby-beyond-rails/&quot;&gt;Ruby - Ruby Beyond Rails - Libraries and Frameworks&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ejabberd - Issues faced and tips]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Ejabberd-tips/" />
+  <id>http://localhost:4000/Ejabberd-tips</id>
+  <published>2015-10-02T00:00:00-04:00</published>
+  <updated>2015-10-02T00:00:00-04:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our’s is a rails app that uses ejabberd as chat server.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/eb.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;1-user-registration-from-our-app--&quot;&gt;1) User registration from our app -&lt;/h2&gt;
+
+&lt;p&gt;Our requirement is that when a new user signs up to our app, a new ejabberd account needs to be created. Obviously this is the same case with many of the apps. We used ruby’ XMPP client for this. We were seeing an error that users could not be created as the limit for the number of users reached.&lt;/p&gt;
+
+&lt;p&gt;The reason is that ejabberd by default has a limit that only x number of users can be registered every 10 mins. This is configurable.&lt;/p&gt;
+
+&lt;h3 id=&quot;fix--&quot;&gt;Fix -&lt;/h3&gt;
+
+&lt;p&gt;Edit the ejabberd config file (a yml file and in our case it is at - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/opt/ejabberd-15.04/conf/ejabberd.yml&lt;/code&gt;) and set registration_timeout to needed value. As we did not want any limit here we had set it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;infinity&lt;/code&gt; .&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# around line 481 for ejabberd-15.504 - under 'register' stanza
+
+register:
+   all: allow
+   registration_timeout: infinity
+
+# around line 494 - top level stanza
+registration_timeout: infinity&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-avoid-websocket-timeout--&quot;&gt;2) Avoid websocket timeout -&lt;/h2&gt;
+
+&lt;p&gt;We used websockets for the users to connect to ejabberd and looks like ejabberd treats the websocket connection as idle if there is no activity for 5 mins and terminates the connections. So, idle users were getting disconnected. To prevent this, we chose to enable mod_ping and made sure the connections do not get terminated.&lt;/p&gt;
+
+&lt;h3 id=&quot;enabling-mod_ping--&quot;&gt;Enabling mod_ping -&lt;/h3&gt;
+
+&lt;p&gt;In ejabberd.yml&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;mod_ping:
+    send_pings: true
+    ping_interval: 250 # default value is 32 secs. 4.5 mins ll do for us.
+    timeout_action: none&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;More about mod_ping - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modping&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modping&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-creating-a-global-shared-roster--&quot;&gt;3) Creating a global shared roster -&lt;/h2&gt;
+
+&lt;p&gt;We wanted every user in the app to be able to see every other user. There are group chats but they are implemented through chat rooms. This means every user is in the contacts of every other user. So, we decided not to create roster list for each user (which is obviously not smart) and instead created a global shared roster like explained below.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access ejabberd admin interface on browser - http://yourhost:5280/admin&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On the left navigation panel, choose Virtual hosts &amp;gt; yourhost &amp;gt; Shared Roster Groups.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create one with name ‘everyone’ members value as ‘@all’ and displayed groups as ‘everyone’. (Note - ‘everyone’ is just a sample name. Use your desired name.). It looks like the screenshot below -&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/shared_roster_all.png&quot; alt=&quot;&quot; /&gt;
+	&lt;figcaption style=&quot;text-align: center&quot;&gt;Shared global roster creation&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Learn more about shared roster here - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references--&quot;&gt;References -&lt;/h2&gt;
+
+&lt;p&gt;Ejabberd Documentation - &lt;a href=&quot;http://docs.ejabberd.im/&quot;&gt;http://docs.ejabberd.im/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ejabberd Configuration - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Ejabberd-tips/&quot;&gt;Ejabberd - Issues faced and tips&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Rails/Nodejs - Upgrade and scale up Juggernaut]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/" />
   <id>http://localhost:4000/Upgrade-and-scale-up-juggernaut</id>
-  <published>2015-11-10T00:00:00-05:00</published>
-  <updated>2015-11-10T00:00:00-05:00</updated>
+  <published>2015-09-10T00:00:00-04:00</published>
+  <updated>2015-09-10T00:00:00-04:00</updated>
   <author>
     <name>Udaya Kiran</name>
     <uri>http://localhost:4000</uri>
@@ -1196,7 +1467,7 @@
 &lt;p&gt;3) Setup juggernaut -&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    cd juggernaut
-
+    
     npm install&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;4) Download latest version of redis (3.0.5) and extract it. Optionally it can be installed.&lt;/p&gt;
@@ -1204,11 +1475,11 @@
 &lt;p&gt;5) Start redis and juggernaut&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    cd redis_src_dir
-
+    
     ./redis-server
-
+    
     cd juggernaut
-
+    
     node server.js #nodejs server.js on Ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;changes-to-application&quot;&gt;Changes to application&lt;/h2&gt;
@@ -1285,158 +1556,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Upgrade-and-scale-up-juggernaut/&quot;&gt;Rails/Nodejs - Upgrade and scale up Juggernaut&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 10, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Ruby - Ruby without rails. Libraries and frameworks]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/ruby-without-rails/" />
-  <id>http://localhost:4000/ruby-without-rails</id>
-  <published>2015-11-02T00:00:00-05:00</published>
-  <updated>2015-11-02T00:00:00-05:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby’s flexibility and ruby became famous due to rails’s simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.&lt;/p&gt;
-
-&lt;p&gt;Having said that, ruby’s powerful, programmer friendly design helped in the evolution of a lot of other frameworks which might not have sung so well like rails but are cool enough to have a try at.
-Below are some of them that i would like to mention.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-sinatra--&quot;&gt;1) Sinatra -&lt;/h3&gt;
-
-&lt;p&gt;Sinatra is the next most famous ruby framework after rails. It is minimalistic web framework and lightness is the core of it. Tries to be non opinionated as much as it can. This is the most famous and suitable option when you need to build simple and single page webapps and ship to production fast. Though a number of templates and helpers are added in the later versions it does not look promising to build complex apps yet.&lt;/p&gt;
-
-&lt;p&gt;Homepage - &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;http://www.sinatrarb.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Documentation - &lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;http://www.sinatrarb.com/intro.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github - &lt;a href=&quot;https://github.com/sinatra/sinatra/&quot;&gt;https://github.com/sinatra/sinatra/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-rubymotion--&quot;&gt;2) RubyMotion -&lt;/h3&gt;
-
-&lt;p&gt;Build mobile apps with ruby! Yes ! RubyMotion is a cross platform framework to build Android, iOS and Mac OSX apps  using ruby code. Ruby code is compiled to native apis on each of these devises. RubyMotion looks promising and there are already a number of apps out on app store and google play which are built on this. Though it looks cool for rubyists, performance of the apps compared to that of the native mobile apps seem to be a bit on the southern side.&lt;/p&gt;
-
-&lt;p&gt;Homepage - &lt;a href=&quot;http://www.rubymotion.com&quot;&gt;http://www.rubymotion.com&lt;/a&gt;
-Features - &lt;a href=&quot;http://www.rubymotion.com/tour/features/&quot;&gt;http://www.rubymotion.com/tour/features/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-lotus--&quot;&gt;3) Lotus -&lt;/h3&gt;
-
-&lt;p&gt;Personally i feel Lotus very interesting since the very little exploration i could do with it. It is a modular framework with container architecture by default where multiple apps are run with the same ruby process. Though it is MVC, it maintans the separation of concerns there by staying highly non opinionated. As each component is standalone, this can be used for full stack webapps and micro services architectures.&lt;/p&gt;
-
-&lt;p&gt;Homepage - &lt;a href=&quot;http://lotusrb.org/&quot;&gt;http://lotusrb.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Guides - &lt;a href=&quot;http://lotusrb.org/guides/&quot;&gt;http://lotusrb.org/guides/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github - &lt;a href=&quot;https://github.com/lotus/lotus&quot;&gt;https://github.com/lotus/lotus&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4-padrino--&quot;&gt;4) Padrino -&lt;/h3&gt;
-
-&lt;p&gt;Padrino is a full stack web framework built on top of Sinatra. It claims to help developers with a number of helpers and little bit of functional support to build larger and more complex systems while keeping the lightness of Sinatra to some extent. Their github’s README has a clean and precise explanation of the framework.&lt;/p&gt;
-
-&lt;p&gt;Homepage - &lt;a href=&quot;http://padrinorb.com/&quot;&gt;http://padrinorb.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Guides - &lt;a href=&quot;http://padrinorb.com/guides/standalone-usage-in-sinatra/&quot;&gt;http://padrinorb.com/guides/standalone-usage-in-sinatra/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github - &lt;a href=&quot;https://github.com/padrino/padrino-framework&quot;&gt;https://github.com/padrino/padrino-framework&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-cuba--&quot;&gt;5) Cuba -&lt;/h3&gt;
-
-&lt;p&gt;Cuba is a minimalistic ruby micro framework to build weapps. It calls itself to be inspired by ‘rum’, a minimalistic rack mapper. While i m unsure about its’s popularity as framework, except for the github stars, it looks like something to give a try at if you want a lean and micro ruby framework.&lt;/p&gt;
-
-&lt;p&gt;Homepage - &lt;a href=&quot;http://cuba.is/&quot;&gt;http://cuba.is/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github - &lt;a href=&quot;https://github.com/soveran/cuba&quot;&gt;https://github.com/soveran/cuba&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Guides - &lt;a href=&quot;http://theguidetocuba.io/&quot;&gt;http://theguidetocuba.io/&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/ruby-without-rails/&quot;&gt;Ruby - Ruby without rails. Libraries and frameworks&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on November 02, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Ejabberd - Issues faced and tips]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Ejabberd-tips/" />
-  <id>http://localhost:4000/Ejabberd-tips</id>
-  <published>2015-09-02T00:00:00-04:00</published>
-  <updated>2015-09-02T00:00:00-04:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our’s is a rails app that uses ejabberd as chat server.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-user-registration-from-our-app--&quot;&gt;1) User registration from our app -&lt;/h2&gt;
-
-&lt;p&gt;Our requirement is that when a new user signs up to our app, a new ejabberd account needs to be created. Obviously this is the same case with many of the apps. We used ruby’ XMPP client for this. We were seeing an error that users could not be created as the limit for the number of users reached.&lt;/p&gt;
-
-&lt;p&gt;The reason is that ejabberd by default has a limit that only x number of users can be registered every 10 mins. This is configurable.&lt;/p&gt;
-
-&lt;h3 id=&quot;fix--&quot;&gt;Fix -&lt;/h3&gt;
-
-&lt;p&gt;Edit the ejabberd config file (a yml file and in our case it is at - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/opt/ejabberd-15.04/conf/ejabberd.yml&lt;/code&gt;) and set registration_timeout to needed value. As we did not want any limit here we had set it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;infinity&lt;/code&gt; .&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# around line 481 for ejabberd-15.504 - under 'register' stanza
-
-register:
-   all: allow
-   registration_timeout: infinity
-
-# around line 494 - top level stanza
-registration_timeout: infinity&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;2-avoid-websocket-timeout--&quot;&gt;2) Avoid websocket timeout -&lt;/h2&gt;
-
-&lt;p&gt;We used websockets for the users to connect to ejabberd and looks like ejabberd treats the websocket connection as idle if there is no activity for 5 mins and terminates the connections. So, idle users were getting disconnected. To prevent this, we chose to enable mod_ping and made sure the connections do not get terminated.&lt;/p&gt;
-
-&lt;h3 id=&quot;enabling-mod_ping--&quot;&gt;Enabling mod_ping -&lt;/h3&gt;
-
-&lt;p&gt;In ejabberd.yml&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;mod_ping:
-    send_pings: true
-    ping_interval: 250 # default value is 32 secs. 4.5 mins ll do for us.
-    timeout_action: none&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;More about mod_ping - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modping&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modping&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-creating-a-global-shared-roster--&quot;&gt;3) Creating a global shared roster -&lt;/h2&gt;
-
-&lt;p&gt;We wanted every user in the app to be able to see every other user. There are group chats but they are implemented through chat rooms. This means every user is in the contacts of every other user. So, we decided not to create roster list for each user (which is obviously not smart) and instead created a global shared roster like explained below.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Access ejabberd admin interface on browser - http://yourhost:5280/admin&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;On the left navigation panel, choose Virtual hosts &amp;gt; yourhost &amp;gt; Shared Roster Groups.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create one with name ‘everyone’ members value as ‘@all’ and displayed groups as ‘everyone’. (Note - ‘everyone’ is just a sample name. Use your desired name.). It looks like the screenshot below -&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;/images/shared_roster_all.png&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption style=&quot;text-align: center&quot;&gt;Shared global roster creation&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Learn more about shared roster here - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references--&quot;&gt;References -&lt;/h2&gt;
-
-&lt;p&gt;Ejabberd Documentation - &lt;a href=&quot;http://docs.ejabberd.im/&quot;&gt;http://docs.ejabberd.im/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ejabberd Configuration - &lt;a href=&quot;http://docs.ejabberd.im/admin/guide/configuration/&quot;&gt;http://docs.ejabberd.im/admin/guide/configuration/&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Ejabberd-tips/&quot;&gt;Ejabberd - Issues faced and tips&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Upgrade-and-scale-up-juggernaut/&quot;&gt;Rails/Nodejs - Upgrade and scale up Juggernaut&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1454,6 +1574,12 @@ registration_timeout: infinity&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
   </author>
   <content type="html">
     &lt;p&gt;Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/ar.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;why-do-you-need-this-&quot;&gt;Why do you need this ?&lt;/h3&gt;
 
@@ -1495,7 +1621,6 @@ registration_timeout: infinity&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
   &lt;li&gt;Form submissions are converted to ajax as well.&lt;/li&gt;
   &lt;li&gt;Provides a way to specify the ‘content_container’ which needs to get the ajax response updated.&lt;/li&gt;
   &lt;li&gt;A number of callbacks are available to perform things during ajax life cycle.&lt;/li&gt;
-  &lt;li&gt;Provides a way to reload whole page after the deployments when assets expire.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;improvements-neeeded--&quot;&gt;Improvements neeeded -&lt;/h4&gt;
@@ -2221,200 +2346,6 @@ Every feature is built in a way that it scales. So customers don’t have to wor
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-ring-js/&quot;&gt;JavaScript - ring.js (Multiple inheritance in js)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 03, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[JavaScript - uderscore.js (Functional power to js, without side effects)]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-underscore-js/" />
-  <id>http://localhost:4000/Javascript-underscore-js</id>
-  <published>2014-10-02T00:00:00-04:00</published>
-  <updated>2014-10-02T00:00:00-04:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Underscore js is nothing but a simple js library that gives a number of js functional programming helpers which can be used in your js code. It works well with your own js libraries like prototypejs, jQuery or backbone.&lt;/li&gt;
-  &lt;li&gt;Simplifies your code to a good extent. Well defined functional helpers are a great advantage for programming languages like python and ruby. Underscore does the same for JS.&lt;/li&gt;
-  &lt;li&gt;More importantly, it does not modify any built-in objects to add these methods. In the practical scenario, we use multiple libraries from different authors. It is important that built-in objects are not extended in any of this code to avoid side effects. (An example problem caused by extending Array.prototype add adding methods/properties - &lt;a href=&quot;http://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype&quot;&gt;http://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Easy to get started and makes you productive in minutes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Home page - &lt;a href=&quot;http://underscorejs.org/&quot;&gt;http://underscorejs.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Source code - &lt;a href=&quot;http://underscorejs.org/docs/underscore.html&quot;&gt;http://underscorejs.org/docs/underscore.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Documentation - &lt;a href=&quot;http://underscorejs.org/&quot;&gt;http://underscorejs.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;important-functions--&quot;&gt;Important functions -&lt;/h2&gt;
-
-&lt;p&gt;Underscorejs’s home page has the list of functions it offers and they are faily simple to be followed from here. I am just listing down some of them which i think are cool.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;functions&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Collection (Array/Object)&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;each, map, reduce, reduceRight, find, where, findWhere, reject, some, contains, invoke, pluck, max, sortBy, groupBy, countBy&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Array&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;first, last, rest, compact, flatten, without, union, intersection, uniq, zip, unzip, lastIndexOf, findIndex, range&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Objects&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;keys, allKeys, values, pairs, functions, findKey, extend, pick, omit, clone, has, isEqual, isMatch, isEmpty, isElement, isArray, isObject, isArguments, isFunction, isString, isNumber, isFinite, isBoolean, isDate, isRegExp, isNaN, isNull, isUndefined&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Functions&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;bind, partial, memoize, delay, throttle, once, after, before, compose&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Chaining&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;chain&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;example--&quot;&gt;Example -&lt;/h2&gt;
-
-&lt;p&gt;In case of underscorejs, you ll call all the functions on “_” and pass your Objects/variables as arguments.
-Note that you need to have underscore.js required in your environment to execute the example below.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;A spec using beforeAll and afterAll&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;beforeAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;afterAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;sets the initial value of foo before specs run&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;does not reset foo between specs&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I would say “Underscore is no big deal and not needed to be a part of your code base if you don’t want. I had written a lot of JS code before finding this and was always comfortable. But once you find this little thing, you ll only realize that it takes a great deal out of your way and makes you happy. Especially, if you know what it means modifying the native objects.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-underscore-js/&quot;&gt;JavaScript - uderscore.js (Functional power to js, without side effects)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 02, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Handling requests in browser time zone in a rails app]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Handling-requests-in-browser-timezone-rails/" />
-  <id>http://localhost:4000/Handling-requests-in-browser-timezone-rails</id>
-  <published>2014-09-02T00:00:00-04:00</published>
-  <updated>2014-09-02T00:00:00-04:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user’s time zone so users don’t have to do the timezone conversions.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-&lt;figure class=&quot;full&quot;&gt;
-	&lt;img src=&quot;/images/tz0.png&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;In this post, i’ll try to solve this problem keeping Ruby on Rails as my web app framework. The approach would be same for any webapp except the change in code and syntax.&lt;/p&gt;
-
-&lt;p&gt;The most seamless way of showing time information in the user’s time zone is to track the time zone from the browser and run the time related operations on your server considering this time zone and return the time in this time zone. As simple as that.&lt;/p&gt;
-
-&lt;h2 id=&quot;common-solutions--&quot;&gt;Common solutions -&lt;/h2&gt;
-
-&lt;p&gt;Let’s look at some common methods we can use with ROR -&lt;/p&gt;
-
-&lt;p&gt;As Eli has nicely written these up here - &lt;a href=&quot;https://viget.com/extend/using-time-zones-with-rails&quot;&gt;https://viget.com/extend/using-time-zones-with-rails&lt;/a&gt; , METHOD -1 has the short coming of not being able to detect the Day light savings METHOD -2 of JSTZ is preferred. This works 90% of the times but there is no guarantee that this solution works with any server side framework all the time.&lt;/p&gt;
-
-&lt;p&gt;The main reason is jstz determines the time zone and returns it as a &lt;em&gt;String&lt;/em&gt;. There is no standard in the strings used by the software to represent the time zones unfortunately and due to this some of the cases fail even with Rails.&lt;/p&gt;
-
-&lt;p&gt;Just to confirm - please go you rails console and print the following.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.keys&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;ActiveSupport&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::TimeZone::MAPPING&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You will observe that these are not the same string used by jstz if you can look at it’s time zone.&lt;/p&gt;
-
-&lt;p&gt;Hence, this solution does not work for all the cases as well. Also, it is observed that Rails keep adding support for new time zones as they are adopted by the cities / governments. Changing the strings of jstz to be same as Rails’s is one approach but i am not recommending that.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-approach--&quot;&gt;My approach -&lt;/h2&gt;
-
-&lt;p&gt;My approach to solve this problem is purely based on the offsets. Because -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Offsets are the standard across the time zones unlike name, so we only pass the offset values to server let Rails / any server software decide the time zone name.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;By tracking summer and winter offsets we can handle the daly light savings issues.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Another point to handle is the changes to the time zones and their adoption by the software -
-Cities and governments can always choose to change a time zone or apply changes to their day light savings.  For example, Samoa was in SST (UTC - 11hrs) till December, 2011 but they switched their time zone later to WST (UTC + 13hrs).
-(Ref - &lt;a href=&quot;http://www.timetemperature.com/pacific/samoa_time_zone.shtml&quot;&gt;http://www.timetemperature.com/pacific/samoa_time_zone.shtml&lt;/a&gt;).  These changes might / might not have been picked up by user’s browser or the server software (Ruby / Rails in this case). We do not have control over the browser but we should be able to decide a baseline year from when we are considering the time zone changes.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;final-solution--&quot;&gt;Final solution -&lt;/h2&gt;
-
-&lt;p&gt;I have put together my approach as a gem (that works for rails as of now but can easily be extended to others.) -&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;https://github.com/udayakiran/rails_browser_timezone&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is tested for rails 2.3.x, 3.x and 4.x and works fine for us.&lt;/p&gt;
-
-&lt;p&gt;Please follow the steps in README to use it in your app.&lt;/p&gt;
-
-&lt;h2 id=&quot;open-issue--&quot;&gt;Open Issue -&lt;/h2&gt;
-
-&lt;p&gt;Browsers some time do not keep them up to date with the time zone changes and they are buggy.&lt;/p&gt;
-
-&lt;p&gt;For example, as i am writing this, Google Chrome sends the offsets of Samoa time zone as WST for all the dates before and after 2011 which is an issue. Firefox sends the time zone offsets as SST for both the dates before and after 2011, which is also incorrect.&lt;/p&gt;
-
-&lt;p&gt;However, rails 4.x (ruby 2.2) knows that Samoa before 2011, December is SST and  WST after that.&lt;/p&gt;
-
-&lt;p&gt;But, this is one of those edge cases. For the popular time zones browsers and rails does a very good job and the solution works.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion--&quot;&gt;Conclusion -&lt;/h2&gt;
-
-&lt;p&gt;The approach i used worked for us in majority of the cases by choosing the correct baseline year. Only point to not is that Rails 2.x and 3.x might not be able to track the time zone changes that happened after their year. But these are &amp;lt;2% edge cases as we observed. But, the rest worked well.&lt;/p&gt;
-
-&lt;p&gt;Please feel free to be touch about any issues faced / bugs reported through the github page of the gem.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I would say “Time zones are some times complex as they change and there is a difference in the adoption across the browsers. But, majority of the time zones we have traffic from, are simple !”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Handling-requests-in-browser-timezone-rails/&quot;&gt;Handling requests in browser time zone in a rails app&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on September 02, 2014.&lt;/p&gt;
   </content>
 </entry>
 
