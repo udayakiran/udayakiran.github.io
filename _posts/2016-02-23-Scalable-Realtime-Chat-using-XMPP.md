@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Scalable Real Time Chat - Implemented using XMPP"
-description: "Scalable Real Time Chat (Text, Audio, Video) - Implemented using XMPP"
-tags: [scalability, Real time, js, XMPP]
+title: "Scalable Realtime Chat (Text, Audio, Video) - using XMPP"
+description: "Scalable Realtime Chat (Text, Audio, Video) - using XMPP"
+tags: [java, Browsers, Web, Java web start, HTML5]
 image:
   feature: abstract-6.jpg
   color: "616161"
   icon: "clock-o"
 bg_color: "616161"
+
 ---
 
-## Problem -
+Problem -
 
 I got a chance to work on multiple asych real time applications on the web early in my career. Being part of an e-learning product cloud demanded us to build high scale real time chat use cases for collaborative learning experience. These applications were running on desktop browsers, mobile/tablet browsers and on android/iOS native apps.
 

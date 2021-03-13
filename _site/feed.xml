@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-13T14:37:12-05:00</updated>
+<updated>2021-03-13T14:43:49-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -1042,18 +1042,18 @@
 
 
 <entry>
-  <title type="html"><![CDATA[]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP/" />
-  <id>http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP</id>
-  <published></published>
-  <updated></updated>
+  <title type="html"><![CDATA[Scalable Realtime Chat (Text, Audio, Video) - using XMPP]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Scalable-Realtime-Chat-using-XMPP/" />
+  <id>http://localhost:4000/Scalable-Realtime-Chat-using-XMPP</id>
+  <published>2016-02-23T00:00:00-05:00</published>
+  <updated>2016-02-23T00:00:00-05:00</updated>
   <author>
     <name>Udaya Kiran</name>
     <uri>http://localhost:4000</uri>
     <email>udaykiran.vit@gmail.com</email>
   </author>
   <content type="html">
-    &lt;h2 id=&quot;problem--&quot;&gt;Problem -&lt;/h2&gt;
+    &lt;p&gt;Problem -&lt;/p&gt;
 
 &lt;p&gt;I got a chance to work on multiple asych real time applications on the web early in my career. Being part of an e-learning product cloud demanded us to build high scale real time chat use cases for collaborative learning experience. These applications were running on desktop browsers, mobile/tablet browsers and on android/iOS native apps.&lt;/p&gt;
 
@@ -1099,7 +1099,7 @@
 &lt;/ul&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016-02-23-Scalable-Realtime-Chat-using-XMPP/&quot;&gt;&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on .&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Scalable-Realtime-Chat-using-XMPP/&quot;&gt;Scalable Realtime Chat (Text, Audio, Video) - using XMPP&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on February 23, 2016.&lt;/p&gt;
   </content>
 </entry>
 
