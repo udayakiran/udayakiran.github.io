@@ -41,9 +41,7 @@ To deliver a simple chat is easy but when you try doing it at scale and evolve i
 
 ## Results
 
-1. This saved a cumulative of 1.5 SDE and 2 QA bandwith for releases through out the month.
-2. Test coverage for code improved from 65% to 87%
-3. Number of regression bugs reduced by 10% upon release.
+We could achive 800k connects per server on Ejabberd with 8 GB primary memory. Successfully Scaled up entire chat system to meet low latency text, audio and video chat needs. 
 
 ## References
 
