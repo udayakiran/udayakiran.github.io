@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-13T14:43:49-05:00</updated>
+<updated>2021-03-14T16:22:33-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Udaya Kiran</name>
@@ -576,6 +576,177 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Engineering Leadership: Hiring & Onboarding 202 - Hire Right, Hire Fast!]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/Engineering-Leadership-Excellence-Hiring/" />
+  <id>http://localhost:4000/Engineering-Leadership-Excellence-Hiring</id>
+  <published>2020-01-20T00:00:00-05:00</published>
+  <updated>2020-01-20T00:00:00-05:00</updated>
+  <author>
+    <name>Udaya Kiran</name>
+    <uri>http://localhost:4000</uri>
+    <email>udaykiran.vit@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;“Engineering Leadership” series of posts cover some tips and techniques for engineering managers to setup, scale and run high performing, long term focusses engineering teams. Current “Hiring &amp;amp; Onboarding 202” post does NOT intend to walk through how to identify right talent in the hiring process but explains how to have a result driven hiring process.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/hiring.jpg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Having built multiple engineerings sites ground up till 50+ engineers in the past, I always consider hiring as one of the important processes to constantly learn, unlearn and evolve in the current competitive talent landscape. Many great leaders who could scale engineering orgs have peculiar and effective hiring methodologies. Hiring right talent fast has been single most successful factor in accelerating many leaders’ career path and ensuring they can deliver.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;Some of the challenges I faced and I frequently heard from my leaders during hiring process.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“I need to build the team ASAP. Help me.”&lt;/li&gt;
+  &lt;li&gt;“Recruitment team is slow. I do not have enough of pipeline.”&lt;/li&gt;
+  &lt;li&gt;“Hiring 8 SDEs in 2 months? - This is impossible. Are we moving too fast?”&lt;/li&gt;
+  &lt;li&gt;“Hiring fast may dilute quality. What about sustainable growth for org.”&lt;/li&gt;
+  &lt;li&gt;“Candidates are not willing to relocate. Hiring in my City is hard”&lt;/li&gt;
+  &lt;li&gt;“I think we need to pay higher for this role?”&lt;/li&gt;
+  &lt;li&gt;“We have an offer rejection… The candidate did not show up on day of joining.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;what-worked-for-me&quot;&gt;What worked for me&lt;/h1&gt;
+
+&lt;p&gt;Below are some of the things that worked for me where I was able to setup multiple engineering teams. The situations include -&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Setting up a ~ 30 member team from scratch in &amp;lt; 5 months.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Growing a 60 member team to ~ 100 in &amp;lt; 6 months.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Helping my over all org to move from 30 to 150 in &amp;lt; 1 year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-own-the-hiring-hold-yourself-and-team-for-a-high-ownership-bar&quot;&gt;1. Own the Hiring, Hold yourself and team for a high Ownership bar&lt;/h3&gt;
+
+&lt;p&gt;I have always owned the hiring process and outcomes myself and advice leaders to do the same. Recuitment team is a stakeholder and helps in your team setup. Avoid delegating hiring process to recruitment team and play the role of enabler. Have a high bar in each step that you are responsible for such as -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain the hiring needs clearly, providing forecasting for head count.&lt;/li&gt;
+  &lt;li&gt;Always prioritze your positions. Not everything is a high priority.&lt;/li&gt;
+  &lt;li&gt;Provide clear job descriptions, examples and be part of sourcing.&lt;/li&gt;
+  &lt;li&gt;Scout for internal referenes. Reward the referrals.&lt;/li&gt;
+  &lt;li&gt;Exploratory discussions with candidates.&lt;/li&gt;
+  &lt;li&gt;Arragne interview panels as required.&lt;/li&gt;
+  &lt;li&gt;Be responsive. You are likely to receive larger feed of prospects to screen and decide on. Candidates pick your team if you are faster.&lt;/li&gt;
+  &lt;li&gt;Help other leaders in hiring by providing interview bandwidth.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-be-a-good-partner-to-the-recruitment-team&quot;&gt;2. Be a Good Partner to the Recruitment Team&lt;/h3&gt;
+
+&lt;p&gt;Generally recruitment teams are handling multiple roles and are always packed. They co-own the goal of hiring for multiple leaders. Engineering leads who partner and collaborate well with recruitment teams yield better success. A few tips -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Give ideas and quality feedback to your recruitment team.&lt;/li&gt;
+  &lt;li&gt;Feed the team with enough details of your business/product so they can communicate better with candidates.&lt;/li&gt;
+  &lt;li&gt;Understand their working style and make yourself available.&lt;/li&gt;
+  &lt;li&gt;Get to know your agencies beyond direct recruitment team. Help in sourcing by sharing internal refferals, your linked in contacts and etc.&lt;/li&gt;
+  &lt;li&gt;Don’t have metric driven relationship with recruiting. Socialize and learn the hiring trends across industry.&lt;/li&gt;
+  &lt;li&gt;Know the talent landscape/Limitations. Be flexible to ideas from team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-have-regular-cadance-and-consistent-process&quot;&gt;3. Have Regular Cadance and Consistent Process&lt;/h3&gt;
+
+&lt;p&gt;Generally engineering leaders are packed with tons of things on a daily basis. Hiring can;t be taken as a part time activity as it demands quality time and constant focus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have a weekly/biweekly or even more frequent regular catchups with recruitment teams.&lt;/li&gt;
+  &lt;li&gt;Have time blocked in your calendar to speak with candidates for exploratory discussions and interviews.&lt;/li&gt;
+  &lt;li&gt;Have template to exchange visibility on hiring process with your recruitment team and engineering leadership.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-its-all-about-hiring-fast-every-step-should-index-for-speed&quot;&gt;4. It’s all about hiring fast!! Every step should index for speed.&lt;/h3&gt;
+
+&lt;p&gt;Some leaders are worried about sustainability and quality when they hire fast. They are concious about ‘hiring mistakes’. I disagree with that thought process. You always need to hire fast! Quality and sustainability comes together by holding high bar in candidate selection but not by being slow. Also, onboarding and initial engagement for candidates need to be taken into consideration when setting up teams especially new sites.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tweak your entire process to be faster. Identify the bottlenecks and make them faster.&lt;/li&gt;
+  &lt;li&gt;Sourcing: Explore all options available for sourcing. Sourcing is the top of your hiring funnel. Have a strong sourcing process.&lt;/li&gt;
+  &lt;li&gt;Interviews: Ensure interview panels are available. Reward interviewers for time spent. Coach panels. Maintain good interview experience bar.&lt;/li&gt;
+  &lt;li&gt;Debrief/Decision Making: Have timeline for giving your decision once onsites are done.&lt;/li&gt;
+  &lt;li&gt;Offer rollout and roll sell calls: Have clear and faster offer rollout mechanism and roll sell process for hired candidates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-hold-a-high-bar-it-ensures-quality-and-sustainability&quot;&gt;5. Hold a High Bar. It Ensures Quality and Sustainability.&lt;/h3&gt;
+
+&lt;p&gt;No matter what’s the speed at which you want to hire, hold a high and right hiring bar. Remember that high bar does not mean too many rejections. It has to deal with ensuring correct job leveling guidelines, souring right, having right interview loop consturcuted, having a bar raising and culure fitment discussions, providing visibility of the bar to candidates so they are well prepared. It;s not possible to ensure a 100% fit and successful hiring process but always improve iteratively. Note that having a wrong hire and replacing them is very costly.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-focus-on-internal-talent-hiring&quot;&gt;6. Focus on Internal Talent Hiring.&lt;/h3&gt;
+
+&lt;p&gt;Internal transfers are common in any medium to large size companies. Try to tap onto prospective internal candidates through good visibility for your team. Ensure that you are not ‘poaching’ any one. Your team’s reputation is key in attracting internal candidates who are looking for options. Internal hires are key when you are starting teams fresh as they bring in lots of tribal knowledge of the company and culture. They hit the road running fast.&lt;/p&gt;
+
+&lt;p&gt;When you are looking at internal hires -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Follow internal procedures. Don’t skip the loop.&lt;/li&gt;
+  &lt;li&gt;Share as much as open information about team with the prospects. Understand mutual fitment.&lt;/li&gt;
+  &lt;li&gt;Talk to current manager, review the feedback and allow a graceful transfer process.&lt;/li&gt;
+  &lt;li&gt;Be transparent about career aspirations and growth oppurtunites of internal candidates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-travel-conduct-hiring-events-go-blitz-hiring&quot;&gt;7. Travel, Conduct Hiring Events. Go Blitz hiring!&lt;/h3&gt;
+
+&lt;p&gt;You should reach out to talent in groups then letting them reach out to you. I could always hire faster by travelling across the country and some times cross borders. For example , When we had to help my sisters teams grow from 30 to 150 based on Bangalore, we travelled to 5 cities conducting hiring events twice a month. 70% of our hiring was done through these events.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prepare strong interview panels and recruiters who like to travel.&lt;/li&gt;
+  &lt;li&gt;Plan the hiring events across cities. Give time to the team for preparations.&lt;/li&gt;
+  &lt;li&gt;Plan ahead for a sufficient candidate foot fall on day of hiring. Let candidates go through pre- screening to ensure quality.&lt;/li&gt;
+  &lt;li&gt;Organize the event day well. Plan to roll out offers on the same day possibly or ASAP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;8-post-offer-engagement&quot;&gt;8. Post Offer Engagement.&lt;/h3&gt;
+
+&lt;p&gt;Rolling out offers does not ensure candidates joining your team. We are in an extremely competitive space so focus well on post offer engagement.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;As a hiring manager stay in touch with offered candidate. Give them details on team, interesting work items, ramp up plan and etc.&lt;/li&gt;
+  &lt;li&gt;Connect offered candidates with some senior peers in team.&lt;/li&gt;
+  &lt;li&gt;Enourage them to read on some relevant topics.&lt;/li&gt;
+  &lt;li&gt;Have them possibly visit your office for a coffee chat or a socializing event.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;9-learn-share-the-feedback-with-relevant-stakeholders&quot;&gt;9. Learn. Share the Feedback with Relevant Stakeholders.&lt;/h3&gt;
+
+&lt;p&gt;Talent landscape, job market dynamics change very fast. Keep reviewing how hiring events, offer processes and get learnings each time something comes up your way. Obseve for pattrens of low quality pipeline, interview delays, bad candidate experience, offer rejections, no shows and learn from them. A few examples include -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If an offer for a given role is being rejected due to compensation, it’s time to share it relevant team and review the same.&lt;/li&gt;
+  &lt;li&gt;If quality of pipeline or speed of interviews are not upto the mark, share this feedback and attempt to fix.&lt;/li&gt;
+  &lt;li&gt;Understand the hiring experiences of your peers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You are not done yet… !&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding-202&quot;&gt;Onboarding 202&lt;/h2&gt;
+
+&lt;p&gt;Hope all went well and the employee has joined your org. It’s very important to have a smoother onboarding process to ensure he settles down in his new role. This is an important step to ensure the hard work of hiring process starts seeing rewards.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;figure class=&quot;full&quot;&gt;
+	&lt;img src=&quot;/images/onb.jpg&quot; width=&quot;600px&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ensure you set expectations for onboarding in your first meeting. Give him first hand over view of team, stakeholders, his role, product’s vision and other applicable information that inspires the candidate and re assures/resets the image he had created of the environment during his wait to join.&lt;/li&gt;
+  &lt;li&gt;Share the Personalised Plan for him. Introduce to key stakholders and team. Have a plan where he will be paces well and is learning as per his style. Generally engineers learn by doing.&lt;/li&gt;
+  &lt;li&gt;Have a buddy and a mentor to assist during the initial days of his work. As a hiring manager, ensure you spend time with him initially.&lt;/li&gt;
+  &lt;li&gt;Setup check points to connect and exchange details on how the onboarding plan is. Seek feedback on how the plan can be improved. Generally issues like obsoleteness of the documentation, better approach for current problems and etc. are shared by new team members.&lt;/li&gt;
+  &lt;li&gt;Create an overall inclusive and welcoming environment to accept these while ensuring current limitations are communicated to them.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Engineering-Leadership-Excellence-Hiring/&quot;&gt;Engineering Leadership: Hiring &amp; Onboarding 202 - Hire Right, Hire Fast!&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on January 20, 2020.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Learnings Managing An Enterprise Scale Architecture Migration]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/learnings-from-large-scale-enterprise-migrations/" />
   <id>http://localhost:4000/learnings-from-large-scale-enterprise-migrations</id>
@@ -715,8 +886,8 @@
 
 <entry>
   <title type="html"><![CDATA[Video streaming - Video Streaming Analytics Using Jwplayer and Videojs]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/video-streaming-analytics-plugins/" />
-  <id>http://localhost:4000/video-streaming-analytics-plugins</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/video-streaming-analytics-plugins-(copy)/" />
+  <id>http://localhost:4000/video-streaming-analytics-plugins (copy)</id>
   <published>2017-12-20T00:00:00-05:00</published>
   <updated>2017-12-20T00:00:00-05:00</updated>
   <author>
@@ -917,7 +1088,7 @@
 	&lt;figcaption style=&quot;text-align: center&quot;&gt;Original figure taken from jwplayer.com&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-streaming-analytics-plugins/&quot;&gt;Video streaming - Video Streaming Analytics Using Jwplayer and Videojs&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 20, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-streaming-analytics-plugins-(copy)/&quot;&gt;Video streaming - Video Streaming Analytics Using Jwplayer and Videojs&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 20, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1053,7 +1224,7 @@
     <email>udaykiran.vit@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Problem -&lt;/p&gt;
+    &lt;h2 id=&quot;problem--&quot;&gt;Problem -&lt;/h2&gt;
 
 &lt;p&gt;I got a chance to work on multiple asych real time applications on the web early in my career. Being part of an e-learning product cloud demanded us to build high scale real time chat use cases for collaborative learning experience. These applications were running on desktop browsers, mobile/tablet browsers and on android/iOS native apps.&lt;/p&gt;
 
@@ -2226,122 +2397,6 @@ Every feature is built in a way that it scales. So customers don’t have to wor
 &lt;p&gt;However, both of these sever the same purpose. So, either can be chosen without a thought. We try our best to keep this gem up to date and well maintained.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Wepay-payment-gateway-integration-ruby/&quot;&gt;Ruby/Rails - Wepay payment gateway integration&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on December 12, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[JavaScript - ring.js (Multiple inheritance in js)]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/Javascript-ring-js/" />
-  <id>http://localhost:4000/Javascript-ring-js</id>
-  <published>2014-10-03T00:00:00-04:00</published>
-  <updated>2014-10-03T00:00:00-04:00</updated>
-  <author>
-    <name>Udaya Kiran</name>
-    <uri>http://localhost:4000</uri>
-    <email>udaykiran.vit@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ring js helps to create class system which supports multiple inheritance in a classical object oriented way.&lt;/li&gt;
-  &lt;li&gt;As such , javascript supports prototypal inheritance which is not that flexible in supporting multiple inheritance or mixin way of reusing classes which is addressed by this.&lt;/li&gt;
-  &lt;li&gt;Ring js is inspired by python’s classical multiple inheritance system.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;info--&quot;&gt;Info -&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Home page - &lt;a href=&quot;http://ringjs.neoname.eu/&quot;&gt;http://ringjs.neoname.eu/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Source code - &lt;a href=&quot;https://github.com/nicolas-van/ring.js&quot;&gt;https://github.com/nicolas-van/ring.js&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Documentation / Tutorial - &lt;a href=&quot;http://ringjs.neoname.eu/docs/tutorial.html&quot;&gt;http://ringjs.neoname.eu/docs/tutorial.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;example--&quot;&gt;Example -&lt;/h2&gt;
-
-&lt;p&gt;Will try to explain the simple example on ringjs’s home page. (Please check the tutorial before trying this. One needs to include underscore.js and ring.js to run the below code.)&lt;/p&gt;
-
-&lt;h3 id=&quot;1-simple-example--&quot;&gt;1. Simple example -&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Lets try to create a 'SpiderMan' class which is extended from the classes 'Spider' and 'Man'&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//create class 'Human'&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//create class 'Spider'&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;climb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;climbing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//create class 'SpiderMan' which inherits from &quot;Spider&quot; and &quot;Man&quot;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, my name is Peter Parker&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;hello, my name is Peter Parker&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;###2. One more example -&lt;/p&gt;
-
-&lt;p&gt;As an obvious doubt what if both ‘Spider’ and ‘Human’ classes both have a function with the same name. Lets try the below example.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello, my name is Peter Parker&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;chirping....&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;chirping....&quot;;&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lets&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;redefine&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;see&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Spider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SpiderMan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spiderman&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;talk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// prints &quot;hello, my name is Peter Parker&quot;;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//Now, it's clear that the method of the class which is inlcuded first in the oder of inheritance gets called.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;open-issue--caution--&quot;&gt;Open issue / Caution -&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you look at the source of ring.js &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://github.com/nicolas-van/ring.js/blob/master/ring.js&lt;/code&gt; (around line 28), it has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;use strict&quot;;&lt;/code&gt; statement. This can cause some syntax errors on the new versions of javascript compilers which you may not have seen before including this library. More details about strict mode can be found at - &lt;a href=&quot;http://www.w3schools.com/js/js_strict.asp&quot;&gt;http://www.w3schools.com/js/js_strict.asp&lt;/a&gt; .&lt;/p&gt;
-
-    &lt;h4 id=&quot;fix--&quot;&gt;Fix -&lt;/h4&gt;
-    &lt;p&gt;Obviously try to fix these syntax errors but if you have too many errors which you cant fix, feel free to edit ring.js’s source and remove the ‘“user strict;”’ statement. It should be fine removing this.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I would say “There are out of count ways to create classes in JS but ring.js is one cool way if you want to write classical style of OO code and take the advantage of multiple inheritance.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Javascript-ring-js/&quot;&gt;JavaScript - ring.js (Multiple inheritance in js)&lt;/a&gt; was originally published by Udaya Kiran at &lt;a href=&quot;http://localhost:4000&quot;&gt;Tech stream&lt;/a&gt; on October 03, 2014.&lt;/p&gt;
   </content>
 </entry>
 
