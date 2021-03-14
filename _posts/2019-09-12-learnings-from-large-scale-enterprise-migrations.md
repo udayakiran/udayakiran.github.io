@@ -5,9 +5,9 @@ description: "Large scale system migrations have lots of impact on organizations
 tags: [Leadership, Enterprise, Scalability, Architecture, Program Management]
 image:
   feature: abstract-6.jpg
-  color: "39b470"
+  color: "616161"
   icon: "clock-o"
-bg_color: "39b470"
+bg_color: "616161"
 ---
 
 
