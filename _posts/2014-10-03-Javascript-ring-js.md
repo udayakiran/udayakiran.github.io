@@ -1,13 +1,19 @@
 ---
+title: JavaScript - ring.js (Multiple inheritance in js)
+date: 2014-10-03 00:00:00 -04:00
+tags:
+- javascript
+- programming
+- web
+- js library
 layout: post
-title: "JavaScript - ring.js (Multiple inheritance in js)"
-description: "JavaScript library - Ring.js: Create Js classes which support multiple inheritance."
-tags: [javascript, programming, web, js library]
+description: 'JavaScript library - Ring.js: Create Js classes which support multiple
+  inheritance.'
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 ## Why ?

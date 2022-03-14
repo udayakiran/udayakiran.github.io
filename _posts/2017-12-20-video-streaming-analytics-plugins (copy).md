@@ -1,13 +1,19 @@
 ---
+title: Video streaming - Video Streaming Analytics Using Jwplayer and Videojs
+date: 2017-12-20 00:00:00 -05:00
+tags:
+- video
+- javascript
+- Web
+- mobile
 layout: post
-title: "Video streaming - Video Streaming Analytics Using Jwplayer and Videojs"
-description: "Post on how to track video streaming analytics using a couple of plugins developed for both jwplayer and videojs."
-tags: [video, javascript, Web, mobile]
+description: Post on how to track video streaming analytics using a couple of plugins
+  developed for both jwplayer and videojs.
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 Video is one of the most consumed format of content on our e-learning platform.  We were offering an inhouse developed video steaming solution that helps multiple web clients to stream videos. Our pricing model was to charge based on the amount of time spent watching the videos. We also wanted to know how many viewers are from the desktops and how many are from the mobile devices. 

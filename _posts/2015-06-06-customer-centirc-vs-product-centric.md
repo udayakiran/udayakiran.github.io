@@ -1,13 +1,15 @@
 ---
+title: Customer Centricity - Product Centric Vs Customer Centric
+date: 2015-06-06 00:00:00 -04:00
+tags:
+- product development
 layout: post
-title: "Customer Centricity - Product Centric Vs Customer Centric"
-description: "Product development - product centric vs customer centric approach"
-tags: [product development]
+description: Product development - product centric vs customer centric approach
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 It is common for the product development world to categorize organizations as either ‘Product centric’ or ‘Customer centric’ and stress on the point that you need to be ‘Customer centric’ to sremain successful. In my opinion, there are no separate entities called ‘Product centric’ and ‘Customer centric’ . Every product development company needs to be ‘product centric’ and every product being built needs to be ‘Customer centric’. This results in compounding the customer satisfaction. Especially when you are building public facing enterprise products targeting a million or a billion users, it is critical to understand both the customers and the product, and to maintain harmony between them. Its important not to be too focused on individual customers so that we keep the product generic and are solving the problems we intend to solve.

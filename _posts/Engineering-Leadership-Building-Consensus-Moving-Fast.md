@@ -1,13 +1,15 @@
 ---
+title: 'Engineering Leadership: Builing Consensus Vs(And) Moving Fast'
 layout: post
-title: "Engineering Leadership: Builing Consensus Vs(And) Moving Fast"
-description: "How does building consensus help you moving fast"
-tags: [leadership, people management]
+description: How does building consensus help you moving fast
+tags:
+- leadership
+- people management
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 "Engineering Leadership" series of posts cover some tips and techniques for engineering managers to setup, scale and run high performing, long term focusses engineering teams. This post does NOT intend to walk through how to identify right talent in the hiring process but explains how to have a result driven hiring process.

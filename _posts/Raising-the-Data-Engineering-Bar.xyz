@@ -1,13 +1,15 @@
 ---
+title: Raising the bar of your Data Engineering Systems
 layout: post
-title: "Raising the bar of your Data Engineering Systems"
-description: "An overview of some of the libraries and frameworks of ruby besides rails."
-tags: [programming, ruby]
+description: An overview of some of the libraries and frameworks of ruby besides rails.
+tags:
+- programming
+- ruby
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 Disclaimer

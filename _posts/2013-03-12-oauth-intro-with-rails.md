@@ -1,13 +1,18 @@
 ---
+title: OAuth 2 - Introduction and Implementation with rails
+date: 2013-03-12 00:00:00 -04:00
+tags:
+- ror
+- ruby
+- web
 layout: post
-title: "OAuth 2 - Introduction and Implementation with rails"
-description: "Quick introduction about oauth and implementing an oauth provider in rails for an API"
-tags: [ror, ruby, web]
+description: Quick introduction about oauth and implementing an oauth provider in
+  rails for an API
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 This article covers basics of OAuth 2 and explains how to implement oAuth provider for authenticating a set of REST APIs. Implementation is explained keeping rails (2.3.x) in mind.

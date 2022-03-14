@@ -1,13 +1,20 @@
 ---
+title: TimeZone - Handling requests in client's time zone in a rails app
+date: 2016-01-04 00:00:00 -05:00
+tags:
+- javascript
+- programming
+- ror
+- ruby
+- web
 layout: post
-title: "TimeZone - Handling requests in client's time zone in a rails app"
-description: "Handling requests in the client's time zone in a rails app, based on the request."
-tags: [javascript, programming, ror, ruby, web]
+description: Handling requests in the client's time zone in a rails app, based on
+  the request.
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 This post is a continuation of one of my previous posts -

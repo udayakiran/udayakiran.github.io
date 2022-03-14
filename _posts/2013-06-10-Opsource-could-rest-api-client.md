@@ -1,14 +1,22 @@
 ---
+title: Ruby - Opsource (Dimension Data) REST API client
+date: 2013-06-10 00:00:00 -04:00
+tags:
+- cloud
+- ror
+- ruby
+- web
+- automation
 layout: post
-title: "Ruby - Opsource (Dimension Data) REST API client"
-description: "Ruby gem to connect to op-source's REST API and perform actions without accessing the UI"
-tags: [cloud, ror, ruby, web, automation]
+description: Ruby gem to connect to op-source's REST API and perform actions without
+  accessing the UI
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
+
 ## Problem -
 
 We have been hosting some of our apps on the cloud provided by Op source (formally Dimension Data now.). While trying to automate a number of things with it, there was a particular scenario where we had to create a new ip and add a NAT  rule for it when a new site is created from one of our webapps. This is quite an interesting task where network and server related tasks of a cloud provider need to be automated from the web UI of another app.

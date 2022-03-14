@@ -1,14 +1,17 @@
 ---
+title: Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem
+date: 2015-08-13 00:00:00 -04:00
+tags:
+- ror
+- ruby
+- web
 layout: post
-title: "Ruby/Rails - Ajaxifying a rails app with ajaxify-rails gem"
-description: "Ajaxifying a rails app with ajaxify-rails
-gem and a few other tweaks."
-tags: [ror, ruby, web]
+description: Ajaxifying a rails app with ajaxify-rails gem and a few other tweaks.
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 Below are some of the details on how to convert a traditional synchronous rails webapp to a complete ajax app. Will try to list out a the gems used for this and lessons learnt during this process.

@@ -1,13 +1,18 @@
 ---
+title: Scalability - Time to relook at you distributed file system.
+date: 2015-05-03 00:00:00 -04:00
+tags:
+- web
+- performance
+- scalability
 layout: post
-title: "Scalability - Time to relook at you distributed file system."
-description: "Look at the performance of your DFS and see which is the option that suits"
-tags: [web, performance, scalability]
+description: Look at the performance of your DFS and see which is the option that
+  suits
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 This is a post explaining how we realized our scalability bottle necks and considered the alternatives for our distributed file system.

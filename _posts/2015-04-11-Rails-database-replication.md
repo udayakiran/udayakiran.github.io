@@ -1,13 +1,20 @@
 ---
+title: Ruby/Rails - Database replication with rails4
+date: 2015-04-11 00:00:00 -04:00
+tags:
+- ruby
+- rails
+- performance
+- scalability
+- database
 layout: post
-title: "Ruby/Rails - Database replication with rails4"
-description: "Ruby/Rails - Support master-salve DB setup (replication) for active record 4 (rails 4)"
-tags: [ruby, rails, performance, scalability, database]
+description: Ruby/Rails - Support master-salve DB setup (replication) for active record
+  4 (rails 4)
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 This is a quick write up about the options we looked at to implement master-salve DB setup (replication and failover) for active record 4 (rails 4).

@@ -1,13 +1,16 @@
 ---
+title: 'Engineering Leadership: Hiring & Onboarding 202 - Hire Right, Hire Fast!'
+date: 2020-01-20 00:00:00 -05:00
+tags:
+- leadership
+- people management
 layout: post
-title: "Engineering Leadership: Hiring & Onboarding 202 - Hire Right, Hire Fast!"
-description: "How to hire and setup engineering sites right."
-tags: [leadership, people management]
+description: How to hire and setup engineering sites right.
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 "Engineering Leadership" series of posts cover some tips and techniques for engineering managers to setup, scale and run high performing, long term focusses engineering teams. Current "Hiring & Onboarding 202" post does NOT intend to walk through how to identify right talent in the hiring process but explains how to have a result driven hiring process.

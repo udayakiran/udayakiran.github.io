@@ -1,13 +1,22 @@
 ---
+title: Desktop Web Search Engine Results Page - Design Considerations for Better Ad
+  Revenues
+date: 2020-03-05 00:00:00 -05:00
+tags:
+- Advertising
+- UX
+- Architecture
+- Web
+- Product
+- Browsers
 layout: post
-title: "Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues"
-description: "Research summary of a search engine results page design and recommendations for better Ad yields."
-tags: [Advertising, UX, Architecture, Web, Product, Browsers]
+description: Research summary of a search engine results page design and recommendations
+  for better Ad yields.
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 Search is our gateway to internet and advertisements/sponsered content are the backbone of search engines. In this post, I am propsing a few UX design suggesstions to the deskop search engine results pages to improve the ad revenues. These are based on analysis and benchmarking current search engine landscape. .

@@ -1,13 +1,19 @@
 ---
+title: Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)
+date: 2012-10-24 00:00:00 -04:00
+tags:
+- ruby
+- ror
+- programming
+- performance
 layout: post
-title: "Ruby - Optimize the garbage collector performance (REE 1.8.7 or older)"
-description: "Optimizing the GC performance of ruby to have faster and consistent rails response times."
-tags: [ruby, ror, programming, performance]
+description: Optimizing the GC performance of ruby to have faster and consistent rails
+  response times.
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 ## Problem -

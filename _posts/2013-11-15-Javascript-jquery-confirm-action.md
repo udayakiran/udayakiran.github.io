@@ -1,13 +1,21 @@
 ---
+title: JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm
+  actions in a pretty way)
+date: 2013-11-15 00:00:00 -05:00
+tags:
+- javascript
+- programming
+- web
+- js library
+- jquery plugin
 layout: post
-title: "JavaScript - jQuery.confirmAction.js (Minimalistic jquery plugin to confirm actions in a pretty way)"
-description: "JavaScript library - jQuery.confirmAction.js: Confirm users actions in a pretty way without having to use browser confirm box / alert box."
-tags: [javascript, programming, web, js library, jquery plugin]
+description: 'JavaScript library - jQuery.confirmAction.js: Confirm users actions
+  in a pretty way without having to use browser confirm box / alert box.'
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 ## Why ?

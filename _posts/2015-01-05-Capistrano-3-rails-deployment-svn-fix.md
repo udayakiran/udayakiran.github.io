@@ -1,13 +1,18 @@
 ---
+title: Ruby/Rails - Capistrano 3 - SVN support
+date: 2015-01-05 00:00:00 -05:00
+tags:
+- javascript
+- web
+- js library
+- ror
 layout: post
-title: "Ruby/Rails - Capistrano 3 - SVN support"
-description: "Support SVN as SCM for capistrano 3 deployments"
-tags: [javascript, web, js library, ror]
+description: Support SVN as SCM for capistrano 3 deployments
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 ## Why ?

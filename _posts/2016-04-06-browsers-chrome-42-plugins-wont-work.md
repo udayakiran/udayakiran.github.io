@@ -1,13 +1,20 @@
 ---
+title: Browsers - Chrome dropped support for NPAPI plugins. What's next?
+date: 2016-04-06 00:00:00 -04:00
+tags:
+- java
+- Browsers
+- Web
+- Java web start
+- HTML5
 layout: post
-title: "Browsers - Chrome dropped support for NPAPI plugins. What's next?"
-description: "Browsers - Chrome dropped support for a number of plugins. What's the reason? What's next?"
-tags: [java, Browsers, Web, Java web start, HTML5]
+description: Browsers - Chrome dropped support for a number of plugins. What's the
+  reason? What's next?
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 Starting September 1, 2015, Google chrome dropped the support for NPAPI plugins. So, Chrome 45+ versions do not support a number of plugins which depend on this. This is not a sudden change and is expected for some time now. This means a number of java, silverlight, Unity and Facebook plugins do not work any more on Chrome. 

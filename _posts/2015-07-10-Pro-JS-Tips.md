@@ -1,13 +1,16 @@
 ---
+title: JavaScript - Pro JavaScript Tips
+date: 2015-07-10 00:00:00 -04:00
+tags:
+- javascript
+- web
 layout: post
-title: "JavaScript - Pro JavaScript Tips"
-description: "JavaScript - Pro JavaScript Tips: Concepts & tools"
-tags: [javascript, web]
+description: 'JavaScript - Pro JavaScript Tips: Concepts & tools'
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 Slides from one of our tech talks where a few tips and tools for JS apps are mentioned. This is just a first talk in the series of javascript related discussions.

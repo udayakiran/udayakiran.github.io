@@ -1,15 +1,21 @@
 ---
+title: Learnings Managing An Enterprise Scale Architecture Migration
+date: 2019-09-12 00:00:00 -04:00
+tags:
+- Leadership
+- Enterprise
+- Scalability
+- Architecture
+- Program Management
 layout: post
-title: "Learnings Managing An Enterprise Scale Architecture Migration"
-description: "Large scale system migrations have lots of impact on organizations, people and culture. Cost is too high some times."
-tags: [Leadership, Enterprise, Scalability, Architecture, Program Management]
+description: Large scale system migrations have lots of impact on organizations, people
+  and culture. Cost is too high some times.
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
-
 
 Architecture Migrations are not easy, especially when done for legacy systems that are tier-1, promising four 9 availability.
 

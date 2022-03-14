@@ -1,13 +1,19 @@
 ---
+title: JavaScript - uderscore.js (Functional power to js, without side effects)
+date: 2014-10-02 00:00:00 -04:00
+tags:
+- javascript
+- programming
+- web
+- js library
 layout: post
-title: "JavaScript - uderscore.js (Functional power to js, without side effects)"
-description: "JavaScript library - Underscore.js: Get wholesome of functional methods without extending any built-in objects."
-tags: [javascript, programming, web, js library]
+description: 'JavaScript library - Underscore.js: Get wholesome of functional methods
+  without extending any built-in objects.'
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 ## Why ?

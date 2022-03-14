@@ -1,14 +1,21 @@
 ---
+title: Handling requests in browser time zone in a rails app
+date: 2014-09-02 00:00:00 -04:00
+tags:
+- javascript
+- programming
+- ror
+- ruby
+- web
 layout: post
-title: "Handling requests in browser time zone in a rails app"
-description: "Handling requests in browser time zone in a rails app"
-tags: [javascript, programming, ror, ruby, web]
+description: Handling requests in browser time zone in a rails app
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
+
 When you are building a web app that involves dealing with a lot of time related information and presenting it to the user, you would like to show the time information in user's time zone so users don't have to do the timezone conversions.
 
 <div style="text-align: center">

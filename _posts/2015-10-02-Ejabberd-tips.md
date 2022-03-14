@@ -1,13 +1,18 @@
 ---
+title: Ejabberd - Issues faced and tips
+date: 2015-10-02 00:00:00 -04:00
+tags:
+- xmpp
+- web
+- programming
 layout: post
-title: "Ejabberd - Issues faced and tips"
-description: "Ejabberd - Issues faced while developing a scalable XMPP chat and tips to solve this"
-tags: [xmpp, web, programming]
+description: Ejabberd - Issues faced while developing a scalable XMPP chat and tips
+  to solve this
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our's is a rails app that uses ejabberd as chat server.

@@ -1,13 +1,18 @@
 ---
+title: Rails/Nodejs - Upgrade and scale up Juggernaut
+date: 2015-09-10 00:00:00 -04:00
+tags:
+- ror
+- ruby
+- nodejs
+- websocket
 layout: post
-title: "Rails/Nodejs - Upgrade and scale up Juggernaut"
-description: "Upgrade and scale up macman's juggernaut library."
-tags: [ror, ruby, nodejs, websocket]
+description: Upgrade and scale up macman's juggernaut library.
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 We used [macman's juggernaut](https://github.com/maccman/juggernaut) for realtime push notifications and chat for one of the rails apps. It was used in a 6 year old legacy app with [socket.io's](socket.io) long polling mechanism. nodejs used was of version 0.2.4. Things have changed so much in the realtime app's space since then and juggernaut is deprecated now.

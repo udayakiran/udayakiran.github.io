@@ -1,13 +1,16 @@
 ---
+title: JavaScript - Templating with embedded js (no more ugly HTML inside js)
+date: 2012-11-19 00:00:00 -05:00
+tags:
+- javascript
+- web
 layout: post
-title: "JavaScript - Templating with embedded js (no more ugly HTML inside js)"
-description: ""
-tags: [javascript, web]
+description: ''
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 ## Why ? -

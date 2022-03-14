@@ -1,13 +1,18 @@
 ---
+title: Behavioural Testing Ruby/Rails Apps @ Scale with Rspec and Cucumber
+date: 2016-02-05 00:00:00 -05:00
+tags:
+- javascript
+- web
+- js library
+- ror
 layout: post
-title: "Behavioural Testing Ruby/Rails Apps @ Scale with Rspec and Cucumber"
-description: "Behaviour Testing "
-tags: [javascript, web, js library, ror]
+description: 'Behaviour Testing '
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 ## Problem -

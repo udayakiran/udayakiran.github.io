@@ -1,14 +1,19 @@
 ---
+title: Scalable Realtime Chat (Text, Audio, Video) - using XMPP
+date: 2016-02-23 00:00:00 -05:00
+tags:
+- java
+- Browsers
+- Web
+- Java web start
+- HTML5
 layout: post
-title: "Scalable Realtime Chat (Text, Audio, Video) - using XMPP"
-description: "Scalable Realtime Chat (Text, Audio, Video) - using XMPP"
-tags: [java, Browsers, Web, Java web start, HTML5]
+description: Scalable Realtime Chat (Text, Audio, Video) - using XMPP
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
-
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 ## Problem -

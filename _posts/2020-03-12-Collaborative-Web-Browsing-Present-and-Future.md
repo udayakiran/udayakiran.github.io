@@ -1,13 +1,20 @@
 ---
+title: Collaborative Web Browsing - Present and Future
+date: 2020-03-12 00:00:00 -04:00
+tags:
+- Web
+- Enterprise
+- Collaboration
+- Browsers
+- Product
 layout: post
-title: "Collaborative Web Browsing - Present and Future"
-description: "Collaborative web browsing is at a pitoval moment. Good to see it getting rolled into utilities such as web browsers, mobile operating systems and etc."
-tags: [Web, Enterprise, Collaboration, Browsers, Product]
+description: Collaborative web browsing is at a pitoval moment. Good to see it getting
+  rolled into utilities such as web browsers, mobile operating systems and etc.
 image:
   feature: abstract-6.jpg
-  color: "39b470"
-  icon: "clock-o"
-bg_color: "39b470"
+  color: 39b470
+  icon: clock-o
+bg_color: 39b470
 ---
 
 We are at a pivotal moment as far as collaborative internet experiences are concerned. Due to current shelter in place situations across the world, there are many products releasing 'long pending and debated' collaboration features. It indicates a clear raise of use in collaborative features for specific experiences such as video watching, gaming, work and etc. 

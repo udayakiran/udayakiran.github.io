@@ -1,13 +1,18 @@
 ---
+title: JavaScript - moment.js (Best way to deal with dates in js)
 layout: post
-title: "JavaScript - moment.js (Best way to deal with dates in js)"
-description: "JavaScript library - moment.js: Play with date objects comfortably including in different locales and time zones."
-tags: [javascript, programming, web, js library]
+description: 'JavaScript library - moment.js: Play with date objects comfortably including
+  in different locales and time zones.'
+tags:
+- javascript
+- programming
+- web
+- js library
 image:
   feature: abstract-6.jpg
-  color: "009688"
-  icon: "clock-o"
-bg_color: "009688"
+  color: '009688'
+  icon: clock-o
+bg_color: '009688'
 ---
 
 ## Why ?

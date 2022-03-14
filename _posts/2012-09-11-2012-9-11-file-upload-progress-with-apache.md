@@ -1,13 +1,16 @@
 ---
+title: File upload progress bar with apache's progress upload module
+date: 2012-09-11 00:00:00 -04:00
+tags:
+- web
+- programming
 layout: post
-title: "File upload progress bar with apache's progress upload module"
-description: "File upload progress bar with apache's progress upload module."
-tags: [web, programming]
+description: File upload progress bar with apache's progress upload module.
 image:
   feature: abstract-6.jpg
-  color: "616161"
-  icon: "clock-o"
-bg_color: "616161"
+  color: '616161'
+  icon: clock-o
+bg_color: '616161'
 ---
 
 ## Problem -
