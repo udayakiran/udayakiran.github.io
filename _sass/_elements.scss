@@ -17,7 +17,7 @@ figure {
   @include clearfix();
   img {
     margin-bottom: 10px;
-    //@include border-radius(12px,12px,12px,12px);
+    @include border-radius(9px,9px,9px,9px);
   }
   img .nocurvedborder {
     //@include border-radius(0px,0px,0px,0px);
