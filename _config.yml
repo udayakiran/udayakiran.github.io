@@ -1,4 +1,3 @@
----
 title: Tech stream
 timezone: America/New_York
 collections:
@@ -12,7 +11,7 @@ description: Technology, Leadership, Engineering, Product, UX and more..
 disqus_shortname: ''
 comments: false
 reading_time: true
-words_per_minute: 180
+words_per_minute: 150
 url: "//udayakiran.github.io"
 owner:
   name: Udaya Kiran
@@ -33,8 +32,8 @@ google_analytics:
 google_verify: 
 bing_verify: 
 future: true
-highlighter: rouge
-markdown: kramdown
+#highlighter: rouge
+#markdown: kramdown
 plugins:
 - jekyll-sitemap
 - jekyll-paginate
