@@ -1,3 +1,4 @@
+---
 title: Tech stream
 timezone: America/New_York
 collections:
@@ -32,8 +33,6 @@ google_analytics:
 google_verify: 
 bing_verify: 
 future: true
-#highlighter: rouge
-#markdown: kramdown
 plugins:
 - jekyll-sitemap
 - jekyll-paginate
