@@ -38,7 +38,7 @@ body {
 }
 
 .blue_link {
-		color: #009DDC !important;
+		color: $orange_m !important;
 		tex-decoration: none !important;
 		font-weight: normal !important;
 		font-size: 16px !important;
@@ -51,10 +51,16 @@ body {
 	font-weight: normal;
 }
 
+.entry-title>h2>a {
+	&:hover {
+		color: $orange_hs;	
+	}
+}
+
 .post-index {
 	.header-title {
 		text-align: center;
-		margin: 30px 0 0;
+		margin: 20px 0 0;
 		h1 {
 			margin: 10px 20px;
 			font-weight: normal;
@@ -90,13 +96,14 @@ body {
 		display: table;
 		margin-top: 0;
 		width: 100%;
-		height: 320px;
+		height: 180px;
 		overflow: hidden;
 		.header-title-wrap {
 			display: table-cell;
 			vertical-align: middle;
 			margin: 0 auto;
 			text-align: center;
+			background-color: $body-color;
 		}
 		h1 {
 			margin: 10px;
@@ -165,38 +172,42 @@ body {
 	display: table;
 	margin-top: 0;
 	width: 100%;
-	height: 320px;
+	height: 180px;
 	overflow: hidden;
 	.header-title-wrap {
 		display: table-cell;
 		vertical-align: middle;
 		margin: 0 auto;
 		text-align: center;
+		background-color: $body-color;
 	}
 	h1 {
 		margin: 10px;
 		font-weight: normal;
 		margin: 10px 60px;
-		color: $white;
+		color: $orange_hs;
 		a {
-			color: $white;
+			color: $orange_hs;
 		}
 		@media #{$large} {
 		}
 	}
 	h2 {
 		margin: 0;
-		color: $white;
+		color: $grey_hs;
 		font-weight: normal;
 		text-transform: none;
 		@media #{$medium} {
 			a {
-				color: $white;
+				color: $grey_hs;
+				&:hover {
+					color: $orange_hs;
+				}
 			}
 		}
 	}
 	p {
-		color: $white;
+		color: $grey_hs;
 	}
 }
 
@@ -204,16 +215,15 @@ body {
 	background-color: #000;
 	z-index: -5;
 	width: 100%;
-	height: 560px;
+	height: 320px;
 	background-size: cover;
 	background-position: center;
 	position: absolute;
 }
 
 .blue_main_entry {
-	background-color: #27d;
-	background: -webkit-linear-gradient(303deg, rgba(34,130,235,0.9), rgba(134,250,255,0.7));
-	background: linear-gradient(147deg, rgba(34,130,235,0.9), rgba(134,250,255,0.7));
+	background-color: $white !important;
+	//background: ;
 	background-size: cover;
 }
 
@@ -222,8 +232,9 @@ body {
 	left: -50%;
 	width: 200%;
 	height: 200%;
-	min-height: 320px;
+	min-height: 180px;
 	overflow: hidden;
+	background-color: $white !important;
 	&:after {
 		content: '';
 		position: absolute;
@@ -231,7 +242,7 @@ body {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		//background-color: rgba($base-color,0.3);
+		background-color: $white;
   }
 	img {
 		position: absolute;
@@ -241,7 +252,7 @@ body {
 		bottom: 0;
 		margin: auto;
 		min-width: 50%;
-		min-height: 320px; // match .entry-image min-height
+		min-height: 180px; // match .entry-image min-height
 	}
 }
 
@@ -251,7 +262,7 @@ body {
 	left: -50%;
 	width: 200%;
 	height: 200%;
-	min-height: 320px;
+	min-height: 180px;
 	overflow: hidden;
 	&:after {
 		content: '';
@@ -270,7 +281,7 @@ body {
 		bottom: 0;
 		margin: auto;
 		min-width: 50%;
-		min-height: 320px; // match .entry-image min-height
+		min-height: 180px; // match .entry-image min-height
 	}
 }
 // Feature Image Caption
@@ -337,6 +348,7 @@ body {
 }
 header .entry-meta {
 	display: none; // hide header meta on small screens
+	padding-top: 20px;
 	@media #{$medium} {
 		display: block;
 	}
@@ -344,7 +356,7 @@ header .entry-meta {
 #post,
 #page {
 	.entry-content {
-		margin: 40px 2px 20px 2px;
+		margin: 30px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 1px 3px rgba($black,0.1);
@@ -352,12 +364,13 @@ header .entry-meta {
 		@media #{$medium} {
 			margin-left: 10px;
 			margin-right: 10px;
-			padding: 20px 30px;
+			padding: 20px 20px;
 		}
 		@media #{$large} {
 			max-width: 1200px;
-			margin: 50px auto 30px auto;
-			padding: 50px 80px;
+			margin: 40px auto 20px auto;
+			//padding: 50px 80px;
+			margin-top: 30px;
 			> p:first-child {
 			}
 		}
@@ -375,12 +388,12 @@ header .entry-meta {
 		}
 		@media #{$large} {
 			max-width: 1200px;
-			padding: 50px 80px;
+			//padding: 50px 80px;
 			margin: 0 auto 30px auto;
 		}
 	}
 	.entry-meta {
-		margin: 50px 30px 30px;
+		margin: 40px 20px 2posy0px;
 		text-align: center;
 	}
 }
@@ -511,19 +524,20 @@ header .entry-meta {
 	article {
 
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 1px 3px rgba($base-color,0.1);
-		@include rounded(3px);
-		margin-bottom: 40px;
+		box-shadow: 0 0 0 0, 0 1px 5px rgba($base-color,0.1);
+		@include rounded(9px);
+		margin-bottom: 30px;
 
 	}
 	header,.entry-content, .spacious {
 		padding: 25px 15px;
 		@media #{$medium} {
-			padding: 30px;
+			padding: 20px 20px 10px 20px;
 		}
 		@media #{$large} {
-			margin-bottom: 30px;
-			padding: 50px 80px;
+			margin-bottom: 20px;
+			//padding: 50px 80px;
+			margin-top: 20px;
 		}
 	}
 

@@ -106,7 +106,8 @@
 
 
 <div class="entry-header">
-  <div class="entry-image" style="background-color: #db">
+  <div class="entry-image">
+  <!--<div class="entry-image" style="background-color: #db"> -->
     <!--<img src="http://localhost:4000/images/abstract-7.jpg" alt="Post with Large Feature Image and Text">-->
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
@@ -123,7 +124,7 @@
         <h2 class="entry-reading-time" style="text-align: center">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~4 minutes
+          Reading time ~5 minutes
           <i style="font-style:normal;">  |  </i>
           
         </h2><!-- /.entry-reading-time -->
@@ -171,7 +172,7 @@ Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over P
 
       <footer class="entry-meta">
         <span class="entry-tags"><a href="http://localhost:4000/tags/#sample post" title="Pages tagged sample post" class="tag"><span class="term">sample post</span></a><a href="http://localhost:4000/tags/#readability" title="Pages tagged readability" class="tag"><span class="term">readability</span></a></span>
-        <span>Updated on <span class="entry-date date updated"><time datetime="2013-06-30">June 30, 2013</time></span></span>
+        <span>Updated on <span class="entry-date date updated"><time datetime="2013-06-29 20:00:00 -0400">June 29, 2013</time></span></span>
         <span class="author vcard"><span class="fn">Udaya Kiran</span></span>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
@@ -189,7 +190,7 @@ Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over P
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+    <span>&copy; 2022 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 

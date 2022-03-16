@@ -106,7 +106,8 @@
 
 
 <div class="entry-header">
-  <div class="entry-image" style="background-color: #009688db">
+  <div class="entry-image">
+  <!--<div class="entry-image" style="background-color: #009688db"> -->
     <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="A Post with Images">-->
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
@@ -247,7 +248,7 @@ It will look something like this:
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+    <span>&copy; 2022 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 

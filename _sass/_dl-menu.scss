@@ -19,7 +19,7 @@
 	button {
 		top: 0;
 		left: 0;
-		background: $comp-color;
+		background: transparent;
 		border: none;
 		width: 48px;
 		height: 45px;
@@ -29,7 +29,7 @@
 		cursor: pointer;
 		outline: none;
 		@include border-radius(0,3px,0,0);
-		opacity: 0.6;
+		opacity: 0.9;
 		@media #{$medium} {
 			@include border-radius(3px,3px,3px,3px);
 		}
@@ -37,19 +37,19 @@
 	button:hover,
 	button.dl-active,
 	ul {
-		background: #aaa;
+		background: transparent;
 	}
 	button:after {
 		content: '';
 		position: absolute;
 		width: 68%;
 		height: 5px;
-		background: $white;
+		background: $orange_hs;
 		top: 10px;
 		left: 16%;
 		box-shadow:
-			0 10px 0 $white,
-			0 20px 0 $white;
+			0 10px 0 $orange_hs,
+			0 20px 0 $orange_hs;
 	}
 	button.dl-active {
 		display: none;
@@ -315,7 +315,7 @@ All this is done for any sub-level being entered.
 }
 /* No Touch Fallback */
 .no-touch .dl-menuwrapper li a:hover {
-	background: rgba(255,248,213,0.1);
+	background: $orange_hs;
 }
 /* No JS Fallback */
 .no-js {
@@ -356,7 +356,9 @@ All this is done for any sub-level being entered.
 	}
 }
 // Menu Color
-.dl-menuwrapper button:hover,
+.dl-menuwrapper button:hover {
+	background: transparent;
+}
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
 	background: $comp-color;

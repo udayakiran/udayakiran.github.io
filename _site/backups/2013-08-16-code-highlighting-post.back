@@ -106,7 +106,8 @@
 
 
 <div class="entry-header">
-  <div class="entry-image" style="background-color: #009688db">
+  <div class="entry-image">
+  <!--<div class="entry-image" style="background-color: #009688db"> -->
     <!--<img src="http://localhost:4000/images/abstract-10.jpg" alt="Syntax Highlighting Post">-->
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
@@ -239,7 +240,7 @@ An example of a Gist embed below.
 
       <footer class="entry-meta">
         <span class="entry-tags"><a href="http://localhost:4000/tags/#sample post" title="Pages tagged sample post" class="tag"><span class="term">sample post</span></a><a href="http://localhost:4000/tags/#code" title="Pages tagged code" class="tag"><span class="term">code</span></a><a href="http://localhost:4000/tags/#highlighting" title="Pages tagged highlighting" class="tag"><span class="term">highlighting</span></a></span>
-        <span>Updated on <span class="entry-date date updated"><time datetime="2014-12-23">December 23, 2014</time></span></span>
+        <span>Updated on <span class="entry-date date updated"><time datetime="2014-12-22 19:00:00 -0500">December 22, 2014</time></span></span>
         <span class="author vcard"><span class="fn">Udaya Kiran</span></span>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
@@ -257,7 +258,7 @@ An example of a Gist embed below.
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2021 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+    <span>&copy; 2022 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 

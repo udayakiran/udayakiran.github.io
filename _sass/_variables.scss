@@ -1,7 +1,7 @@
 // Typography
 // --------------------------------------------------
 
-//$base-font: 'Lato', Calibri, Arial, sans-serif;
+$base-font: 'Lato', Calibri, Arial, sans-serif;
 @font-face {
   font-family: OpensansLight;
   src: url("../fonts/open_sans/open-sans.light.ttf");
@@ -16,10 +16,10 @@
   font-weight: regular;
 }
 
-$base-font: 'OpensansRegular', Helvetica, Arial, sans-serif;
+$base-font: 'OpensansRegular', 'Lato', Helvetica, Arial, sans-serif;
 $light-font: 'OpensansLight', Helvetica, Arial, sans-serif;
-$heading-font: $light-font;
-$text-font: $light-font;
+$heading-font: $base-font;
+$text-font: $base-font;
 $caption-font: $base-font;
 $code-font: $base-font;
 $alt-font: $base-font;
@@ -38,9 +38,10 @@ body {
 // Colors
 // --------------------------------------------------
 $base-color				   : rgba(#222,0.8);
-$body-color      		 : #f7f7f7;
+$body-color      		 : #fafafa;
+$body-color          : #f6f6f6;
 $text-color      		 : rgba(#222,0.8);
-$comp-color 	 		   : complement(#222);
+$comp-color 	 		   : #54595E;
 $border-color    		 : lighten($base-color,60);
 $white           		 : #fff;
 $black           		 : #000;
@@ -51,6 +52,15 @@ $success			       : #5cb85c;
 $warning			       : #dd8338;
 $danger				       : #C64537;
 $info				         : #308cbc;
+$grey_hs             : #54595E;
+$orange_m            : #F36B37;
+$grey_bg_m           : #F0F0F0;
+$orange_hs           : #FF7A59;
+$cherry_j            : #DD5B5D;
+$grey_j              : #2A2F35;
+$grey_text_j         : #AAB7B7;
+$greybg_j            : #F1F4F5;
+
 
 
 // Screen Size

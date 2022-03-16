@@ -12,7 +12,7 @@ image:
 bg_color: '616161'
 ---
 
-"Engineering Leadership" series of posts cover some tips and techniques for engineering managers to setup, scale and run high performing, long term focusses engineering teams. This post does NOT intend to walk through how to identify right talent in the hiring process but explains how to have a result driven hiring process.
+"Engineering Leadership" series of posts cover some tips and techniques for engineering managers to setup, scale and run high performing, long term focusses engineering teams. This post focuses on explaining how to build consensus 
 
 <div style="text-align: center">
 <figure class="full">
@@ -21,6 +21,29 @@ bg_color: '616161'
 </div>
 
 Having built multiple engineerings sites ground up till 50+ engineers in the past, I always consider hiring as one of the important processes to constantly learn, unlearn and evolve in the current competitive talent landscape. Many great leaders who could scale engineering orgs have peculiar and effective hiring methodologies. Hiring right talent fast has been single most successful factor in accelerating many leaders' career path and ensuring they can deliver.
+
+Builing Consensus Vs / And Moving Fast
+
+**---**
+
+**With Your leader / Manager**
+
+**With Your Team**
+
+**With Stakeholders & Peer Leads**
+
+**With Your Family**
+
+**Common methods to be followed.**
+
+1. **Understand what’s the level of agreement required.** **Asking for permission Vs not consulting**
+2. **Authority Vs Influene**
+3. **Listen and understand their perspective.**
+4. **Individual vs Group consensus**
+5. **Use data, know the right time.**
+6. **Be inclusive and initate Collaborative exercises**
+7. **Be open for trade-offs.** **Find a middle path**
+8. **Hold onto a high bar on commitments**
 
 ## Challenges
 
@@ -104,17 +127,6 @@ You should reach out to talent in groups then letting them reach out to you. I c
 
 ### 8. Post Offer Engagement.
 
-Rolling out offers does not ensure candidates joining your team. We are in an extremely competitive space so focus well on post offer engagement. 
-
-- As a hiring manager stay in touch with offered candidate. Give them details on team, interesting work items, ramp up plan and etc. 
-- Connect offered candidates with some senior peers in team.
-- Enourage them to read on some relevant topics.
-- Have them possibly visit your office for a coffee chat or a socializing event.
-
 ### 9. Learn. Share the Feedback with Relevant Stakeholders.
 
-Talent landscape, job market dynamics change very fast. Keep reviewing how hiring events, offer processes and get learnings each time something comes up your way. Obseve for pattrens of low quality pipeline, interview delays, bad candidate experience, offer rejections, no shows and learn from them. A few examples include - 
-
-- If an offer for a given role is being rejected due to compensation, it's time to share it relevant team and review the same.
-- If quality of pipeline or speed of interviews are not upto the mark, share this feedback and attempt to fix.
-- Understand the hiring experiences of your peers.
+- 

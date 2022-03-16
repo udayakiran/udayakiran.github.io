@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+layout: post-index
+title: Technology, Product, Leadership and more..
+description: "Uday's blog"
+tags: [Jekyll, theme, themes, responsive, blog, modern]
+=======
 title: Technology, Leadership, Product, Coding and more..
 layout: post-index
 description: Uday's blog
@@ -9,38 +15,43 @@ tags:
 - responsive
 - blog
 - modern
+>>>>>>> cca63ac7ee10ed1aa5be4091e967e60c31692170
 comments: false
 image:
   feature: abstract-1.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   fa-icon: fa-newspaper-o
+<<<<<<< HEAD
+  color: "fffff"
+=======
   color: 55acee
+>>>>>>> cca63ac7ee10ed1aa5be4091e967e60c31692170
 ---
 
 {% for post in paginator.posts %}
 <article class="hentry">
-  <header style="background-color: #{{ post.image.color }}db">
+  <header style="background-color: #fff !important">
     <header-content>
     {% if post.image.feature %}
       <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span style="{{ post.image.color }};color: #fff" alt="{{ post.title }}"> </span></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span style="color: #54595E" alt="{{ post.title }}"> </span></a>
       </div><!-- /.entry-image -->
     {% endif %}
-    <div class="entry-meta" style="color: #fff !important">
-      <span class="entry-date date published updated" style="color: #fff !important"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}" style="color: #fff !important">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard" style="color: #fff !important"><span class="fn"><a style="color: #fff !important" href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+    <div class="entry-meta" style="color: #54595E !important">
+      <span class="entry-date date published updated" style="color: #54595E !important"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}" style="color: #54595E !important">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard" style="color: #54595E !important"><span class="fn"><a style="color: #54595E !important" href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
       {% if site.reading_time %}
-      <span class="entry-reading-time" style="color: #fff !important">
-        <i class="fa fa-clock-o" style="color: #fff !important"></i>
+      <span class="entry-reading-time" style="color: #54595E !important">
+        <i class="fa fa-clock-o" style="color: #54595E !important"></i>
         {% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
         Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
     {% if post.link %}
-      <h1 class="entry-title" style="color: #fff !important"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}" style="color: #fff !important">{{ post.title }}</a></h1>
+      <h2 class="entry-title" style="color: #54595E !important"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}" style="color: #54595E !important">{{ post.title }}</a></h2>
     {% else %}
-      <h1 class="entry-title" style="color: #fff !important"><a href="{{ site.url }}{{ post.url }}" style="color: #fff !important" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+      <h2 class="entry-title" style="color: #54595E !important"><a href="{{ site.url }}{{ post.url }}" style="color: #54595E !important" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h2>
     {% endif %}
   </header-content>
   </header>
