@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Ejabberd - Issues faced and tips &#8211; Tech stream</title>
-<meta name="description" content="Ejabberd - Issues faced while developing a scalable XMPP chat and tips to solve this">
-<meta name="keywords" content="xmpp, web, programming">
+<title>Ruby - Ruby Beyond Rails - Libraries and Frameworks &#8211; Tech stream</title>
+<meta name="description" content="An overview of some of the libraries and frameworks of ruby besides rails.">
+<meta name="keywords" content="programming, ruby">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ejabberd - Issues faced and tips">
-<meta property="og:description" content="Ejabberd - Issues faced while developing a scalable XMPP chat and tips to solve this">
-<meta property="og:url" content="http://localhost:4000/Ejabberd-tips/">
+<meta property="og:title" content="Ruby - Ruby Beyond Rails - Libraries and Frameworks">
+<meta property="og:description" content="An overview of some of the libraries and frameworks of ruby besides rails.">
+<meta property="og:url" content="http://localhost:4000/2015-11-2-ruby-beyond-rails/">
 <meta property="og:site_name" content="Tech stream">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/Ejabberd-tips/">
+<link rel="canonical" href="http://localhost:4000/2015-11-2-ruby-beyond-rails/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -107,8 +107,8 @@
 
 <div class="entry-header">
   <div class="entry-image">
-  <!--<div class="entry-image" style="background-color: #616161db"> -->
-    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Ejabberd - Issues faced and tips">-->
+  <!--<div class="entry-image" style="background-color: #39b470db"> -->
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="Ruby - Ruby Beyond Rails - Libraries and Frameworks">-->
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -118,7 +118,7 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://localhost:4000/Ejabberd-tips/" rel="bookmark" title="Ejabberd - Issues faced and tips">Ejabberd - Issues faced and tips</a></h1>
+          <h1 class="entry-title"><a href="http://localhost:4000/2015-11-2-ruby-beyond-rails/" rel="bookmark" title="Ruby - Ruby Beyond Rails - Libraries and Frameworks">Ruby - Ruby Beyond Rails - Libraries and Frameworks</a></h1>
         
         
         <h2 class="entry-reading-time" style="text-align: center">
@@ -126,92 +126,79 @@
           
           Reading time ~3 minutes
           <i style="font-style:normal;">  |  </i>
-          October 02, 2015
+          November 02, 2015
         </h2><!-- /.entry-reading-time -->
         
       </span>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>This post mentions some of the issues we faced while implementing XMPP chat with ejabberd server and solutions for it. Our’s is a rails app that uses ejabberd as chat server.</p>
+      <p>Being a ruby enthusiast for a few years now, i dont think twice to mention that rails is the killer app for ruby. Rails was all possible because of ruby’s flexibility and ruby became famous due to rails’s simplicity and focus on productivity. Rails is an opinionated framework with simplest implementation of MVC which makes it super fast to get to build things even for beginners.</p>
 
 <div style="text-align: center">
 <figure class="full">
-	<img src="/images/eb.png" width="600px" alt="" />
+	<img src="/images/rf.png" width="600px" alt="" />
 </figure>
 </div>
 
-<h2 id="1-user-registration-from-our-app--">1) User registration from our app -</h2>
+<p>Having said that, ruby’s powerful, programmer friendly design helped in the evolution of a lot of other frameworks which might not have sung so well like rails but are cool enough to have a try at.
+Below are some of them that i would like to mention.</p>
 
-<p>Our requirement is that when a new user signs up to our app, a new ejabberd account needs to be created. Obviously this is the same case with many of the apps. We used ruby’ XMPP client for this. We were seeing an error that users could not be created as the limit for the number of users reached.</p>
+<h3 id="1-sinatra--">1) Sinatra -</h3>
 
-<p>The reason is that ejabberd by default has a limit that only x number of users can be registered every 10 mins. This is configurable.</p>
+<p>Sinatra is the next most famous ruby framework after rails. It is minimalistic web framework and lightness is the core of it. Tries to be non opinionated as much as it can. This is the most famous and suitable option when you need to build simple and single page webapps and ship to production fast. Though a number of templates and helpers are added in the later versions it does not look promising to build complex apps yet.</p>
 
-<h3 id="fix--">Fix -</h3>
+<p>Homepage - <a href="http://www.sinatrarb.com/">http://www.sinatrarb.com/</a></p>
 
-<p>Edit the ejabberd config file (a yml file and in our case it is at - <code class="language-plaintext highlighter-rouge">/opt/ejabberd-15.04/conf/ejabberd.yml</code>) and set registration_timeout to needed value. As we did not want any limit here we had set it to <code class="language-plaintext highlighter-rouge">infinity</code> .</p>
+<p>Documentation - <a href="http://www.sinatrarb.com/intro.html">http://www.sinatrarb.com/intro.html</a></p>
 
-<figure class="highlight"><pre><code class="language-text" data-lang="text"># around line 481 for ejabberd-15.504 - under 'register' stanza
+<p>Github - <a href="https://github.com/sinatra/sinatra/">https://github.com/sinatra/sinatra/</a></p>
 
-register:
-   all: allow
-   registration_timeout: infinity
+<h3 id="2-rubymotion--">2) RubyMotion -</h3>
 
-# around line 494 - top level stanza
-registration_timeout: infinity</code></pre></figure>
+<p>Build mobile apps with ruby! Yes ! RubyMotion is a cross platform framework to build Android, iOS and Mac OSX apps  using ruby code. Ruby code is compiled to native apis on each of these devises. RubyMotion looks promising and there are already a number of apps out on app store and google play which are built on this. Though it looks cool for rubyists, performance of the apps compared to that of the native mobile apps seem to be a bit on the southern side.</p>
 
-<h2 id="2-avoid-websocket-timeout--">2) Avoid websocket timeout -</h2>
+<p>Homepage - <a href="http://www.rubymotion.com">http://www.rubymotion.com</a>
+Features - <a href="http://www.rubymotion.com/tour/features/">http://www.rubymotion.com/tour/features/</a></p>
 
-<p>We used websockets for the users to connect to ejabberd and looks like ejabberd treats the websocket connection as idle if there is no activity for 5 mins and terminates the connections. So, idle users were getting disconnected. To prevent this, we chose to enable mod_ping and made sure the connections do not get terminated.</p>
+<h3 id="3-lotus--">3) Lotus -</h3>
 
-<h3 id="enabling-mod_ping--">Enabling mod_ping -</h3>
+<p>Personally i feel Lotus very interesting since the very little exploration i could do with it. It is a modular framework with container architecture by default where multiple apps are run with the same ruby process. Though it is MVC, it maintans the separation of concerns there by staying highly non opinionated. As each component is standalone, this can be used for full stack webapps and micro services architectures.</p>
 
-<p>In ejabberd.yml</p>
+<p>Homepage - <a href="http://lotusrb.org/">http://lotusrb.org/</a></p>
 
-<figure class="highlight"><pre><code class="language-text" data-lang="text">mod_ping:
-    send_pings: true
-    ping_interval: 250 # default value is 32 secs. 4.5 mins ll do for us.
-    timeout_action: none</code></pre></figure>
+<p>Guides - <a href="http://lotusrb.org/guides/">http://lotusrb.org/guides/</a></p>
 
-<p>More about mod_ping - <a href="http://docs.ejabberd.im/admin/guide/configuration/#modping">http://docs.ejabberd.im/admin/guide/configuration/#modping</a></p>
+<p>Github - <a href="https://github.com/lotus/lotus">https://github.com/lotus/lotus</a></p>
 
-<h2 id="3-creating-a-global-shared-roster--">3) Creating a global shared roster -</h2>
+<h3 id="4-padrino--">4) Padrino -</h3>
 
-<p>We wanted every user in the app to be able to see every other user. There are group chats but they are implemented through chat rooms. This means every user is in the contacts of every other user. So, we decided not to create roster list for each user (which is obviously not smart) and instead created a global shared roster like explained below.</p>
+<p>Padrino is a full stack web framework built on top of Sinatra. It claims to help developers with a number of helpers and little bit of functional support to build larger and more complex systems while keeping the lightness of Sinatra to some extent. Their github’s README has a clean and precise explanation of the framework.</p>
 
-<ol>
-  <li>
-    <p>Access ejabberd admin interface on browser - http://yourhost:5280/admin</p>
-  </li>
-  <li>
-    <p>On the left navigation panel, choose Virtual hosts &gt; yourhost &gt; Shared Roster Groups.</p>
-  </li>
-  <li>
-    <p>Create one with name ‘everyone’ members value as ‘@all’ and displayed groups as ‘everyone’. (Note - ‘everyone’ is just a sample name. Use your desired name.). It looks like the screenshot below -</p>
-  </li>
-</ol>
+<p>Homepage - <a href="http://padrinorb.com/">http://padrinorb.com/</a></p>
 
-<figure class="full">
-	<img src="/images/shared_roster_all.png" alt="" />
-	<figcaption style="text-align: center">Shared global roster creation</figcaption>
-</figure>
+<p>Guides - <a href="http://padrinorb.com/guides/standalone-usage-in-sinatra/">http://padrinorb.com/guides/standalone-usage-in-sinatra/</a></p>
 
-<p>Learn more about shared roster here - <a href="http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster">http://docs.ejabberd.im/admin/guide/configuration/#modsharedroster</a></p>
+<p>Github - <a href="https://github.com/padrino/padrino-framework">https://github.com/padrino/padrino-framework</a></p>
 
-<h2 id="references--">References -</h2>
+<h3 id="5-cuba--">5) Cuba -</h3>
 
-<p>Ejabberd Documentation - <a href="http://docs.ejabberd.im/">http://docs.ejabberd.im/</a></p>
+<p>Cuba is a minimalistic ruby micro framework to build weapps. It calls itself to be inspired by ‘rum’, a minimalistic rack mapper. While i m unsure about its’s popularity as framework, except for the github stars, it looks like something to give a try at if you want a lean and micro ruby framework.</p>
 
-<p>Ejabberd Configuration - <a href="http://docs.ejabberd.im/admin/guide/configuration/">http://docs.ejabberd.im/admin/guide/configuration/</a></p>
+<p>Homepage - <a href="http://cuba.is/">http://cuba.is/</a></p>
+
+<p>Github - <a href="https://github.com/soveran/cuba">https://github.com/soveran/cuba</a></p>
+
+<p>Guides - <a href="http://theguidetocuba.io/">http://theguidetocuba.io/</a></p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://localhost:4000/tags/#xmpp" title="Pages tagged xmpp" class="tag"><span class="term">xmpp</span></a><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a><a href="http://localhost:4000/tags/#programming" title="Pages tagged programming" class="tag"><span class="term">programming</span></a></span>
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#programming" title="Pages tagged programming" class="tag"><span class="term">programming</span></a><a href="http://localhost:4000/tags/#ruby" title="Pages tagged ruby" class="tag"><span class="term">ruby</span></a></span>
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Ejabberd-tips/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Ejabberd-tips/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/Ejabberd-tips/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2015-11-2-ruby-beyond-rails/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2015-11-2-ruby-beyond-rails/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2015-11-2-ruby-beyond-rails/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
       </footer>
@@ -220,7 +207,7 @@ registration_timeout: infinity</code></pre></figure>
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="http://localhost:4000/Upgrade-and-scale-up-juggernaut/" class="btn btn-read-more">Read More</a>
+      <a href="http://localhost:4000/Ejabberd-tips/" class="btn btn-read-more">Read More</a>
     </div><!-- /.read-more-header -->
     <!-- <div class="read-more-content">
       <h3><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative Web Browsing - Present and Future">Collaborative Web Browsing - Present and Future</a></h3>

@@ -1,0 +1,281 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>File upload progress bar with apache's progress upload module &#8211; Tech stream</title>
+<meta name="description" content="File upload progress bar with apache's progress upload module.">
+<meta name="keywords" content="web, programming">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="File upload progress bar with apache's progress upload module">
+<meta property="og:description" content="File upload progress bar with apache's progress upload module.">
+<meta property="og:url" content="http://localhost:4000/2012-9-11-file-upload-progress-with-apache/">
+<meta property="og:site_name" content="Tech stream">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2012-9-11-file-upload-progress-with-apache/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Tech stream Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/index.html">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li class="author-info">
+					<img src="http://localhost:4000/images/uday.jpg" alt="Udaya Kiran photo" class="author-photo">
+					<h4>Udaya Kiran</h4>
+				</li>
+				<li>
+					<p>Engineering & Product Leader, Programmer, Entrepreneur</p>
+				</li>
+				<li>
+					<a href="mailto:udaykiran.vit@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://linkedin.com/in/udaykirank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/udayakiran"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	    
+	    <li><a href="http://localhost:4000/posts/" >All Posts</a></li>
+	  
+	    
+	    <li><a href="http://localhost:4000/tags/" >All Tags</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  <div class="entry-image">
+  <!--<div class="entry-image" style="background-color: #616161db"> -->
+    <!--<img src="http://localhost:4000/images/abstract-6.jpg" alt="File upload progress bar with apache's progress upload module">-->
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/2012-9-11-file-upload-progress-with-apache/" rel="bookmark" title="File upload progress bar with apache's progress upload module">File upload progress bar with apache's progress upload module</a></h1>
+        
+        
+        <h2 class="entry-reading-time" style="text-align: center">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~2 minutes
+          <i style="font-style:normal;">  |  </i>
+          September 11, 2012
+        </h2><!-- /.entry-reading-time -->
+        
+      </span>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <h2 id="problem--">Problem -</h2>
+
+<p>Build a simple file upload progress bar for a  web app (ruby on rails app running on apache with pushion passenger).</p>
+
+<h2 id="implementation--">Implementation -</h2>
+
+<p>The file upload progress bar can be implemented using the Upload progress module for apache <a href="https://github.com/drogus/apache-upload-progress-module">https://github.com/drogus/apache-upload-progress-module</a>.</p>
+
+<h3 id="installation--configuration--">Installation &amp; Configuration -</h3>
+
+<p>1) Download the source code</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    wget https://github.com/drogus/apache-upload-progress-module.git
+</code></pre></div></div>
+
+<p>Alternate source: <code class="language-plaintext highlighter-rouge">wget --no-check-certificate</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    http://github.com/drogus/apache-upload-progress-module/tarball/master
+</code></pre></div></div>
+
+<p>2) Compile the source code and install the module in apache</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nb">cd </span>apache-upload-progress-module
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    sudo apxs2 -c -i -a mod_upload_progress.c
+</code></pre></div></div>
+
+<p><strong>Note -</strong> Please note that to compile the module, you will need threaded development library of apache2</p>
+
+<p>3) Modify apache configuration</p>
+
+<p>a) In apache conf, load the file upload module</p>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c">    <span class="n">LoadModule</span> <span class="n">upload_progress_module</span> <span class="n">libexec</span><span class="o">/</span><span class="n">apache2</span><span class="o">/</span><span class="n">mod_upload_progress</span><span class="p">.</span><span class="n">so</span>
+    </code></pre></figure>
+
+<p>b) In the VirtualHost configuration of the application add</p>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c">    
+        <span class="o">&lt;</span><span class="n">Location</span> <span class="o">/&gt;</span>
+          <span class="cp"># enable tracking uploads in /
+</span>          <span class="n">TrackUploads</span> <span class="n">On</span>
+        <span class="o">&lt;/</span><span class="n">Location</span><span class="o">&gt;</span>
+    
+        <span class="o">&lt;</span><span class="n">Location</span> <span class="o">/</span><span class="n">progress</span><span class="o">&gt;</span>
+          <span class="cp"># enable upload progress reports in /progress
+</span>          <span class="n">ReportUploads</span> <span class="n">On</span>
+        <span class="o">&lt;/</span><span class="n">Location</span><span class="o">&gt;</span>
+      </code></pre></figure>
+
+<p>4) Restart the apache server.</p>
+
+<h3 id="code-changes-in-the-app--">Code changes in the app -</h3>
+
+<ul>
+  <li>In the file upload form action url, append <code class="language-plaintext highlighter-rouge">X-ProgressID=&lt;GUID&gt;</code>.
+ (make sure that this is the last key-value in the query string of the form action url) Once the file upload has started, fire Ajax request to <code class="language-plaintext highlighter-rouge">/progress?X-Progress-ID=&lt;GUID&gt;</code> to get the status of the upload.</li>
+  <li>The status would be in a Json format.
+Ex -</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="p">{</span> <span class="dl">"</span><span class="s2">state</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">uploading</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">received</span><span class="dl">"</span> <span class="p">:</span> <span class="mi">35587</span><span class="p">,</span> <span class="dl">"</span><span class="s2">size</span><span class="dl">"</span> <span class="p">:</span> <span class="mi">716595</span><span class="p">,</span> <span class="dl">"</span><span class="s2">speed</span><span class="dl">"</span> <span class="p">:</span> <span class="mi">35587</span><span class="p">,</span> <span class="dl">"</span><span class="s2">started_at</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1296568823</span><span class="p">,</span> <span class="dl">"</span><span class="s2">uuid</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">12345678</span><span class="dl">"</span> <span class="p">}</span></code></pre></figure>
+
+<h4 id="fields--">Fields -</h4>
+
+<ul>
+  <li>
+    <p>state - indicates the current status of the upload. Once the upload is complete, the state would be ‘done’</p>
+  </li>
+  <li>
+    <p>received - indicates the number of bytes received by the server.</p>
+  </li>
+  <li>
+    <p>size - total size of the file in bytes</p>
+  </li>
+  <li>
+    <p>started_at - upload start time. (Epoch format)</p>
+  </li>
+  <li>
+    <p>uuid - The GUID supplied as part of the query string key (X-Progress-ID)</p>
+  </li>
+</ul>
+
+<h2 id="reference--">Reference -</h2>
+
+<p><a href="https://github.com/drogus/apache-upload-progress-module">README of apache-upload-progress-module</a></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#web" title="Pages tagged web" class="tag"><span class="term">web</span></a><a href="http://localhost:4000/tags/#programming" title="Pages tagged programming" class="tag"><span class="term">programming</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2012-9-11-file-upload-progress-with-apache/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2012-9-11-file-upload-progress-with-apache/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2012-9-11-file-upload-progress-with-apache/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/sample-post/" class="btn btn-read-more">Read More</a>
+    </div><!-- /.read-more-header -->
+    <!-- <div class="read-more-content">
+      <h3><a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/" title="Collaborative Web Browsing - Present and Future">Collaborative Web Browsing - Present and Future</a></h3>
+      <p>Collaborative web browsing is at a pitoval moment. Good to see it getting rolled into utilities such as web browsers, mobile operating systems and etc. <a href="http://localhost:4000/Collaborative-Web-Browsing-Present-and-Future/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/SERP-Reimagined-for-better-ad-yields/" title="Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues">Desktop Web Search Engine Results Page - Design Considerations for Better Ad Revenues</a></h4>
+        <span>Published on March 05, 2020</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Engineering-Leadership-Excellence-Hiring/" title="Engineering Leadership: Hiring & Onboarding 202 - Hire Right, Hire Fast!">Engineering Leadership: Hiring & Onboarding 202 - Hire Right, Hire Fast!</a></h4>
+        <span>Published on January 20, 2020</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2022 Udaya Kiran. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>
