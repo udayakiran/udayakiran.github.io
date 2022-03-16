@@ -1,5 +1,5 @@
 ---
-title: Technology, Leadership, Product and more..
+title: Technology, Leadership, Products and more..
 layout: post-index
 description: Uday's blog
 tags:
@@ -38,14 +38,14 @@ image:
       {% endif %}
     </div><!-- /.entry-meta -->
     {% if post.link %}
-      <h2 class="entry-title" style="color: #54595E !important"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}" style="color: #54595E !important">{{ post.title }}</a></h2>
+      <h2 class="entry-title index-entry-title" style=""><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}" style="">{{ post.title }}</a></h2>
     {% else %}
-      <h2 class="entry-title" style="color: #54595E !important"><a href="{{ site.url }}{{ post.url }}" style="color: #54595E !important" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h2>
+      <h2 class="entry-title index-entry-title" style=""><a href="{{ site.url }}{{ post.url }}" style="" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h2>
     {% endif %}
   </header-content>
   </header>
-  <div class="entry-content">
-    <p>{{ post.content | truncate: 500 }} <br/> <a href="{{ site.url }}{{ post.url }}" class="blue_link">Continue reading</a></p>
+  <div class="entry-content index-entry-list" style="margin-top: -30px;">
+    <p>{{ post.content | truncate: 500 }} <br/> <a href="{{ site.url }}{{ post.url }}" class="blue_link">Continue reading <span class="fa fa-angle-double-right"> </span> </a> </p>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
